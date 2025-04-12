@@ -13,7 +13,7 @@ const Navbar = () => {
       <Link href="/about-us">ABOUT US</Link>
       <Link href="/treatment-plans">TREATMENT PLANS</Link>
       <Link href="/faq">FAQ</Link>
-      <Link href="/blog">BLOG</Link>
+      <Link href="/post">BLOG</Link>
       <Link href="/contact-us" className="hidden md:inline-block">
         CONTACT US
       </Link>

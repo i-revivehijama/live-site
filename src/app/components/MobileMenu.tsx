@@ -46,7 +46,7 @@ const MobileMenu = ({
         <Link href="/faq" className="block hover:text-primary">
           FAQ
         </Link>
-        <Link href="/blog" className="block hover:text-primary">
+        <Link href="/post" className="block hover:text-primary">
           BLOG
         </Link>
         <Link href="/contact-us" className="block hover:text-primary">
