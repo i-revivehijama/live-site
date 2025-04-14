@@ -14,7 +14,7 @@ const Topbar = () => {
           </span>
           <Link href="tel:+918009944335" className="flex items-center text-lg">
             <Phone size={16} className="text-primary mr-1" />
-            800-9944-335,,
+            800-9944-335
           </Link>
         </div>
 

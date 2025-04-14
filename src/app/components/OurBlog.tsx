@@ -59,7 +59,7 @@ const OurBlog = () => {
               <p className="text-gray-600 mt-6 text-lg text-left">
                 {post.description}
               </p>
-              <Link href={`/blog/${post.slug}`}>
+              <Link href={`/post/${post.slug}`}>
                 <button className="mt-4 bg-primary text-white text-left px-4 py-2 rounded-full shadow-md hover:bg-hovershed transition">
                   Read More
                 </button>
