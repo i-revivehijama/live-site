@@ -34,71 +34,72 @@ export const treatmentPlansData = [
         </div>
   
         {/* Description */}
-        <p className="mt-4 text-sm sm:text-base md:text-lg text-black leading-relaxed dark:text-white px-4 sm:px-6 md:px-16 text-center sm:text-justify">
-          The Sunnah Basic is a starter plan that covers the basic Sunnah
-          Cupping sites which help in general body maintenance and applicable to
-          diseases/chronic issues. <br className="hidden sm:block" />
-          These include two points on the neck or between scapulas and two on
-          upper back (Kahil) respectively.
-        </p>
+        <p className="mt-4 text-sm sm:text-base md:text-lg text-black leading-relaxed dark:text-white px-4 sm:px-6 md:px-16 text-justify sm:text-justify mx-auto max-w-4xl">
+  The Sunnah Basic is a starter plan that covers the basic Sunnah
+  Cupping sites which help in general body maintenance and applicable to
+  diseases/chronic issues. <br className="hidden sm:block" />
+  These include two points on the neck or between scapulas and two on
+  upper back (Kahil) respectively.
+</p>
+
   
         {/* Image + Content Section */}
-        <div className="container mx-auto max-w-6xl pt-10 px-4 sm:px-6 md:px-12 lg:px-16">
-          <div className="flex flex-col lg:flex-row items-center gap-10">
-            {/* Left - Text Content */}
-            <div className="w-full lg:w-1/2">
-              {/* Benefits */}
-              <div className="mt-8">
-                <h2 className="text-lg sm:text-xl font-bold dark:text-black">
-                  Benefits
-                  <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
-                </h2>
-                <ul className="mt-3 space-y-2 text-gray-700 text-sm sm:text-base">
-                  <li>• Back and neck pains</li>
-                  <li>• Stiff muscles</li>
-                  <li>• Sore joints</li>
-                  <li>• Encourage blood flow</li>
-                  <li>• Reduces pain and inflammation</li>
-                  <li>• Migraines & Head Aches</li>
-                  <li>• Fatigue</li>
-                </ul>
-              </div>
+        <div className="container mx-auto max-w-6xl px-4 flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-20">
   
-              {/* Duration */}
-              <div className="mt-8">
-                <h2 className="text-lg sm:text-xl font-bold dark:text-black">
-                  Duration
-                  <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
-                </h2>
-                <p className="mt-3 text-gray-700 text-sm sm:text-base">
-                  Each session goes for approximately 45–60 mins
-                </p>
-              </div>
-  
-              {/* Requirement */}
-              <div className="mt-8">
-                <h2 className="text-lg sm:text-xl font-bold dark:text-black">
-                  Requirement
-                  <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
-                </h2>
-                <p className="mt-3 text-gray-700 text-sm sm:text-base">
-                  1 Session
-                </p>
-              </div>
-            </div>
-  
-            {/* Right - Image */}
-            <div className="w-full lg:w-1/2">
-              <Image
-                alt="paana"
-                src="/paana.jpg"
-                width={500}
-                height={500}
-                className="w-full h-auto rounded-2xl"
-              />
-            </div>
-          </div>
-        </div>
+  {/* Left - Image */}
+    <div className="w-full lg:w-1/2 flex justify-center">
+      <Image
+        alt="paana"
+        src="/paana.jpg"
+        width={500}
+        height={500}
+        className="w-full max-w-sm h-auto rounded-2xl"
+      />
+    </div>
+
+  {/* Right - Text Content */}
+  <div className="w-full lg:w-1/2">
+    {/* Benefits */}
+    <div className="mt-8">
+      <h2 className="text-lg sm:text-xl font-bold dark:text-black">
+        Benefits
+        <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
+      </h2>
+      <ul className="mt-3 space-y-2 text-gray-700 text-sm sm:text-base">
+        <li>• Back and neck pains</li>
+        <li>• Stiff muscles</li>
+        <li>• Sore joints</li>
+        <li>• Encourage blood flow</li>
+        <li>• Reduces pain and inflammation</li>
+        <li>• Migraines & Head Aches</li>
+        <li>• Fatigue</li>
+      </ul>
+    </div>
+
+    {/* Duration */}
+    <div className="mt-8">
+      <h2 className="text-lg sm:text-xl font-bold dark:text-black">
+        Duration
+        <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
+      </h2>
+      <p className="mt-3 text-gray-700 text-sm sm:text-base">
+        Each session goes for approximately 45–60 mins
+      </p>
+    </div>
+
+    {/* Requirement */}
+    <div className="mt-8 mb-8">
+      <h2 className="text-lg sm:text-xl font-bold dark:text-black">
+        Requirement
+        <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
+      </h2>
+      <p className="mt-3 text-gray-700 text-sm sm:text-base">
+        1 Session
+      </p>
+    </div>
+  </div>
+</div>
+
   
         {/* Call to Action + Quote */}
         <div className="relative z-10 bg-white px-4 sm:px-6 md:px-12 lg:px-16 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 py-10 sm:py-12 lg:py-24 w-full">

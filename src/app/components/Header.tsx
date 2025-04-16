@@ -22,7 +22,7 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center px-6 md:px-12">
         <Link href="/">
           <Image
-            src="/i-revive-logo.avif"
+            src="/logoi-revive-logo.jpg"
             alt="i-REVIVE Logo"
             width={isScrolled ? 250 : 300}
             height={isScrolled ? 80 : 100}

@@ -9,7 +9,7 @@ import Link from "next/link";
 const slides = [
   {
     image: "/img133.JPG",
-    heading: "Experience the Ancient br Healing of Hijama!",
+    heading: "Experience the Ancient Healing of Hijama!",
     paragraph: "If you think wellness is expensive, then how about illness?",
   },
   {
