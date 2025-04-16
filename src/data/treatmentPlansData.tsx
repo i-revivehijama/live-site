@@ -11,115 +11,128 @@ export const treatmentPlansData = [
       <section className="relative">
         {/* Overlay */}
         <div className="absolute w-full h-full"></div>
-
+  
         {/* Content */}
-        <div className="relative z-10 flex flex-col justify-center h-full px-6 md:px-16 text-black ">
+        <div className="relative z-10 flex flex-col justify-center h-full px-4 sm:px-6 md:px-16 text-black">
           <div className="py-4"></div>
+  
           {/* Back Link */}
           <Link
             href="/treatment-plans"
-            className="flex items-center text-sm md:text-base text-black dark:text-white"
+            className="flex items-center text-sm sm:text-base text-black dark:text-white"
           >
             ← Back to All Plans
           </Link>
-
+  
           {/* Heading */}
-          <h1 className="mt-4 text-4xl md:text-5xl font-bold text-black dark:text-white">
-  Sunnah Basic
-</h1>
-
+          <h1 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-bold text-black dark:text-white">
+            Sunnah Basic
+          </h1>
+  
           {/* Underline Effect */}
           <div className="w-24 h-0.5 bg-green-400 mt-2"></div>
-
-          {/* Description */}
-          <p className="mt-4 text-sm md:text-lg text-black leading-relaxed dark:text-white">
-            The Sunnah Basic is a starter plan that covers the basic Sunnah
-            Cupping sites which help in general body maintenance and applicable
-            to diseases/chronic issues. These include two points on the neck or
-            between scapulas and two on upper back (Kahil) respectively.
-          </p>
-          <div className="container mx-auto max-w-6xl pt-10">
-            <Image
-              alt="paana"
-              src="/paana.jpg"
-              width={500}
-              height={500}
-              className="w-full h-full rounded-y-2xl"
-            />
+        </div>
+  
+        {/* Description */}
+        <p className="mt-4 text-sm sm:text-base md:text-lg text-black leading-relaxed dark:text-white px-4 sm:px-6 md:px-16 text-center sm:text-justify">
+          The Sunnah Basic is a starter plan that covers the basic Sunnah
+          Cupping sites which help in general body maintenance and applicable to
+          diseases/chronic issues. <br className="hidden sm:block" />
+          These include two points on the neck or between scapulas and two on
+          upper back (Kahil) respectively.
+        </p>
+  
+        {/* Image + Content Section */}
+        <div className="container mx-auto max-w-6xl pt-10 px-4 sm:px-6 md:px-12 lg:px-16">
+          <div className="flex flex-col lg:flex-row items-center gap-10">
+            {/* Left - Text Content */}
+            <div className="w-full lg:w-1/2">
+              {/* Benefits */}
+              <div className="mt-8">
+                <h2 className="text-lg sm:text-xl font-bold dark:text-black">
+                  Benefits
+                  <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
+                </h2>
+                <ul className="mt-3 space-y-2 text-gray-700 text-sm sm:text-base">
+                  <li>• Back and neck pains</li>
+                  <li>• Stiff muscles</li>
+                  <li>• Sore joints</li>
+                  <li>• Encourage blood flow</li>
+                  <li>• Reduces pain and inflammation</li>
+                  <li>• Migraines & Head Aches</li>
+                  <li>• Fatigue</li>
+                </ul>
+              </div>
+  
+              {/* Duration */}
+              <div className="mt-8">
+                <h2 className="text-lg sm:text-xl font-bold dark:text-black">
+                  Duration
+                  <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
+                </h2>
+                <p className="mt-3 text-gray-700 text-sm sm:text-base">
+                  Each session goes for approximately 45–60 mins
+                </p>
+              </div>
+  
+              {/* Requirement */}
+              <div className="mt-8">
+                <h2 className="text-lg sm:text-xl font-bold dark:text-black">
+                  Requirement
+                  <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
+                </h2>
+                <p className="mt-3 text-gray-700 text-sm sm:text-base">
+                  1 Session
+                </p>
+              </div>
+            </div>
+  
+            {/* Right - Image */}
+            <div className="w-full lg:w-1/2">
+              <Image
+                alt="paana"
+                src="/paana.jpg"
+                width={500}
+                height={500}
+                className="w-full h-auto rounded-2xl"
+              />
+            </div>
           </div>
         </div>
-        <div className="relative z-10 bg-white px-6 md:px-12 lg:px-16 grid grid-cols-1 lg:grid-cols-2 gap-12 py-12 lg:py-24 w-fuull">
-          {/* Left Section (Text Content) */}
-          <div>
-            {/* Benefits */}
-            <div className="mb-8">
-              <h2 className="text-xl font-bold dark:text-black">
-                Benefits
-                <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
-              </h2>
-              <ul className="mt-3 space-y-2 text-gray-700">
-                <li>• Back and neck pains</li>
-                <li>• Stiff muscles</li>
-                <li>• Sore joints</li>
-                <li>• Encourage blood flow</li>
-                <li>• Reduces pain and inflammation</li>
-                <li>• Migraines & Head Aches</li>
-                <li>• Fatigue</li>
-              </ul>
-            </div>
-
-            {/* Duration */}
-            <div className="mb-8">
-              <h2 className="text-xl font-bold dark:text-black">
-                Duration
-                <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
-              </h2>
-              <p className="mt-3 text-gray-700">
-                Each session goes for approximately 45-60 mins
-              </p>
-            </div>
-
-            {/* Requirement */}
-            <div>
-              <h2 className="text-xl font-bold dark:text-black">
-                Requirement
-                <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
-              </h2>
-              <p className="mt-3 text-gray-700">1 Session</p>
-            </div>
-          </div>
-
-          {/* Right Section (Call Button & Quote) */}
-          <div className="flex flex-col items-center space-y-6 dark:text-black">
-            {/* Call for Appointments Button */}
+  
+        {/* Call to Action + Quote */}
+        <div className="relative z-10 bg-white px-4 sm:px-6 md:px-12 lg:px-16 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 py-10 sm:py-12 lg:py-24 w-full">
+          {/* Call for Appointments */}
+          <div className="flex justify-center lg:justify-start">
             <Link href="tel:800-9944-335">
-              <button className="flex items-center space-x-2 border border-black px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition">
+              <button className="flex items-center space-x-2 border border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
                 <span className="text-xl">📞</span>
                 <span>Call for Appointments</span>
               </button>
             </Link>
-
-            {/* Quote Box */}
-            <div className="border border-green-500 p-6 rounded-lg relative text-center text-lg italic font-semibold text-gray-800 bg-white max-w-2xl">
-              {/* Top Quote Decoration */}
-              <div className="absolute top-0 left-0 text-green-500 text-3xl lg:text-7xl">
+          </div>
+  
+          {/* Quote */}
+          <div className="flex flex-col items-center space-y-6 dark:text-black px-2">
+            <div className="border border-green-500 p-4 sm:p-6 rounded-lg relative text-center text-sm sm:text-lg italic font-semibold text-gray-800 bg-white max-w-full sm:max-w-2xl">
+              <div className="absolute top-0 left-0 text-green-500 text-3xl lg:text-6xl">
                 “
               </div>
-              <p className="text-lg lg:text-3xl">
+              <p className="text-base sm:text-lg lg:text-2xl">
                 Hijama Cupping – The only therapy which affects both{" "}
                 <strong>Body & Soul.</strong>
               </p>
-              {/* Bottom Quote Decoration */}
-              <div className="absolute -bottom-4 right-4 text-green-500 text-3xl lg:text-7xl">
+              <div className="absolute -bottom-4 right-4 text-green-500 text-3xl lg:text-6xl">
                 ”
               </div>
             </div>
           </div>
         </div>
-        <div className="relative z-10 bg-gray-100 py-6 lg:py-12">
-          <div className="container mx-auto px-6 md:px-12 lg:px-16">
-            {/* Section Title */}
-            <h2 className="text-2xl lg:text-4xl font-bold text-gray-900">
+  
+        {/* Other Plans Section */}
+        <div className="relative z-10 bg-gray-100 py-6 sm:py-10 lg:py-12">
+          <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-16">
+            <h2 className="text-xl sm:text-2xl lg:text-4xl font-bold text-gray-900">
               Our Other Plans
               <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
             </h2>
@@ -127,7 +140,9 @@ export const treatmentPlansData = [
         </div>
       </section>
     ),
-  },
+  }
+  ,
+  
   {
     id: 2,
     title: "Sunnah Plus",

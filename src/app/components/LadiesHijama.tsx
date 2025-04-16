@@ -18,7 +18,7 @@ const LadiesHijama = () => {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.3 }}
-          className="text-5xl sm:text-4xl font-extrabold text-gray-800 mb-6 text-center font-serif"
+          className="text-5xl sm:text-4xl font-bold text-gray-800 mb-6 text-center font-Playfair Display"
         >
           Best Hijama Centre for Ladies in Hyderabad – i-Revive
         </motion.h1>
@@ -44,28 +44,28 @@ const LadiesHijama = () => {
           transition={{ duration: 0.6, delay: 0.7 }}
           className="mt-6"
         >
-          <h2 className="text-3xl sm:text-2xl font-bold text-gray-800 mb-4 font-serif">
+          <h2 className="text-3xl sm:text-2xl font-bold text-gray-800 mb-4 font-Playfair Display">
             Why Choose i-Revive?
           </h2>
           <ul className="list-disc list-inside text-gray-700 space-y-4 text-2xl sm:text-xl">
             <li>
               ✅{" "}
-              <span className="font-semibold font-serif">
+              <span className="font-semibold font-Playfair Display">
                 Best Hijama Centre for Ladies Near Me –
               </span>{" "}
               Trusted by women for a comfortable and private experience.
             </li>
             <li>
-              ✅ <span className="font-semibold font-serif">Expert Practitioners –</span>{" "}
+              ✅ <span className="font-semibold font-Playfair Display">Expert Practitioners –</span>{" "}
               Certified professionals ensuring safe and effective therapy.
             </li>
             <li>
-              ✅ <span className="font-semibold font-serif">Holistic Healing –</span> Helps
+              ✅ <span className="font-semibold font-Playfair Display">Holistic Healing –</span> Helps
               with migraines, joint pain, stress relief, and overall well-being.
             </li>
             <li>
               ✅{" "}
-              <span className="font-semibold font-serif">
+              <span className="font-semibold font-Playfair Display">
                 Affordable Cupping Centre Near Me –
               </span>{" "}
               High-quality Hijama therapy at competitive prices At i-Revive, we

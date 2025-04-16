@@ -43,7 +43,7 @@ const Navbar = () => {
         )}
       </div> */}
       <Link
-        href="/book-appointment"
+        href="/appointments"
         className="bg-primary text-white px-7 py-3 rounded-full border border-hovershed hover:bg-white hover:text-hovershed hidden lg:inline-block"
       >
         Book Appointment
