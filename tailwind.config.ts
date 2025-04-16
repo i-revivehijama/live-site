@@ -1,5 +1,5 @@
-
 import type { Config } from "tailwindcss";
+
 export default {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -16,10 +16,12 @@ export default {
         hovershed: "#99b760E6",
         blackone: "#414040",
         gridimg: "#49ad6780",
-        gridinfo: "#1b382480"
+        gridinfo: "#1b382480",
       },
       fontFamily: {
         playfair: ["Playfair Display", "serif"],
+        montserrat: ["Montserrat", "sans-serif"], // Add Montserrat
+        lora: ["Lora", "serif"], // Add Lora
       },
       boxShadow: {
         "custom-shadow": "0 0 45px rgba(0, 0, 0, .2)", // Adjust values as needed

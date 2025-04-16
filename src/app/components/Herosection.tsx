@@ -9,7 +9,7 @@ import Link from "next/link";
 const slides = [
   {
     image: "/img133.JPG",
-    heading: "Experience the Ancient Healing of Hijama!",
+    heading: "Experience the Ancient br Healing of Hijama!",
     paragraph: "If you think wellness is expensive, then how about illness?",
   },
   {
@@ -68,10 +68,10 @@ const HeroSection = () => {
 
       {/* Dynamic Content */}
       <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-6 z-20">
-        <h1 className="font-bold mb-6 text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-[6rem] leading-tight font-serif">
+        <h1 className="font-semi-bold mb-6 text-4xl sm:text-5xl md:text-6xl lg:text-6xl xl:text-5xl 2xl:text-[6rem] leading-tight font-Montserrat">
           {slides[index].heading}
         </h1>
-        <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-[2.5rem] mb-8 max-w-5xl leading-relaxed">
+        <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-[2.5rem] mb-8 max-w-5xl leading-relaxed font-lora">
           {slides[index].paragraph}
         </p>
 

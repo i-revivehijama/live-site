@@ -8,7 +8,7 @@ const AboutTwo = () => {
     <section className="container mx-auto px-4 py-10">
       {/* Content Section */}
       <div className="max-w-3xl mx-auto text-gray-800">
-        <h2 className="text-4xl md:text-3xl font-bold">About Us</h2>
+        <h2 className="text-4xl md:text-3xl font-bold ">About Us</h2>
         <p className="mt-4 text-justify">
           At i-Revive, we are passionate about providing our clients with personalized wellness plans that prioritize their health and well-being. We specialize in Hijama Cupping, Gliding Cupping, and Deep Tissue Stroking techniques, which we use to offer a targeted range of services that are both effective and safe. <br />
           <br />

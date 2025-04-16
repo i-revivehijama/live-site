@@ -14,12 +14,12 @@ const WhatWeDo = () => {
         <span className="w-16 h-0.5 bg-blue-400 ml-4"></span>
       </div>
 
-      <h2 className="mt-4 text-3xl md:text-5xl font-bold text-gray-900 leading-[1.2] md:leading-[1.3] font-serif">
-        Healing Through Hijama – <br className="hidden md:block" />
+      <h2 className="mt-4 text-2xl md:text-4xl  text-gray-900 leading-[1.2] md:leading-[1.3] font-Montserrat font-semibold">
+        Healing Through Hijama – 
         Natural Wellness for Your Body
       </h2>
 
-      <p className="mt-4 text-gray-600 text-lg max-w-2xl mx-auto text-justify">
+      <p className="mt-4 text-gray-600 mx-auto max-w-5xl text-lg sm:text-xl md:text-2xl text-justify font-lora">
         Hijama (Cupping Therapy) is a natural healing practice that detoxifies,
         improves circulation, and relieves pain. Our expert practitioners
         provide a safe, hygienic, and relaxing experience tailored to your
@@ -53,10 +53,10 @@ const WhatWeDo = () => {
             </div>
 
             <div className="relative bg-white text-black p-6 overflow-hidden flex flex-col flex-1 justify-between">
-              <h3 className="text-xl text-left font-semibold font-serif relative z-10 transition-colors duration-300 group-hover:text-white">
+              <h3 className="text-2xl text-center font-semibold font-Montserrat relative z-10 transition-colors duration-300 group-hover:text-white">
                 {service.title}
               </h3>
-              <p className="mt-3 text-base text-left flex-1 relative z-10 group-hover:text-white">
+              <p className="mt-3 text-xl text-left flex-1 relative z-10 group-hover:text-white font-lora ">
                 {service.description}
               </p>
               <Link href={`/treatment-plans/${service.slug}`}>

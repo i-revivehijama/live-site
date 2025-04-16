@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   description:
     "Get the best Hijama Cupping Therapy in Hyderabad at i-Revive Body & Soul. Our experienced certified practitioners are here to help. Schedule your appointment now! Visit www.i-revive.com.",
 };
-
+ 
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -27,6 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
+      <meta name="p:domain_verify" content="b3119bbb53b18a0ee80a802cb5281dc9" />
         {/* Meta tags for SEO and social media */}
         <meta
           name="description"
@@ -47,6 +48,8 @@ export default function RootLayout({
         <meta property="og:url" content="https://www.i-revive.com" />
         <meta property="og:site_name" content="i-Revive Body & Soul" />
         <meta property="og:type" content="website" />
+        
+       
         
         {/* Structured data in JSON-LD */}
         <script type="application/ld+json">

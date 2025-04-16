@@ -23,11 +23,11 @@ const WhyChooseUs = () => {
         <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-primary tracking-widest uppercase">
           Why Choose Us
         </h3>
-        <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-snug mt-2 font-serif">
-          Why Choose Us? Reclaim Your <br className="hidden md:block" /> Health
+        <h2 className="text-2xl md:text-3xl lg:text-3xl  text-gray-900 leading-snug mt-2 font-montserrat font-semibold">
+          Why Choose Us? Reclaim Your Health
           and Vitality.
         </h2>
-        <p className="mt-4 text-lg sm:text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto text-justify leading-relaxed">
+        <p className="mt-4 text-lg sm:text-xl md:text-2xl text-gray-600 max-w-5xl mx-auto text-justify leading-relaxed font-lora">
           Choose i-revive for expert care, a safe environment, and personalized
           Hijama sessions that promote natural healing and balance. Your
           wellness is our priority.
@@ -84,10 +84,10 @@ const WhyChooseUs = () => {
             {/* Content stays on top */}
             <div className="relative z-10">
               {feature.icon}
-              <h4 className="text-xl md:text-2xl font-semibold text-gray-900 transition-colors duration-500">
+              <h4 className="text-xl md:text-2xl font-Montserrat font-bold text-gray-900 transition-colors duration-500">
                 {feature.title}
               </h4>
-              <p className="text-gray-600 text-lg leading-relaxed mt-3 transition-colors duration-500">
+              <p className="text-gray-600 text-xl leading-relaxed mt-3 transition-colors duration-500 font-lora">
                 {feature.description}
               </p>
             </div>

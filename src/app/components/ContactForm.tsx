@@ -75,18 +75,18 @@ const ContactForm = () => {
             transition={{ duration: 1 }}
             className="md:w-1/2"
           >
-            <h2 className="text-xl font-semibold text-primary mb-4">
+            <h2 className="text-xl font-semibold font-Montserrat text-primary mb-4">
               SOLUTIONS TO YOUR PAIN
             </h2>
-            <h3 className="text-3xl md:text-5xl font-bold mb-6 text-gray-900">
+            <h3 className="text-3xl md:text-4xl font-Montserrat mb-6 text-gray-900 font-semibold font-montserrat ">
               Effective pain relief with high-quality, comfortable Hijama
               services.
             </h3>
-            <p className="text-gray-700 mb-6">
+            <p className="text-gray-700 mb-6 font-lora text-2xl">
               Our Hijama services offer natural pain relief, improved circulation,
               and enhanced wellness.
             </p>
-            <div className="text-gray-700 mb-6">
+            <div className="text-gray-700 mb-6 font-lora text-2xl">
               <p className="flex items-start gap-2">
                 <MdLocationOn className="text-gray-600 mt-1" size={22} />
                 6th floor, Mawin Zamzam, Mehdipatnam, Hyderabad
@@ -115,8 +115,8 @@ const ContactForm = () => {
             transition={{ duration: 1 }}
             className="md:w-1/2 bg-primary opacity-95 p-6 px-3 md:p-12 rounded-xl shadow-lg w-full"
           >
-            <h2 className="text-md font-normal text-gray-900">GET IN TOUCH</h2>
-            <h3 className="text-3xl font-bold mb-6 text-gray-900">
+            <h2 className="text-md text-gray-900">GET IN TOUCH</h2>
+            <h3 className="text-3xl font-semibold mb-6 text-gray-900 font-Montserrat">
               Get Appointment
             </h3>
             <form onSubmit={handleSubmit} className="grid gap-6">
