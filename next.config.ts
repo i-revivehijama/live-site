@@ -1,4 +1,4 @@
-import { NextConfig } from "next";
+import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
@@ -15,7 +15,12 @@ const nextConfig: NextConfig = {
         source: "/index.html",
         destination: "/",
         permanent: true,
-      }
+      },
+      {
+        source: "/post",
+        destination: "/blog",
+        permanent: true,
+      },
     ];
   },
 };
