@@ -59,13 +59,13 @@ export const treatmentPlansData = [
           <div className="w-full lg:w-1/2 ">
             {/* Benefits */}
             <div className="mt-8">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-black flex justify-center">
+              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
                 Benefits
                 <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
 
               <div className="flex items-center justify-center min-h-screen">
-                <ul className="mt-3 space-y-2 text-gray-700 text-sm sm:text-base">
+                <ul className="mt-3 space-y-2 text-gray-700 dark:text-white text-sm sm:text-base">
                   <li>• Back and neck pains</li>
                   <li>• Stiff muscles</li>
                   <li>• Sore joints</li>
@@ -79,22 +79,22 @@ export const treatmentPlansData = [
 
             {/* Duration */}
             <div className="mt-8">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-black flex justify-center">
+              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
                 Duration
                 <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-              <p className="mt-3 text-gray-700 text-sm sm:text-base flex justify-center">
+              <p className="mt-3 text-gray-700 text-sm dark:text-white sm:text-base flex justify-center">
                 Each session goes for approximately 45–60 mins
               </p>
             </div>
 
             {/* Requirement */}
             <div className="mt-8 mb-8 ">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-black flex justify-center">
+              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
                 Requirement
                 <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-              <p className="mt-3 text-gray-700 text-sm sm:text-base flex justify-center">
+              <p className="mt-3 text-gray-700 text-sm dark:text-white sm:text-base flex justify-center">
                 1 Session
               </p>
             </div>
@@ -106,7 +106,7 @@ export const treatmentPlansData = [
   {/* Call for Appointments */}
   <div className="flex justify-center">
     <Link href="tel:800-9944-335">
-      <button className="flex items-center space-x-2 border border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
+      <button className="flex items-center space-x-2 border dark:text-black border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
         <span className="text-xl">📞</span>
         <span>Call for Appointments</span>
       </button>
@@ -190,13 +190,13 @@ export const treatmentPlansData = [
           <div className="w-full lg:w-1/2 ">
             {/* Benefits */}
             <div className="mt-8">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-black flex justify-center">
+              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
                 Benefits
                 <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
   
               <div className="flex items-center justify-center min-h-screen">
-                <ul className="mt-3 space-y-2 text-gray-700 text-sm sm:text-base font-lora">
+                <ul className="mt-3 space-y-2 text-gray-700 text-sm dark:text-white sm:text-base font-lora">
                   <li>• Back and neck pains</li>
                   <li>• Stiff muscles & Sore joints</li>
                   <li>• Reduces pain and inflammation</li>
@@ -216,22 +216,22 @@ export const treatmentPlansData = [
   
             {/* Duration */}
             <div className="mt-8">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-black flex justify-center">
+              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
                 Duration
                 <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-              <p className="mt-3 text-gray-700 text-sm sm:text-base flex justify-center">
+              <p className="mt-3 text-gray-700 text-sm sm:text-base dark:text-white flex justify-center">
                 Each session goes for approximately 75-90 mins
               </p>
             </div>
   
             {/* Requirement */}
             <div className="mt-8 mb-8 ">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-black flex justify-center">
+              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
                 Requirement
                 <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-              <p className="mt-3 text-gray-700 text-sm sm:text-base flex justify-center">
+              <p className="mt-3 text-gray-700 text-sm dark:text-white sm:text-base flex justify-center">
                 1 Session
               </p>
             </div>
@@ -243,7 +243,7 @@ export const treatmentPlansData = [
   {/* Call for Appointments */}
   <div className="flex justify-center">
     <Link href="tel:800-9944-335">
-      <button className="flex items-center space-x-2 border border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
+      <button className="flex items-center space-x-2 border dark:text-black border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
         <span className="text-xl">📞</span>
         <span>Call for Appointments</span>
       </button>
@@ -331,13 +331,13 @@ export const treatmentPlansData = [
           <div className="w-full lg:w-1/2 ">
             {/* Benefits */}
             <div className="mt-8">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-black flex justify-center">
+              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
                 Benefits
                 <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
   
               <div className="flex items-center justify-center min-h-screen">
-                <ul className="mt-3 space-y-2 text-gray-700 text-sm sm:text-base font-lora">
+                <ul className="mt-3 space-y-2 text-gray-700 text-sm dark:text-white sm:text-base font-lora">
                   <li>
                     • Vitalises bodily functions by reinvigorating organsthrough
                     improved blood flow.
@@ -355,22 +355,22 @@ export const treatmentPlansData = [
   
             {/* Duration */}
             <div className="mt-8">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-black flex justify-center">
+              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
                 Duration
                 <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-              <p className="mt-3 text-gray-700 text-sm sm:text-base flex justify-center">
+              <p className="mt-3 text-gray-700 text-sm sm:text-base flex dark:text-white justify-center">
                 Each session goes for approximately 60 -90 mins
               </p>
             </div>
   
             {/* Requirement */}
             <div className="mt-8 mb-8 ">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-black flex justify-center">
+              <h2 className="text-lg sm:text-xl font-bold dadark:text-white flex justify-center">
                 Requirement
                 <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-              <p className="mt-3 text-gray-700 text-sm sm:text-base flex justify-center">
+              <p className="mt-3 text-gray-700 text-sm sm:text-base dark:text-white flex justify-center">
                 First timers one Session every 4 to 6 weeks, requiring 3
                 sessions. Followed by quarterly sessions.
               </p>
@@ -383,7 +383,7 @@ export const treatmentPlansData = [
   {/* Call for Appointments */}
   <div className="flex justify-center">
     <Link href="tel:800-9944-335">
-      <button className="flex items-center space-x-2 border border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
+      <button className="flex items-center space-x-2 border dark:text-black border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
         <span className="text-xl">📞</span>
         <span>Call for Appointments</span>
       </button>
@@ -473,13 +473,13 @@ export const treatmentPlansData = [
           <div className="w-full lg:w-1/2 ">
             {/* Benefits */}
             <div className="mt-8">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-black flex justify-center">
+              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
                 Benefits
                 <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
   
               <div className="flex items-center justify-center min-h-screen">
-                <ul className="mt-3 space-y-2 text-gray-700 text-sm sm:text-base font-lora">
+                <ul className="mt-3 space-y-2 text-gray-700 text-sm dark:text-white sm:text-base font-lora">
                   <li>• Helps treat headaches, sinus issues and migraines</li>
                   <li>• Treats metaphysical issues</li>
                   <li>• Encourages hair growth</li>
@@ -489,22 +489,22 @@ export const treatmentPlansData = [
   
             {/* Duration */}
             <div className="mt-8">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-black flex justify-center">
+              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
                 Duration
                 <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-              <p className="mt-3 text-gray-700 text-sm sm:text-base flex justify-center">
+              <p className="mt-3 text-gray-700 dark:text-white text-sm sm:text-base flex justify-center">
                 Each session goes for approximately 60 mins
               </p>
             </div>
   
             {/* Requirement */}
             <div className="mt-8 mb-8 ">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-black flex justify-center">
+              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
                 Requirement
                 <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-              <p className="mt-3 text-gray-700 text-sm sm:text-base flex justify-center">
+              <p className="mt-3 text-gray-700 text-sm dark:text-white sm:text-base flex justify-center">
                 6-8 sessions depending upon issues
               </p>
             </div>
@@ -516,7 +516,7 @@ export const treatmentPlansData = [
   {/* Call for Appointments */}
   <div className="flex justify-center">
     <Link href="tel:800-9944-335">
-      <button className="flex items-center space-x-2 border border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
+      <button className="flex items-center space-x-2 border border-black dark:text-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
         <span className="text-xl">📞</span>
         <span>Call for Appointments</span>
       </button>
@@ -525,7 +525,7 @@ export const treatmentPlansData = [
   
   {/* Quote */}
   <div className="flex flex-col items-center space-y-6 dark:text-black px-2">
-    <div className="border border-green-500 p-4 sm:p-6 rounded-lg relative text-center text-sm sm:text-lg italic font-semibold text-gray-800 bg-white max-w-full sm:max-w-2xl">
+    <div className="border border-green-500 p-4 sm:p-6 rounded-lg  relative text-center text-sm sm:text-lg italic font-semibold text-gray-800 bg-white max-w-full sm:max-w-2xl">
       <p className="text-base sm:text-lg lg:text-2xl">
         If you don’t pick a day for your body, then the body will surely
                   pick some for you!
@@ -607,13 +607,13 @@ export const treatmentPlansData = [
           <div className="w-full lg:w-1/2 ">
             {/* Benefits */}
             <div className="mt-8">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-black flex justify-center">
+              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
                 Benefits
                 <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
   
               <div className="flex items-center justify-center min-h-screen">
-                <ul className="mt-3 space-y-2 text-gray-700 text-sm sm:text-base font-lora">
+                <ul className="mt-3 space-y-2 text-gray-700 text-sm dark:text-white sm:text-base font-lora">
                   <li>
                     • Stimulate the lymphatic system and release local toxins
                   </li>
@@ -637,22 +637,22 @@ export const treatmentPlansData = [
   
             {/* Duration */}
             <div className="mt-8">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-black flex justify-center">
+              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
                 Duration
                 <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-              <p className="mt-3 text-gray-700 text-sm sm:text-base flex justify-center">
+              <p className="mt-3 text-gray-700 text-sm sm:text-base dark:text-white flex justify-center">
                 Each session goes for approximately 90-120 mins
               </p>
             </div>
   
             {/* Requirement */}
             <div className="mt-8 mb-8 ">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-black flex justify-center">
+              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
                 Requirement
                 <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-              <p className="mt-3 text-gray-700 text-sm sm:text-base flex justify-center">
+              <p className="mt-3 text-gray-700 text-sm sm:text-base dark:text-white flex justify-center">
                 3 Sessions - 2 LD (lymphatic drainage)+ 1 HLD (LD followed by
                 Hijama cupping on nodal sites), weekly once for first timers;
                 may take more sessions to show up quantifiable/noticeable
@@ -667,7 +667,7 @@ export const treatmentPlansData = [
   {/* Call for Appointments */}
   <div className="flex justify-center">
     <Link href="tel:800-9944-335">
-      <button className="flex items-center space-x-2 border border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
+      <button className="flex items-center space-x-2 border dark:text-black border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
         <span className="text-xl">📞</span>
         <span>Call for Appointments</span>
       </button>
@@ -755,13 +755,13 @@ export const treatmentPlansData = [
           <div className="w-full lg:w-1/2 ">
             {/* Benefits */}
             <div className="mt-8">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-black flex justify-center">
+              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
                 Benefits
                 <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
   
               <div className="flex items-center justify-center min-h-screen">
-                <ul className="mt-3 space-y-2 text-gray-700 text-sm sm:text-base font-lora">
+                <ul className="mt-3 space-y-2 text-gray-700 text-sm dark:text-white sm:text-base font-lora">
                   <li>
                     • Induce ovulation. Removes blockages and inflammation in the
                     Fallopian tube
@@ -787,22 +787,22 @@ export const treatmentPlansData = [
   
             {/* Duration */}
             <div className="mt-8">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-black flex justify-center">
+              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
                 Duration
                 <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-              <p className="mt-3 text-gray-700 text-sm sm:text-base flex justify-center">
+              <p className="mt-3 text-gray-700 text-sm sm:text-base dark:text-white flex justify-center">
                 Each session goes for approximately 60-90 mins
               </p>
             </div>
   
             {/* Requirement */}
             <div className="mt-8 mb-8 ">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-black flex justify-center">
+              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
                 Requirement
                 <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-              <p className="mt-3 text-gray-700 text-sm sm:text-base flex justify-center">
+              <p className="mt-3 text-gray-700 text-sm sm:text-base dark:text-white flex justify-center">
                 1. iRP Lite (Highly recommended but not mandatory): Lymphatic
                   cleanse with wet cupping + 3 session full body & vital organ
                   cleanse (upper body + Torso + lower body) <br />
@@ -818,7 +818,7 @@ export const treatmentPlansData = [
   {/* Call for Appointments */}
   <div className="flex justify-center">
     <Link href="tel:800-9944-335">
-      <button className="flex items-center space-x-2 border border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
+      <button className="flex items-center space-x-2 border dark:text-black border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
         <span className="text-xl">📞</span>
         <span>Call for Appointments</span>
       </button>
@@ -908,13 +908,13 @@ export const treatmentPlansData = [
           <div className="w-full lg:w-1/2 ">
             {/* Benefits */}
             <div className="mt-8">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-black flex justify-center">
+              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
                 Benefits
                 <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
   
               <div className="flex items-center justify-center min-h-screen">
-                <ul className="mt-3 space-y-2 text-gray-700 text-sm sm:text-base font-lora">
+                <ul className="mt-3 space-y-2 text-gray-700 text-sm sm:text-base font-lora dark:text-white">
                   <li>
                     • Revives your body as a whole and it’s ability to healitself
                   </li>
@@ -930,11 +930,11 @@ export const treatmentPlansData = [
   
             {/* Duration */}
             <div className="mt-8">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-black flex justify-center">
+              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
                 Duration
                 <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-              <p className="mt-3 text-gray-700 text-sm sm:text-base flex justify-center">
+              <p className="mt-3 text-gray-700 text-sm sm:text-base dark:text-white flex justify-center">
                 3 Lymphatic cleanse session 3 Sessions - 2 LD (lymphatic
                   drainage)+ 1 HLD (LD followed by Hijama cupping on nodal sites)
                   + 3 session full body & vital organ cleanse (Upper body + Torso
@@ -944,11 +944,11 @@ export const treatmentPlansData = [
   
             {/* Requirement */}
             <div className="mt-8 mb-8 ">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-black flex justify-center">
+              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
                 Requirement
                 <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-              <p className="mt-3 text-gray-700 text-sm sm:text-base flex justify-center">
+              <p className="mt-3 text-gray-700 text-sm dark:text-white sm:text-base flex justify-center">
                 3-4 weeks plan; 6 sessions
               </p>
             </div>
@@ -960,7 +960,7 @@ export const treatmentPlansData = [
   {/* Call for Appointments */}
   <div className="flex justify-center">
     <Link href="tel:800-9944-335">
-      <button className="flex items-center space-x-2 border border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
+      <button className="flex items-center space-x-2 border dark:text-black border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
         <span className="text-xl">📞</span>
         <span>Call for Appointments</span>
       </button>
@@ -1047,13 +1047,13 @@ export const treatmentPlansData = [
           <div className="w-full lg:w-1/2 ">
             {/* Benefits */}
             <div className="mt-8">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-black flex justify-center">
+              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
                 Benefits
                 <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
   
               <div className="flex items-center justify-center min-h-screen">
-                <ul className="mt-3 space-y-2 text-gray-700 text-sm sm:text-base font-lora">
+                <ul className="mt-3 space-y-2 text-gray-700 dark:text-white text-sm sm:text-base font-lora">
                   <li>• Treats areas of muscular (and otherwise) painf</li>
                   <li>• Treats metaphysical issues</li>
                   <li>
@@ -1066,11 +1066,11 @@ export const treatmentPlansData = [
   
             {/* Duration */}
             <div className="mt-8">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-black flex justify-center">
+              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
                 Duration
                 <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-              <p className="mt-3 text-gray-700 text-sm sm:text-base flex justify-center">
+              <p className="mt-3 text-gray-700 text-sm dark:text-white sm:text-base flex justify-center">
                 Duration of each session varies with every client, approximately
                 45 to 60 minutes and above
               </p>
@@ -1078,11 +1078,11 @@ export const treatmentPlansData = [
   
             {/* Requirement */}
             <div className="mt-8 mb-8 ">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-black flex justify-center">
+              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
                 Requirement
                 <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-              <p className="mt-3 text-gray-700 text-sm sm:text-base flex justify-center">
+              <p className="mt-3 text-gray-700 text-sm sm:text-base dark:text-white flex justify-center">
                 Number of sessions vary with every client
               </p>
             </div>
@@ -1094,7 +1094,7 @@ export const treatmentPlansData = [
   {/* Call for Appointments */}
   <div className="flex justify-center">
     <Link href="tel:800-9944-335">
-      <button className="flex items-center space-x-2 border border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
+      <button className="flex items-center space-x-2 border dark:text-black border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
         <span className="text-xl">📞</span>
         <span>Call for Appointments</span>
       </button>
@@ -1140,13 +1140,13 @@ export const treatmentPlansData = [
           {/* Back Link */}
           <Link
             href="/treatment-plans"
-            className="flex items-center text-sm md:text-base text-black n"
+            className="flex items-center text-sm md:text-base text-black dark:text-white"
           >
             ← Back to All Plans
           </Link>
 
           {/* Heading */}
-          <h1 className="mt-4 text-4xl md:text-5xl font-bold text-black">
+          <h1 className="mt-4 text-4xl md:text-5xl font-bold text-black dark:text-white">
             Sports Plus
           </h1>
 
@@ -1154,7 +1154,7 @@ export const treatmentPlansData = [
           <div className="w-24 h-0.5 bg-green-400 mt-2"></div>
 
           {/* Description */}
-          <p className="mt-4 text-sm md:text-lg text-white/80 leading-relaxed font-lora">
+          <p className="mt-4 text-sm md:text-lg text-white/80 leading-relaxed font-lora dark:text-white">
             The Sports Plus plan is the go-to treatment for every athlete and
             gym-goer. Athletes generally choose to have cupping therapy done
             before participating in their sport, as well as after. Most have a
@@ -1180,7 +1180,7 @@ export const treatmentPlansData = [
           <div>
             {/* Benefits */}
             <div className="mb-8">
-              <h2 className="text-xl font-bold">
+              <h2 className="text-xl font-bold dark:text-black">
                 Benefits
                 <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
@@ -1203,7 +1203,7 @@ export const treatmentPlansData = [
 
             {/* Duration */}
             <div className="mb-8">
-              <h2 className="text-xl font-bold">
+              <h2 className="text-xl font-bold dark:text-black">
                 Duration
                 <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
@@ -1214,7 +1214,7 @@ export const treatmentPlansData = [
 
             {/* Requirement */}
             <div>
-              <h2 className="text-xl font-bold">
+              <h2 className="text-xl font-bold dark:text-black">
                 Requirement
                 <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
@@ -1229,7 +1229,7 @@ export const treatmentPlansData = [
           <div className="flex flex-col items-center space-y-6">
             {/* Call for Appointments Button */}
             <Link href="tel:800-9944-335">
-              <button className="flex items-center space-x-2 border border-black px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition">
+              <button className="flex items-center space-x-2 dark:text-black border border-black px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition">
                 <span className="text-xl">📞</span>
                 <span>Call for Appointments</span>
               </button>
