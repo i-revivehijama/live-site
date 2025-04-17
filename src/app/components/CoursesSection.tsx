@@ -35,16 +35,22 @@ const courses = [
 
 export default function CoursesSection() {
   return (
-    <div className="container mx-auto p-6">
+    <div className="container mx-auto p-6 bg-white dark:bg-white">
       <div className="grid lg:grid-cols-3 gap-6">
         {courses.map((course, index) => (
-          <div key={index} className="border rounded-lg shadow-md p-6 text-center relative">
+          <div
+            key={index}
+            className="bg-white dark:bg-white border rounded-lg shadow-md p-6 text-center relative "
+          >
             <div className="absolute top-0 left-0 w-full h-3 bg-primary rounded-t-lg"></div>
-            <h2 className="text-xl font-semibold mt-3">{course.level}</h2>
-            
+            <h2 className="text-xl font-semibold mt-3 text-black font-montserrat">{course.level}</h2>
+
             {/* Title with Link */}
-            <h3 className="text-lg font-bold">
-              <Link href={course.link} className="text-green-600 underline hover:text-green-700">
+            <h3 className="text-lg font-bold font-montserrat">
+              <Link
+                href={course.link}
+                className="text-green-600 underline hover:text-green-700"
+              >
                 {course.title}
               </Link>
             </h3>
@@ -52,16 +58,21 @@ export default function CoursesSection() {
             <div className="flex justify-center my-4">
               <Image src={course.image} alt="Cup Image" width={80} height={80} />
             </div>
-            <p className="font-medium">What You Will Learn :-</p>
-            <ul className="text-left mt-2 space-y-1">
+
+            <p className="font-medium text-black">What You Will Learn :-</p>
+            <ul className="text-left mt-2 space-y-1 text-black font-lora">
               {course.features.map((feature, i) => (
                 <li key={i} className="flex items-center">
                   <span className="mr-2">✔</span> {feature}
                 </li>
               ))}
             </ul>
+
             <div className="mt-4">
-              <Link href={course.link} className="bg-primary text-white px-4 py-2 rounded-md inline-block">
+              <Link
+                href={course.link}
+                className="bg-primary text-white px-4 py-2 rounded-md inline-block"
+              >
                 Read More
               </Link>
             </div>
@@ -71,3 +82,4 @@ export default function CoursesSection() {
     </div>
   );
 }
+

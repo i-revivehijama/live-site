@@ -82,11 +82,11 @@ const ContactForm = () => {
               Effective pain relief with high-quality, comfortable Hijama
               services.
             </h3>
-            <p className="text-gray-700 mb-6 font-lora text-2xl">
+            <p className="text-gray-700 mb-6 font-lora text-xl">
               Our Hijama services offer natural pain relief, improved circulation,
               and enhanced wellness.
             </p>
-            <div className="text-gray-700 mb-6 font-lora text-2xl">
+            <div className="text-gray-700 mb-6 font-lora text-xl">
               <p className="flex items-start gap-2">
                 <MdLocationOn className="text-gray-600 mt-1" size={22} />
                 6th floor, Mawin Zamzam, Mehdipatnam, Hyderabad
@@ -144,7 +144,7 @@ const ContactForm = () => {
               ></textarea>
               <button
                 type="submit"
-                className="bg-primary text-white p-4 rounded-lg hover:bg-white text-lg font-semibold w-full transition duration-300 border hover:border-primary hover:text-primary"
+                className="bg-primary text-white p-4 rounded-lg font-lora hover:bg-white text-lg font-semibold w-full transition duration-300 border hover:border-primary hover:text-primary"
               >
                 SUBMIT NOW
               </button>

@@ -10,7 +10,7 @@ const WhatWeDo = () => {
     <section className="text-center py-6 lg:py-16 px-6 md:px-20 bg-white">
       <div className="flex justify-center items-center text-green-700 text-sm font-semibold tracking-wide">
         <span className="w-16 h-0.5 bg-blue-400 mr-4"></span>
-        <span className="text-primary text-lg font-bold">WHAT WE DO</span>
+        <span className="text-primary text-lg font-bold">WHAT WE DO</span> 
         <span className="w-16 h-0.5 bg-blue-400 ml-4"></span>
       </div>
 
@@ -60,7 +60,7 @@ const WhatWeDo = () => {
                 {service.description}
               </p>
               <Link href={`/treatment-plans/${service.slug}`}>
-              <button className="mt-4 bg-primary text-white py-3 px-5 rounded-full hover:bg-white hover:text-hovershed border hover:border-hovershed transition relative z-10 hover:text-primary">
+              <button className="mt-4 bg-primary text-white py-3 px-5 rounded-full hover:bg-white hover:text-hovershed border hover:border-hovershed transition relative z-10 hover:text-primary font-lora">
                 Read More
               </button>
               </Link>

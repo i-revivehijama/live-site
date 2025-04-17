@@ -7,9 +7,9 @@ const AboutTwo = () => {
   return (
     <section className="container mx-auto px-4 py-10">
       {/* Content Section */}
-      <div className="max-w-3xl mx-auto text-gray-800">
-        <h2 className="text-4xl md:text-3xl font-bold ">About Us</h2>
-        <p className="mt-4 text-justify">
+      <div className="max-w-3xl mx-auto ">
+        <h2 className="text-4xl md:text-3xl font-bold font-montserrat ">About Us</h2>
+        <p className="mt-4 text-justify font-lora">
           At i-Revive, we are passionate about providing our clients with personalized wellness plans that prioritize their health and well-being. We specialize in Hijama Cupping, Gliding Cupping, and Deep Tissue Stroking techniques, which we use to offer a targeted range of services that are both effective and safe. <br />
           <br />
           As the best Hijama Cupping Therapy clinic in Hyderabad, we pride ourselves on delivering exceptional Hijama treatment. Our approach combines traditional wisdom with modern techniques to ensure optimal health benefits. At i-Revive, we stand out among the top dry cupping therapy centres in Hyderabad by offering expert care in a serene and professional environment.<br />

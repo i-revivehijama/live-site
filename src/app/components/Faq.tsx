@@ -10,12 +10,12 @@ const Faq = () => {
   };
 
   return (
-    <section className="container mx-auto px-6 md:px-12 py-12">
+    <section className="container mx-auto px-6 md:px-12 py-12 bg-white dark:bg-white">
       <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
         FAQs
       </h2>
       <div className="border-t border-primary w-16 mb-8"></div>
-      <div className="space-y-4">
+      <div className="space-y-4 text-black font-lora">
         {faqData.map((faq, index) => (
           <div key={faq.id} className="border rounded-lg overflow-hidden">
             <button

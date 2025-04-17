@@ -4,7 +4,7 @@ import React from "react";
 const OurTeamTwo = () => {
   return (
     <div className="py-16 bg-gray-50">
-      <h2 className="text-3xl font-semibold text-center text-gray-800 mb-12">
+      <h2 className="text-3xl font-semibold text-center text-black mb-12 font-montserrat">
         Meet Our Team
       </h2>
 
@@ -19,18 +19,18 @@ const OurTeamTwo = () => {
               height={600}
               className="w-full h-full max-h-[750px] object-cover"
             />
-            <div className="mt-4 text-center">
-              <h3 className="text-2xl font-semibold">
+            <div className="mt-4 text-center text-black">
+              <h3 className="text-2xl font-semibold font-montserrat">
                 Mohammed Khan – Visionary Leader & CEO
               </h3>
-              <p className="mt-2 text-justify">
+              <p className="mt-2 text-justify font-lora">
                 Mohammed Khan is a dynamic leader and visionary entrepreneur
                 dedicated to creating a meaningful impact beyond conventional
                 business success. As the CEO of Delta group of companies, he
                 brings a wealth of experience and strategic insight, sitting on
                 the board of multiple companies across the Gulf and India.
               </p>
-              <p className="mt-2 text-justify">
+              <p className="mt-2 text-justify font-lora">
                 With a firm belief that business should be a force for positive
                 change, Mohammed Khan has consistently focused on solutions that
                 go beyond profit, touching lives and fostering long-term health
@@ -54,11 +54,11 @@ const OurTeamTwo = () => {
               height={600}
               className="w-full h-full max-h-[750px] object-cover"
             />
-            <div className="mt-4 text-center">
+            <div className="mt-4 text-center text-black">
               <h3 className="text-2xl font-semibold">
                 Dr. Fareeda Nikhat - Director @ i-Revive
               </h3>
-              <p className="mt-2 text-justify">
+              <p className="mt-2 text-justify font-lora">
                 OB-GYN consultant at Latifa Hospital with a focus on ultrasound
                 in feto-maternal medicine and a passion for high-risk pregnancy
                 care. Dedicated to advancing maternal and fetal health through
@@ -77,18 +77,18 @@ const OurTeamTwo = () => {
               height={600}
               className="w-full h-full max-h-[750px] object-cover"
             />
-            <div className="mt-4 text-center">
+            <div className="mt-4 text-center text-black">
               <h3 className="text-2xl font-semibold">
                 Dr. Asma Moinuddin - Director @ i-Revive
               </h3>
-              <p className="mt-2 text-justify">
+              <p className="mt-2 text-justify font-lora">
                 A dedicated healthcare professional who holds an MBBS degree.
                 Later, she pursued her MD in Naturopathic Medicine in the USA.
                 Currently, Dr. Moinuddin practices as a Naturopathic doctor,
                 where she has had a profound impact on the lives of numerous
                 individuals and families.
               </p>
-              <p className="mt-2 text-justify">
+              <p className="mt-2 text-justify font-lora">
                 With a heartfelt commitment to her patients&apos; well-being,
                 Dr. Moinuddin has been instrumental in guiding her patients
                 towards positive lifestyle changes, leading to the alleviation
@@ -112,11 +112,11 @@ const OurTeamTwo = () => {
               height={600}
               className="w-full h-full max-h-[750px] object-cover"
             />
-            <div className="mt-4 text-center">
+            <div className="mt-4 text-center text-black">
               <h3 className="text-2xl font-semibold">
                 Imran Khan - Lead Practitioner @ i-Revive
               </h3>
-              <p className="mt-2 text-justify">
+              <p className="mt-2 text-justify font-lora">
                 Lead practitioner at i-Revive. Blessed with an extraordinary
                 journey as a Hijama Practitioner, holding multiple
                 certifications from Turkey, US & UK. Additionally, as a

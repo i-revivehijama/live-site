@@ -8,7 +8,7 @@ export default function LevelOne() {
       <div className="grid lg:grid-cols-2 gap-10">
         {/* Left Side: Course Content */}
         <div>
-          <h2 className="text-2xl font-bold">
+          <h2 className="text-2xl font-montserrat font-bold">
             Course Name:- <br /> Hijama Practitioner Launchpad
           </h2>
           <p>
@@ -21,11 +21,11 @@ export default function LevelOne() {
             <span className="font-semibold">Format:</span> 3 days Theory + 2
             days Hands-on & Practical Training
           </p>
-          <p className="mt-4">
+          <p className="mt-4 font-lora text-xl">
             Learn Hijama with our comprehensive Level One course, designed for
             beginners and aspiring practitioners...
           </p>
-          <p className="mt-4">
+          <p className="mt-4 font-lora text-xl">
             Unlike most courses that focus only on history, geography, and basic
             Hijama procedures, we provide you with a solid foundation...
           </p>
@@ -33,25 +33,25 @@ export default function LevelOne() {
             <h3 className="text-xl font-bold">
               Our curriculum goes beyond the ordinary by covering:
             </h3>
-            <ul className="list-disc list-inside mt-2 space-y-1">
+            <ul className="list-disc list-inside mt-2 space-y-1 font-lora text-xl">
               <li>The human body from a contemporary medical perspective.</li>
               <li>The metaphysical aspects of the human body.</li>
               <li>All essential and core components of Hijama.</li>
             </ul>
-            <p className="mt-4">
+            <p className="mt-4 font-lora text-xl">
               Not only will you gain extensive knowledge through this unique
               approach, but you will also apply it practically...
             </p>
 
             <h3 className="text-xl font-bold mt-6">Who Is This Course For?</h3>
-            <ul className="list-disc list-inside mt-2 space-y-1">
+            <ul className="list-disc list-inside mt-2 space-y-1 font-lora text-xl">
               <li>Individuals with no prior experience...</li>
               <li>Individuals aspiring to establish a Hijama clinic...</li>
               <li>Individuals interested in learning and applying Hijama...</li>
             </ul>
 
             <h3 className="text-xl font-bold mt-6">Why Choose Our Course?</h3>
-            <ul className="list-disc list-inside mt-2 space-y-1">
+            <ul className="list-disc list-inside mt-2 space-y-1 font-lora text-xl ">
               <li>
                 <strong>Expertly Designed Curriculum:</strong> Developed under
                 the guidance of leading professionals.
@@ -83,7 +83,7 @@ export default function LevelOne() {
             </ul>
 
             <h3 className="text-xl font-bold mt-6">What You’ll Learn:</h3>
-            <ul className="list-disc list-inside mt-2 space-y-1">
+            <ul className="list-disc list-inside mt-2 space-y-1 font-lora text-xl">
               <li>Human Body, Health & Disease</li>
               <li>Metaphysical aspect affecting Wellness</li>
               <li>

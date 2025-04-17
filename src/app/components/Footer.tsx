@@ -6,6 +6,8 @@ import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import {FaYoutube } from "react-icons/fa6";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { MdLocationOn, MdMail, MdPhone } from "react-icons/md";
+import BackToTop from "./BackToTop";
+import MobileStickyBar from "./MobileStickyBar";
 
 
 const Footer = () => {
@@ -179,7 +181,8 @@ const Footer = () => {
           , All rights reserved.
         </p>
       </div>
-     
+      <BackToTop />
+      <MobileStickyBar />
     </footer>
   );
 };

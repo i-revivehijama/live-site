@@ -20,11 +20,11 @@ const OurBlog = () => {
   return (
     <section className="px-6 md:px-16 py-6 lg:py-16 bg-white text-center">
       <h2 className="text-primary text-2xl font-serif font-bold">OUR BLOG</h2>
-      <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-gray-900 mt-2 font-serif">
+      <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-gray-900 mt-2 font-montserrat">
         Excellent Facility and High <br />
         Quality Therapy
       </h1>
-      <p className="text-gray-600 mt-4 max-w-3xl mx-auto">
+      <p className="text-gray-600 mt-4 max-w-3xl mx-auto font-lora text-xl">
         Stay informed and inspired with our blog, where we share expert
         insights, wellness tips, and the latest trends in Hijama therapy.
         Explore topics to support your journey toward better health and
@@ -45,7 +45,7 @@ const OurBlog = () => {
               className="w-full h-64 object-center object-cover" // Increased Tailwind height
             />
             <div className="p-4">
-              <p className="text-primary text-sm flex justify-between">
+              <p className="text-primary text-sm flex justify-between font-lora">
                 <span className="flex items-center">
                   <FaRegCalendarAlt className="mr-1" /> {post.date}
                 </span>
@@ -53,14 +53,14 @@ const OurBlog = () => {
                   <FaRegComment className="mr-1" /> {post.comments} Comments
                 </span>
               </p>
-              <h3 className="text-3xl font-serif  text-gray-900 mt-4 text-left">
+              <h3 className="text-3xl text-gray-900 mt-4 text-left font-montserrat">
                 {post.title}
               </h3>
-              <p className="text-gray-600 mt-6 text-lg text-left">
+              <p className="text-gray-600 mt-6 text-lg text-left font-lora">
                 {post.description}
               </p>
               <Link href={`/post/${post.slug}`}>
-                <button className="mt-4 bg-primary text-white text-left px-4 py-2 rounded-full shadow-md hover:bg-hovershed transition">
+                <button className="mt-4 bg-primary text-white text-left px-4 py-2 rounded-full shadow-md hover:bg-hovershed transition font-lora">
                   Read More
                 </button>
               </Link>

@@ -26,11 +26,11 @@ export default function Testimonial() {
       className="bg-primary py-20 text-center text-white"
       data-aos="zoom-in-down"
     >
-      <h3 className="text-2xl font-serif font-semibold">TESTIMONIAL</h3>
-      <h2 className="text-3xl md:text-5xl lg:text-6xl font-serif text-black font-bold mt-2">
+      <h3 className="text-2xl font-bold font-lora">TESTIMONIAL</h3>
+      <h2 className="text-3xl md:text-5xl lg:text-6xl font-montserrat text-black font-bold mt-2">
         What Clients are Say
       </h2>
-      <div className="flex items-center justify-evenly mt-6 gap-6">
+      <div className="flex items-center justify-evenly mt-6 gap-6 font-lora text-xl">
         <button
           onClick={prevTestimonial}
           className="bg-white p-3 rounded-full text-green-500 shadow-lg"

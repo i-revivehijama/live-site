@@ -48,7 +48,7 @@ const AboutUs = () => {
           </p>
           <div className="mt-8 flex justify-start">
             <Link href="/about-us">
-              <button className="bg-primary text-white text-xl font-semibold py-4 px-8 rounded-full hover:bg-white border hover:border-hovershed hover:text-hovershed transition">
+              <button className="bg-primary text-white text-xl font-semibold font-lora py-4 px-8 rounded-full hover:bg-white border hover:border-hovershed hover:text-hovershed transition">
                 Learn More
               </button>
             </Link>
