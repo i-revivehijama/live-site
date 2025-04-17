@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+// import Link from "next/link";
 
 export default function LevelOne() {
   return (
@@ -101,14 +101,14 @@ export default function LevelOne() {
               knowledge but embarking on a transformative learning journey...
             </p>
 
-            <div className="mt-6">
+            {/* <div className="mt-6">
               <Link
                 href="#"
                 className="inline-block bg-green-400 text-black px-6 py-2 rounded-lg font-semibold"
               >
                 Enroll Now
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
 

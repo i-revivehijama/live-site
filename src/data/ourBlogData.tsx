@@ -12,10 +12,10 @@ export const blogPosts = [
     image: "/b1.jpg",
     slug: "relief-from-pain-and-stress-discovering-hijama-cupping-therapy",
     content: (
-      <div className="max-w-4xl mx-auto py-6 md:py-16">
+      <div className="max-w-4xl mx-auto py-6 md:py-16 font-lora ">
         <div>
           <p>Oct 30, 2024 3 min read</p>
-          <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold font-playfair py-6">
+          <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold  py-6 ">
             Relief from Pain and Stress: Discovering Hijama Cupping Therapy
           </h1>
           <p className="text-justify">
@@ -261,7 +261,7 @@ export const blogPosts = [
     image: "/b2.jpg",
     slug: "the-ultimate-guide-to-cupping-therapy-for-women-in-hyderabad",
     content: (
-      <div className="max-w-4xl mx-auto py-6 md:py-16">
+      <div className="max-w-4xl mx-auto py-6 md:py-16 font-lora">
         <div>
           <p>Oct 30, 2024 3 min read</p>
           <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold font-playfair py-6">
@@ -560,7 +560,7 @@ export const blogPosts = [
     image: "/b3.jpg",
     slug: "why-choose-a-female-hijama-specialist-in-hyderabad",
     content: (
-      <div className="max-w-4xl mx-auto py-6 md:py-16">
+      <div className="max-w-4xl mx-auto py-6 md:py-16 font-lora">
         <div>
           <p>Oct 30, 2024 3 min read</p>
           <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold font-playfair py-6">
@@ -719,7 +719,7 @@ export const blogPosts = [
     image: "/b4.jpg",
     slug: "hormonal-issues",
     content: (
-      <div className="max-w-4xl mx-auto py-6 md:py-16">
+      <div className="max-w-4xl mx-auto py-6 md:py-16 font-lora">
         <div>
           <p>Oct 30, 2024 3 min read</p>
           <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold font-playfair py-6">
@@ -898,7 +898,7 @@ export const blogPosts = [
     image: "/b5.jpg",
     slug: "bloodcleanse",
     content: (
-      <div className="max-w-4xl mx-auto py-6 md:py-16">
+      <div className="max-w-4xl mx-auto py-6 md:py-16 font-lora">
         <div>
           <p>Oct 30, 2024 3 min read</p>
           <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold font-playfair py-6">
@@ -1071,7 +1071,7 @@ export const blogPosts = [
     image: "/b6.jpg",
     slug: "why-hijama",
     content: (
-      <div className="max-w-4xl mx-auto py-6 md:py-16">
+      <div className="max-w-4xl mx-auto py-6 md:py-16 font-lora">
         <div>
           <p>Oct 30, 2024 3 min read</p>
           <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold font-playfair py-6">
@@ -1244,7 +1244,7 @@ export const blogPosts = [
     image: "/b7.jpg",
     slug: "what-s-happening-under-the-cups",
     content: (
-      <div className="max-w-4xl mx-auto py-6 md:py-16">
+      <div className="max-w-4xl mx-auto py-6 md:py-16 font-lora">
         <div>
           <p>Oct 30, 2024 3 min read</p>
           <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold font-playfair py-6">
@@ -1388,7 +1388,7 @@ export const blogPosts = [
     image: "/b8.jpg",
     slug: "what-is-hijama-cupping",
     content: (
-      <div className="max-w-4xl mx-auto py-6 md:py-16">
+      <div className="max-w-4xl mx-auto py-6 md:py-16 font-lora">
         <div>
           <p>Oct 30, 2024 3 min read</p>
           <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold font-playfair py-6">
@@ -1538,7 +1538,7 @@ export const blogPosts = [
     image: "/b9.jpg",
     slug: "why-hijama-effects-of-hijama-cupping",
     content: (
-      <div className="max-w-4xl mx-auto py-6 md:py-16">
+      <div className="max-w-4xl mx-auto py-6 md:py-16 font-lora">
         <div>
           <p>Oct 30, 2024 3 min read</p>
           <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold font-playfair py-6">
@@ -1753,7 +1753,7 @@ export const blogPosts = [
     image: "/b10.jpg",
     slug: "treating-spider-veins-varicose-veins-by-hijama-cupping",
     content: (
-      <div className="max-w-4xl mx-auto py-6 md:py-16">
+      <div className="max-w-4xl mx-auto py-6 md:py-16 font-lora">
         <div>
           <p>Oct 30, 2024 3 min read</p>
           <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold font-playfair py-6">
@@ -1981,7 +1981,7 @@ export const blogPosts = [
     image: "/b11.jpg",
     slug: "pcos-answer-is-hijama-cupping",
     content: (
-      <div className="max-w-4xl mx-auto py-6 md:py-16">
+      <div className="max-w-4xl mx-auto py-6 md:py-16 font-lora">
         <div>
           <p>Oct 30, 2024 3 min read</p>
           <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold font-playfair py-6">
@@ -2174,7 +2174,7 @@ export const blogPosts = [
     image: "/b12.jpg",
     slug: "best-hijama-practices",
     content: (
-      <div className="max-w-4xl mx-auto py-6 md:py-16">
+      <div className="max-w-4xl mx-auto py-6 md:py-16 font-lora">
         <div>
           <p>Oct 30, 2024 3 min read</p>
           <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold font-playfair py-6">
@@ -2401,7 +2401,7 @@ export const blogPosts = [
     image: "/b13.jpg",
     slug: "what-s-in-a-cup",
     content: (
-      <div className="max-w-4xl mx-auto py-6 md:py-16">
+      <div className="max-w-4xl mx-auto py-6 md:py-16 font-lora">
         <div>
           <p>Oct 30, 2024 3 min read</p>
           <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold font-playfair py-6">
@@ -2732,7 +2732,7 @@ export const blogPosts = [
   //   image: "/b14.jpg",
   //   slug: "stress-and-hijama",
   //   content: (
-  //     <div className="max-w-4xl mx-auto py-6 md:py-16">
+  //     <div className="max-w-4xl mx-auto py-6 md:py-16 font-lora">
   //       <div>
   //         <p>Oct 30, 2024 3 min read</p>
   //         <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold font-playfair py-6">

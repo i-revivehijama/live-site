@@ -57,7 +57,7 @@ const MobileMenu = ({
         </Link>
         <Link
           href="/appointments"
-          className="block mt-4 bg-primary text-white text-center py-2 rounded-full border border-primary hover:bg-white hover:text-primary"
+          className="block mt-4 bg-primary text-white text-center py-2 rounded-full border border-primary hover:bg-white hover:text-primary font-lora"
         >
           BOOK APPOINTMENT
         </Link>
