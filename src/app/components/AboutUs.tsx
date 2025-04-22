@@ -23,7 +23,7 @@ const AboutUs = () => {
             className="w-full rounded-lg shadow-lg"
           />
         </motion.div>
-
+ 
         {/* Right Side - Content Animation */}
         <motion.div
           initial={{ y: 200, opacity: 0 }}

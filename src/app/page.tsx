@@ -8,7 +8,8 @@ import Testimonial from "./components/Testimonial";
 import ContactForm from "./components/ContactForm";
 import AboutUs from "./components/AboutUs";
 import WhyChooseUs from "./components/WhyChooseUs";
-import OurTeam from "./components/OurTeam";
+import AboutThree from "./components/aboutthree";
+// import OurTeam from "./components/OurTeam";
 
 export default function Home() {
   return (
@@ -20,7 +21,8 @@ export default function Home() {
     <WhatWeDo />
     <WhyChooseUs />
     <ContactForm />
-    <OurTeam />
+    {/* <OurTeam /> */}
+    <AboutThree />
     <Testimonial />
     <OurBlog />
    

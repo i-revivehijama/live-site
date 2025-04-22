@@ -1,35 +1,66 @@
 "use client";
 
-
 import Link from "next/link";
+import Image from "next/image";
 
 const AboutTwo = () => {
   return (
     <section className="container mx-auto px-4 py-10">
-      {/* Content Section */}
-      <div className="max-w-3xl mx-auto ">
-        <h2 className="text-4xl md:text-3xl font-bold font-montserrat ">About Us</h2>
-        <p className="mt-4 text-justify font-lora">
-          At i-Revive, we are passionate about providing our clients with personalized wellness plans that prioritize their health and well-being. We specialize in Hijama Cupping, Gliding Cupping, and Deep Tissue Stroking techniques, which we use to offer a targeted range of services that are both effective and safe. <br />
-          <br />
-          As the best Hijama Cupping Therapy clinic in Hyderabad, we pride ourselves on delivering exceptional Hijama treatment. Our approach combines traditional wisdom with modern techniques to ensure optimal health benefits. At i-Revive, we stand out among the top dry cupping therapy centres in Hyderabad by offering expert care in a serene and professional environment.<br />
-          <br />
-          We are dedicated to improving your well-being through customized treatments that encourage healing and rejuvenation. Experience the difference with i-Revive, where your health is our priority. <br />
-          <br />
-          Best Hijama centre in Hyderabad at i-Revive, Mehdipatnam. We offer expert Hijama cupping therapy for both men and women. Ladies can benefit from our dedicated Hijama facilities, with treatments performed by experienced female professionals. Enjoy personalized and professional care tailored to your needs, ensuring effective and affordable Islamic cupping therapy for everyone. <br /> <br />
-        </p>
-        <p>
-          Visit{" "}
-          <Link
-            href="/best-hijama-centre-for-ladies-hyderabad"
-            className="text-green-600 underline hover:text-green-700"
-          >
-            Best Hijama Centre for women in Hyderabad
-          </Link>{" "}
-        </p>
-      </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        {/* Content Section */}
+        <div>
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold font-montserrat">
+            About <span className="text-primary">Us</span> 
+          </h2>
+          <h4 className="text-2xl md:text-3xl lg:text-3xl font-bold font-montserrat">
+            i-Revive – Restoring Health, Transforming Lives
+          </h4>
+          <p className="mt-4 text-lg sm:text-xl md:text-2xl text-justify font-lora text-gray-700">
+            Our journey with Hijama began through personal experiences across
+            different parts of the world. We witnessed its incredible potential
+            to improve quality of life, yet saw how underutilized and poorly
+            applied it often was. Despite its powerful healing properties,
+            Hijama was frequently practiced without proper knowledge or
+            technique, leading to average or ineffective outcomes. <br />
+          
+            Recognizing this gap, we saw a meaningful opportunity to elevate
+            Hijama to the standard it truly deserves. With a shared vision to
+            make a lasting difference, core members from diverse fields -
+            including medicine - came together to establish iRevive. Our goal
+            was clear: to create a professional, research-driven Hijama clinic
+            that delivers effective, natural, and sustainable healthcare.
+            
+            <br />
+            i-Revive is more than a clinic - it is a mission-led initiative
+            committed to holistic healing. We are focused on bringing real value
+            to individuals and families by offering well-informed, expertly
+            applied Hijama treatments. Our priority is your wellbeing, not
+            profits. Through i-Revive, we aim to redefine wellness by setting a
+            new benchmark in Hijama therapy
+          </p>
+          <p>
+            Visit{" "}
+            <Link
+              href="/best-hijama-centre-for-ladies-hyderabad"
+              className="text-green-600 underline hover:text-green-700"
+            >
+              Best Hijama Centre for women in Hyderabad
+            </Link>
+          </p>
+        </div>
 
-      
+        {/* Image Section */}
+        <div className="w-full">
+          <Image
+            src="/about1.jpg"
+            alt="About i-Revive Hijama Cupping"
+            width={600}
+            height={400}
+            className="w-full h-auto rounded-lg shadow-md"
+            priority
+          />
+        </div>
+      </div>
     </section>
   );
 };
