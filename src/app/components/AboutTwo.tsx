@@ -52,7 +52,7 @@ const AboutTwo = () => {
         {/* Image Section */}
         <div className="w-full">
           <Image
-            src="/about1.jpg"
+            src="/about1.JPG"
             alt="About i-Revive Hijama Cupping"
             width={600}
             height={400}
