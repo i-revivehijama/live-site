@@ -16,7 +16,7 @@ const teamMembers = [
     id: 2,
     name: "Imran Khan",
     qualification: "Lead Practitioner",
-    image: "/imran khan1.jpg",
+    image: "/imrankhan.jpg",
     slug: "imran-khan",
   },
   {

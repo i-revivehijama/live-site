@@ -10,7 +10,7 @@ export default function ImranKhanPage() {
       <TeamProfile
         name="Imran Khan"
         qualification="Lead Practitioner"
-        image="/Imran Khan1.jpg" // Make sure this path is correct
+        image="/imrankhan.jpg" // Make sure this path is correct
         description={`tA highly skilled Hijama Practitioner with certifications from Turkey, the US, and
 the UK, Imran Khan brings a wealth of expertise in traditional healing and
 cupping therapy. His specialization extends beyond physical health as he is also a
