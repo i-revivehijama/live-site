@@ -15,14 +15,15 @@ const AboutUs = () => {
           viewport={{ once: true }}
           className="w-full md:w-1/2"
         >
-         <Image
+          <Image
   src="/about01.JPG"
   alt="About Us"
   width={600}
   height={400}
   quality={100}
-  className="w-full h-[900px] object-cover rounded-lg shadow-lg"
+  className="w-full h-[300px] sm:h-[450px] md:h-[600px] lg:h-[900px] object-cover rounded-lg shadow-lg"
 />
+
         </motion.div>
 
         {/* Right Side - Content Animation */}
@@ -43,10 +44,10 @@ const AboutUs = () => {
             At i-Revive, we offer professional Hijama (cupping therapy) sessions
             to support individuals in restoring their health and overall
             well-being. We help people dealing with a variety of concerns -
-            whether it&apos;s pain in the neck, back, knees, or frequent headaches
-            and migraines, or chronic conditions like high blood pressure,
-            diabetes, hormonal imbalances, fatty liver, or low energy and
-            fatigue.
+            whether it&apos;s pain in the neck, back, knees, or frequent
+            headaches and migraines, or chronic conditions like high blood
+            pressure, diabetes, hormonal imbalances, fatty liver, or low energy
+            and fatigue.
             <br />
             <br />
             Hijama works by stimulating healthy blood circulation, removing

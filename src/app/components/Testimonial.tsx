@@ -46,7 +46,7 @@ export default function Testimonial() {
           transition={{ duration: 0.5 }}
           className="w-2/3 max-w-xl"
         >
-          <p className="mt-4 text-2xl font-light">{testimonials[index].text}</p>
+          <p className="mt-4 text-2xl sm:text-xl font-light">{testimonials[index].text}</p>
           <h4 className="mt-4 font-semibold">{testimonials[index].name}</h4>
           <div className="flex justify-center mt-2">
             {[...Array(5)].map((_, i) => (
