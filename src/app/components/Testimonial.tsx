@@ -30,6 +30,7 @@ export default function Testimonial() {
       <h2 className="text-3xl md:text-5xl lg:text-6xl font-montserrat text-black font-bold mt-2">
         What Clients are Say
       </h2>
+
       <div className="flex items-center justify-evenly mt-6 gap-6 font-lora text-xl">
         <button
           onClick={prevTestimonial}
@@ -37,6 +38,7 @@ export default function Testimonial() {
         >
           <FaArrowLeft />
         </button>
+
         <motion.div
           key={index}
           initial={{ opacity: 0, y: 10 }}
@@ -44,7 +46,6 @@ export default function Testimonial() {
           transition={{ duration: 0.5 }}
           className="w-2/3 max-w-xl"
         >
-         
           <p className="mt-4 text-lg font-light">{testimonials[index].text}</p>
           <h4 className="mt-4 font-semibold">{testimonials[index].name}</h4>
           <div className="flex justify-center mt-2">
@@ -53,6 +54,7 @@ export default function Testimonial() {
             ))}
           </div>
         </motion.div>
+
         <button
           onClick={nextTestimonial}
           className="bg-white p-3 rounded-full text-green-500 shadow-lg"
@@ -60,6 +62,8 @@ export default function Testimonial() {
           <FaArrowRight />
         </button>
       </div>
+
+      {/* Navigation Dots */}
       <div className="mt-4 flex justify-center gap-2">
         {testimonials.map((_, i) => (
           <button
@@ -70,6 +74,16 @@ export default function Testimonial() {
             }`}
           />
         ))}
+      </div>
+
+      {/* More Reviews Button */}
+      <div className="mt-6">
+        <a
+          href="https://www.google.com/search?sca_esv=f4db438c9f87a94d&sxsrf=AHTn8zoQm-B-fPqYiTXV3Z_N7f3xDIKzXQ:1745508314416&si=APYL9bs7Hg2KMLB-4tSoTdxuOx8BdRvHbByC_AuVpNyh0x2Kzakj-GbCdSCkmqupr1KjpohNisQQTKommH0Zco98T6yEya8zN6FR9OvjIH7y93CINOoDB6gdLMXwW3xvQw7lV6g1Zb35Mm4NuSJOHYwRrIV1b36zUrFPOTdpiguNCM1hAB3DSIQ%3D&q=i-Revive+Cupping+Clinic+%28Hijama%29+Reviews&sa=X&ved=2ahUKEwir4qGY_fCMAxWGyTgGHRVlMx4Q0bkNegQIQBAE&biw=1920&bih=945&dpr=1"
+          className="inline-block bg-white text-green-600 hover:bg-green-600 hover:text-white px-6 py-3 rounded-full font-montserrat transition duration-300"
+        >
+          More Reviews
+        </a>
       </div>
     </section>
   );
