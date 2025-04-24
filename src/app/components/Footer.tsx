@@ -3,12 +3,11 @@
 import Link from "next/link";
 import Image from "next/image";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
-import {FaYoutube } from "react-icons/fa6";
+import { FaYoutube } from "react-icons/fa6";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { MdLocationOn, MdMail, MdPhone } from "react-icons/md";
 import BackToTop from "./BackToTop";
 import MobileStickyBar from "./MobileStickyBar";
-
 
 const Footer = () => {
   const links = [
@@ -72,16 +71,14 @@ const Footer = () => {
         {/* Logo and Quote */}
         <div className="flex flex-col items-start">
           <Link href="/" className="flex items-center">
-            <div className="relative w-52 h-20">
-              <Image
-                src="/i-revive-logof.avif"
-                alt="i-REVIVE Logo"
-                fill
-                sizes="(max-width: 768px) 100px, (max-width: 1200px) 150px, 200px"
-                className="object-contain"
-                priority
-              />
-            </div>
+            <Image
+              src="/logoi-revive-logo.jpg" // ✅ Use the same logo as header
+              alt="i-REVIVE Logo"
+              width={300}
+              height={90}
+              priority
+              className="w-auto h-20 object-contain transition-all duration-300"
+            />
           </Link>
           <p className="mt-4 text-lg leading-relaxed max-w-xs">
             If you think wellness is expensive, then how about illness?
@@ -128,11 +125,11 @@ const Footer = () => {
             {services.map((service, index) => (
               <Link href={`/treatment-plans/${service.slug}`} key={index}>
                 <li
-                key={index}
-                className="flex items-center gap-2 hover:text-hovershed cursor-pointer transition-all duration-300 hover:tracking-wider"
-              >
-                <IoIosArrowRoundForward size={20} /> {service.title}
-              </li>
+                  key={index}
+                  className="flex items-center gap-2 hover:text-hovershed cursor-pointer transition-all duration-300 hover:tracking-wider"
+                >
+                  <IoIosArrowRoundForward size={20} /> {service.title}
+                </li>
               </Link>
             ))}
           </ul>
