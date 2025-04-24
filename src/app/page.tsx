@@ -5,7 +5,7 @@ import WhatWeDo from "./components/WhatWeDo";
 import Footer from "./components/Footer";
 import OurBlog from "./components/OurBlog";
 import Testimonial from "./components/Testimonial";
-import ContactForm from "./components/ContactForm";
+// import ContactForm from "./components/ContactForm";
 import AboutUs from "./components/AboutUs";
 import WhyChooseUs from "./components/WhyChooseUs";
 import AboutThree from "./components/aboutthree";
@@ -13,21 +13,23 @@ import AboutThree from "./components/aboutthree";
 
 export default function Home() {
   return (
-   <div>
-    <Topbar />
-    <Header />
-    <Herosection />
-    <AboutUs />
-    <WhatWeDo />
-    <WhyChooseUs />
-    <ContactForm />
-    {/* <OurTeam /> */}
-    <AboutThree />
-    <Testimonial />
-    <OurBlog />
-   
-    <Footer />
-   </div>
+    <div>
+      <Topbar />
+      <Header />
+      <Herosection />
+      <AboutUs />
+
+      {/* ✅ Limit to 4 treatment plans on the homepage */}
+      <WhatWeDo limit={4} />
+
+      <WhyChooseUs />
+      {/* <ContactForm /> */}
+      {/* <OurTeam /> */}
+      <AboutThree />
+      <Testimonial />
+      <OurBlog limit={3} />
+      <Footer />
+    </div>
   );
-} 
+}
 

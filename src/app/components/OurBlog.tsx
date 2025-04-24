@@ -8,7 +8,12 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Link from "next/link";
 
-const OurBlog = () => {
+// Add a prop to limit the number of blog posts
+interface OurBlogProps {
+  limit?: number;
+}
+
+const OurBlog: React.FC<OurBlogProps> = ({ limit }) => {
   const isAOSInitialized = useRef(false);
 
   useEffect(() => {
@@ -17,21 +22,22 @@ const OurBlog = () => {
       isAOSInitialized.current = true;
     }
   }, []);
+
+  // Limit the displayed posts
+  const displayPosts = limit ? blogPosts.slice(0, limit) : blogPosts;
+
   return (
     <section className="px-6 md:px-16 py-6 lg:py-16 bg-white text-center">
-      <h2 className="text-primary text-2xl font-serif font-bold">OUR BLOG</h2>
-      <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-gray-900 mt-2 font-montserrat">
-        Excellent Facility and High <br />
-        Quality Therapy
-      </h1>
-      <p className="text-gray-600 mt-4 max-w-3xl mx-auto font-lora text-xl">
+      <h2 className="text-primary text-3xl sm:text-4xl md:text-5xl font-bold font-serif">OUR BLOG</h2>
+
+      <p className="text-gray-600 mt-4 max-w-3xl mx-auto font-lora text-2xl font-bold">
         Stay informed and inspired with our blog, where we share expert
         insights, wellness tips, and the latest trends in Hijama therapy.
         Explore topics to support your journey toward better health and
         well-being.
       </p>
       <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
-        {blogPosts.map((post) => (
+        {displayPosts.map((post) => (
           <div
             data-aos="fade-up"
             key={post.id}
@@ -59,8 +65,13 @@ const OurBlog = () => {
               <p className="text-gray-600 mt-6 text-lg text-left font-lora">
                 {post.description}
               </p>
+
+              {/* "Read More" button with descriptive title */}
               <Link href={`/post/${post.slug}`}>
-                <button className="mt-4 bg-primary text-white text-left px-4 py-2 rounded-full shadow-md hover:bg-hovershed transition font-lora">
+                <button
+                  className="mt-4 bg-primary text-white text-left px-4 py-2 rounded-full shadow-md hover:bg-hovershed transition font-lora"
+                  title={`Learn more about the ${post.title} blog post`} // Descriptive title added here
+                >
                   Read More
                 </button>
               </Link>
@@ -68,6 +79,17 @@ const OurBlog = () => {
           </div>
         ))}
       </div>
+
+      {/* Show "View All" button only if we're showing a limited set */}
+      {limit && (
+        <div className="mt-8">
+          <Link href="/blog">
+            <button className="bg-primary text-white py-3 px-6 rounded-full hover:bg-white hover:text-primary border hover:border-primary transition font-lora">
+              View All Blog Posts
+            </button>
+          </Link>
+        </div>
+      )}
     </section>
   );
 };

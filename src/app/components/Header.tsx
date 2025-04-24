@@ -1,4 +1,3 @@
-
 "use client";
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
@@ -30,13 +29,23 @@ const Header = () => {
             className="transition-all duration-300 max-w-[180px] md:max-w-[170px] h-auto"
           />
         </Link>
+
+        {/* Navbar for larger screens */}
         <div className="hidden sm:flex md:hidden xl:flex">
           <Navbar />
         </div>
-        <button className="flex xl:hidden text-gray-800" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
+
+        {/* Mobile menu toggle button with accessible label */}
+        <button
+          className="flex xl:hidden text-gray-800"
+          onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+          aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"} // Added aria-label
+        >
           {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
       </div>
+
+      {/* Mobile menu component */}
       <MobileMenu isOpen={isMobileMenuOpen} onClose={() => setIsMobileMenuOpen(false)} />
     </header>
   );

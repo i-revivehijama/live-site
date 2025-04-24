@@ -64,7 +64,7 @@ const HeroSection = () => {
             priority={index === 0} // Prioritize the first image
           />
         </motion.div>
-      </AnimatePresence>
+      </AnimatePresence> 
 
       {/* Dynamic Content */}
       <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-6 z-20">
@@ -75,7 +75,7 @@ const HeroSection = () => {
           {slides[index].paragraph}
         </p>
 
-        <Link href="/book-appointment">
+        <Link href="/appointments">
           <button className="bg-primary text-white px-6 py-3 font-lora rounded-full text-[clamp(1rem, 2vw, 1.5rem)] hover:bg-white hover:text-hovershed border border-hovershed hover:border-hovershed transition">
             Book Appointment
           </button>
