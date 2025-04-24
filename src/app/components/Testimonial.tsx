@@ -26,9 +26,9 @@ export default function Testimonial() {
       className="bg-primary py-20 text-center text-white"
       data-aos="zoom-in-down"
     >
-      <h3 className="text-2xl font-bold font-lora">TESTIMONIAL</h3>
+      <h3 className="text-2xl font-bold font-lora">TESTIMONIALS</h3>
       <h2 className="text-3xl md:text-5xl lg:text-6xl font-montserrat text-black font-bold mt-2">
-        What Clients are Say
+      Hear From Our Clients
       </h2>
 
       <div className="flex items-center justify-evenly mt-6 gap-6 font-lora text-xl">
@@ -46,7 +46,7 @@ export default function Testimonial() {
           transition={{ duration: 0.5 }}
           className="w-2/3 max-w-xl"
         >
-          <p className="mt-4 text-lg font-light">{testimonials[index].text}</p>
+          <p className="mt-4 text-2xl font-light">{testimonials[index].text}</p>
           <h4 className="mt-4 font-semibold">{testimonials[index].name}</h4>
           <div className="flex justify-center mt-2">
             {[...Array(5)].map((_, i) => (

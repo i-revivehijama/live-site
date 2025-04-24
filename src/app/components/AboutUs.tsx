@@ -15,13 +15,14 @@ const AboutUs = () => {
           viewport={{ once: true }}
           className="w-full md:w-1/2"
         >
-          <Image
-            src="/about01.JPG"
-            alt="About Us"
-            width={600}
-            height={400}
-            className="w-full rounded-lg shadow-lg"
-          />
+         <Image
+  src="/about01.JPG"
+  alt="About Us"
+  width={600}
+  height={400}
+  quality={100}
+  className="w-full h-[900px] object-cover rounded-lg shadow-lg"
+/>
         </motion.div>
 
         {/* Right Side - Content Animation */}
