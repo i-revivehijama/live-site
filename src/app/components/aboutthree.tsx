@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import Link from 'next/link';
+import Link from "next/link";
 
 const teamMembers = [
   {
@@ -37,7 +37,9 @@ const teamMembers = [
 export default function AboutThree() {
   return (
     <div className="py-10 px-4 md:px-20 bg-gray-100">
-      <h2 className="text-3xl font-bold text-center mb-10">Meet Our Team</h2>
+      <h2 className="text-3xl font-bold text-center mb-10 text-primary dark:text-primary">
+        Meet Our Team
+      </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         {teamMembers.map((member) => (
           <div
@@ -49,18 +51,19 @@ export default function AboutThree() {
               <Image
                 src={member.image}
                 alt={`${member.name}, ${member.qualification}`}
-                width={500}
-                height={500}
+                layout="fill"
+                objectFit="cover"
                 className="object-cover"
-                sizes="(max-width: 768px) 100vw, 25vw"
-                priority={member.id === 1 ? true : false}
+                priority={member.id === 1}
               />
+              {/* Overlay for better text contrast */}
+              <div className="absolute inset-0 bg-black bg-opacity-20"></div>
             </div>
 
-            {/* Normal Text */}
-            <div className="p-4 text-center group-hover:opacity-0 transition-opacity duration-300">
-              <h3 className="text-xl font-semibold">{member.name}</h3>
-              <p className="text-gray-600">{member.qualification}</p>
+            {/* Name & Qualification */}
+            <div className="p-4 text-center z-10 relative group-hover:opacity-0 transition-opacity duration-300">
+              <h3 className="text-xl font-semibold text-black">{member.name}</h3>
+              <p className="text-gray-800">{member.qualification}</p>
             </div>
 
             {/* Hover Overlay */}
