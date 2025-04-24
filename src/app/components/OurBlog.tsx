@@ -44,11 +44,11 @@ const OurBlog: React.FC<OurBlogProps> = ({ limit }) => {
             className="bg-white rounded-lg shadow-lg overflow-hidden border border-hovershed"
           >
             <Image
-              src={post.image}
-              width={450} // Increased width slightly
-              height={320} // Increased height more
-              alt={post.title}
-              className="w-full h-64 object-center object-cover" // Increased Tailwind height
+              src={post.image || '/default-image.jpg'}  // Fallback image if missing
+              width={450}  // Increased width slightly
+              height={320}  // Increased height more
+              alt={`Image for blog post: ${post.title}`}  // Ensure alt text is descriptive
+              className="w-full h-64 object-center object-cover"
             />
             <div className="p-4">
               <p className="text-primary text-sm flex justify-between font-lora">
@@ -66,11 +66,12 @@ const OurBlog: React.FC<OurBlogProps> = ({ limit }) => {
                 {post.description}
               </p>
 
-              {/* "Read More" button with descriptive title */}
+              {/* "Read More" button with descriptive attributes */}
               <Link href={`/post/${post.slug}`}>
                 <button
                   className="mt-4 bg-primary text-white text-left px-4 py-2 rounded-full shadow-md hover:bg-hovershed transition font-lora"
-                  title={`Learn more about the ${post.title} blog post`} // Descriptive title added here
+                  title={`Learn more about the ${post.title} blog post`}  // Descriptive title for accessibility
+                  aria-label={`Read more about the ${post.title} blog post`}  // Added aria-label for accessibility
                 >
                   Read More
                 </button>
@@ -84,7 +85,10 @@ const OurBlog: React.FC<OurBlogProps> = ({ limit }) => {
       {limit && (
         <div className="mt-8">
           <Link href="/blog">
-            <button className="bg-primary text-white py-3 px-6 rounded-full hover:bg-white hover:text-primary border hover:border-primary transition font-lora">
+            <button
+              className="bg-primary text-white py-3 px-6 rounded-full hover:bg-white hover:text-primary border hover:border-primary transition font-lora"
+              aria-label="View all blog posts"  // Added aria-label for better accessibility
+            >
               View All Blog Posts
             </button>
           </Link>

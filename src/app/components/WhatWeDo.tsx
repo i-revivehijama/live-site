@@ -40,8 +40,8 @@ const WhatWeDo: React.FC<WhatWeDoProps> = ({ limit }) => {
 
             <div className="relative h-56 overflow-hidden">
               <Image
-                src={service.image}
-                alt={service.title}
+                src={service.image || '/default-image.jpg'}  // Fallback image if missing
+                alt={`Image for treatment plan: ${service.title}`}  // Descriptive alt text for accessibility
                 fill
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 className="w-full h-full object-cover transition-transform duration-700 ease-in-out group-hover:scale-110"
@@ -58,7 +58,8 @@ const WhatWeDo: React.FC<WhatWeDoProps> = ({ limit }) => {
               <Link href={`/treatment-plans/${service.slug}`}>
                 <button
                   className="mt-4 bg-primary text-white py-3 px-5 rounded-full hover:bg-white hover:text-hovershed border hover:border-hovershed transition relative z-10 hover:text-primary font-lora"
-                  title={`Learn more about the ${service.title} Treatment Plan`}
+                  title={`Learn more about the ${service.title} Treatment Plan`}  // Descriptive title for accessibility
+                  aria-label={`Read more about the ${service.title} Treatment Plan`}  // Added aria-label for accessibility
                 >
                   Read More
                 </button>
@@ -72,7 +73,10 @@ const WhatWeDo: React.FC<WhatWeDoProps> = ({ limit }) => {
       {limit && (
         <div className="mt-8">
           <Link href="/treatment-plans">
-            <button className="bg-primary text-white py-3 px-6 rounded-full hover:bg-white hover:text-primary border hover:border-primary transition font-lora">
+            <button
+              className="bg-primary text-white py-3 px-6 rounded-full hover:bg-white hover:text-primary border hover:border-primary transition font-lora"
+              aria-label="View all treatment plans"  // Added aria-label for better accessibility
+            >
               View All Treatment Plans
             </button>
           </Link>
