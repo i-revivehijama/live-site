@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Head from "next/head";
+import Head from "next/head"; // Import next/head to add metadata
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,7 +27,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <meta name="p:domain_verify" content="b3119bbb53b18a0ee80a802cb5281dc9" />
+      <meta name="p:domain_verify" content="b3119bbb53b18a0ee80a802cb5281dc9"/>
+        {/* Meta tags for SEO and social media */}
         <meta
           name="description"
           content="Get the best Hijama Cupping Therapy in Hyderabad at i-Revive Body & Soul. Our experienced certified practitioners are here to help. Schedule your appointment now! Visit www.i-revive.com."
@@ -47,8 +48,8 @@ export default function RootLayout({
         <meta property="og:url" content="https://www.i-revive.com" />
         <meta property="og:site_name" content="i-Revive Body & Soul" />
         <meta property="og:type" content="website" />
-
-        {/* Existing JSON-LD Schemas */}
+        
+        {/* Structured data in JSON-LD */}
         <script type="application/ld+json">
           {`{
             "@context": "https://schema.org/",
@@ -82,39 +83,7 @@ export default function RootLayout({
           }`}
         </script>
 
-        {/* ✅ NEW: Organization with contactPoint */}
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            name: "i-Revive Body & Soul",
-            url: "https://www.i-revive.com",
-            logo: "https://static.wixstatic.com/media/2feea3_3fb6eab04f94496cb6c5f7b583c74925~mv2.png",
-            contactPoint: [
-              {
-                "@type": "ContactPoint",
-                telephone: "+91-800-9944-335",
-                contactType: "customer support",
-                areaServed: "IN",
-                availableLanguage: ["English", "Hindi", "Urdu"],
-              },
-              {
-                "@type": "ContactPoint",
-                email: "info@irevive.com",
-                contactType: "customer support",
-                areaServed: "IN",
-                availableLanguage: ["English", "Hindi", "Urdu"],
-              }
-            ],
-            sameAs: [
-              "https://www.google.com/maps/place/Royal+Colony,+Mehdipatnam,+Hyderabad",
-              "https://www.instagram.com/yourbrand",  // optional
-              "https://www.facebook.com/yourbrand"    // optional
-            ]
-          })}
-        </script>
-
-        {/* Twitter Cards */}
+        {/* Twitter meta tags */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Best Hijama Cupping Therapy Clinic in Hyderabad | i-Revive Body & Soul" />
         <meta

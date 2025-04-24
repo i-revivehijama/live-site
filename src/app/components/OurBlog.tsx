@@ -28,7 +28,9 @@ const OurBlog: React.FC<OurBlogProps> = ({ limit }) => {
 
   return (
     <section className="px-6 md:px-16 py-6 lg:py-16 bg-white text-center">
-      <h2 className="text-primary text-3xl sm:text-4xl md:text-5xl font-bold font-serif">OUR BLOG</h2>
+      <h2 className="text-primary text-3xl sm:text-4xl md:text-5xl font-bold font-serif">
+        OUR BLOG
+      </h2>
 
       <p className="text-gray-600 mt-4 max-w-3xl mx-auto font-lora text-2xl font-bold">
         Stay informed and inspired with our blog, where we share expert
@@ -44,10 +46,10 @@ const OurBlog: React.FC<OurBlogProps> = ({ limit }) => {
             className="bg-white rounded-lg shadow-lg overflow-hidden border border-hovershed"
           >
             <Image
-              src={post.image || '/default-image.jpg'}  // Fallback image if missing
-              width={450}  // Increased width slightly
-              height={320}  // Increased height more
-              alt={`Image for blog post: ${post.title}`}  // Ensure alt text is descriptive
+              src={post.image || "/default-image.jpg"} // Fallback image if missing
+              width={450} // Increased width slightly
+              height={320} // Increased height more
+              alt={`Image for blog post: ${post.title}`} // Ensure alt text is descriptive
               className="w-full h-64 object-center object-cover"
             />
             <div className="p-4">
@@ -67,14 +69,14 @@ const OurBlog: React.FC<OurBlogProps> = ({ limit }) => {
               </p>
 
               {/* "Read More" button with descriptive attributes */}
-              <Link href={`/post/${post.slug}`}>
-                <button
-                  className="mt-4 bg-primary text-white text-left px-4 py-2 rounded-full shadow-md hover:bg-hovershed transition font-lora"
-                  title={`Learn more about the ${post.title} blog post`}  // Descriptive title for accessibility
-                  aria-label={`Read more about the ${post.title} blog post`}  // Added aria-label for accessibility
-                >
-                  Read More
-                </button>
+              <Link
+                href={`/post/${post.slug}`}
+                className="mt-4 inline-block bg-primary text-white text-left px-4 py-2 rounded-full shadow-md hover:bg-hovershed transition font-lora"
+                title={`Learn more about the ${post.title} blog post`}
+                aria-label={`Read more about the ${post.title} blog post`}
+              >
+                Read More
+                <span className="sr-only"> about {post.title}</span>
               </Link>
             </div>
           </div>
@@ -87,7 +89,7 @@ const OurBlog: React.FC<OurBlogProps> = ({ limit }) => {
           <Link href="/blog">
             <button
               className="bg-primary text-white py-3 px-6 rounded-full hover:bg-white hover:text-primary border hover:border-primary transition font-lora"
-              aria-label="View all blog posts"  // Added aria-label for better accessibility
+              aria-label="View all blog posts" // Added aria-label for better accessibility
             >
               View All Blog Posts
             </button>

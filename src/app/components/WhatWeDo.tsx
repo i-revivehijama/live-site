@@ -55,15 +55,16 @@ const WhatWeDo: React.FC<WhatWeDoProps> = ({ limit }) => {
               <p className="mt-3 text-xl text-left flex-1 relative z-10 group-hover:text-white font-lora">
                 {service.description}
               </p>
-              <Link href={`/treatment-plans/${service.slug}`}>
-                <button
-                  className="mt-4 bg-primary text-white py-3 px-5 rounded-full hover:bg-white hover:text-hovershed border hover:border-hovershed transition relative z-10 hover:text-primary font-lora"
-                  title={`Learn more about the ${service.title} Treatment Plan`}  // Descriptive title for accessibility
-                  aria-label={`Read more about the ${service.title} Treatment Plan`}  // Added aria-label for accessibility
-                >
-                  Read More
-                </button>
-              </Link>
+              <Link
+  href={`/treatment-plans/${service.slug}`}
+  className="mt-4 inline-block bg-primary text-white py-3 px-5 rounded-full hover:bg-white hover:text-hovershed border hover:border-hovershed transition relative z-10 hover:text-primary font-lora"
+  title={`Learn more about the ${service.title} Treatment Plan`}
+  aria-label={`Read more about the ${service.title} Treatment Plan`}
+>
+  Read More
+  <span className="sr-only"> about {service.title} Treatment Plan</span>
+</Link>
+
             </div>
           </motion.div>
         ))}
