@@ -32,7 +32,7 @@ const OurBlog: React.FC<OurBlogProps> = ({ limit }) => {
         OUR BLOG
       </h2>
 
-      <p className="text-gray-600 mt-4 max-w-3xl mx-auto font-lora text-2xl font-bold">
+      <p className="text-gray-600 mt-4 max-w-3xl mx-auto font-lora text-2xl">
         Stay informed and inspired with our blog, where we share expert
         insights, wellness tips, and the latest trends in Hijama therapy.
         Explore topics to support your journey toward better health and
