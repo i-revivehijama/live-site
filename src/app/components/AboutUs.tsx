@@ -16,14 +16,13 @@ const AboutUs = () => {
           className="w-full md:w-1/2"
         >
           <Image
-  src="/about01.JPG"
-  alt="About Us"
-  width={600}
-  height={400}
-  quality={100}
-  className="w-full h-[300px] sm:h-[450px] md:h-[600px] lg:h-[900px] object-cover rounded-lg shadow-lg"
-/>
-
+            src="/about01.JPG"
+            alt="About Us"
+            width={600}
+            height={400}
+            quality={100}
+            className="w-full h-[300px] sm:h-[450px] md:h-[600px] lg:h-[900px] object-cover rounded-lg shadow-lg"
+          />
         </motion.div>
 
         {/* Right Side - Content Animation */}
