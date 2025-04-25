@@ -10,7 +10,7 @@ const AboutTwo = () => {
         {/* Content Section */}
         <div>
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold font-montserrat">
-            About <span className="text-primary">Us</span> 
+            About <span className="text-primary">Us</span>
           </h2>
           <h4 className="text-2xl md:text-3xl lg:text-3xl font-bold font-montserrat">
             i-Revive – Restoring Health, Transforming Lives
@@ -22,14 +22,12 @@ const AboutTwo = () => {
             applied it often was. Despite its powerful healing properties,
             Hijama was frequently practiced without proper knowledge or
             technique, leading to average or ineffective outcomes. <br />
-          
             Recognizing this gap, we saw a meaningful opportunity to elevate
             Hijama to the standard it truly deserves. With a shared vision to
             make a lasting difference, core members from diverse fields -
             including medicine - came together to establish iRevive. Our goal
             was clear: to create a professional, research-driven Hijama clinic
             that delivers effective, natural, and sustainable healthcare.
-            
             <br />
             i-Revive is more than a clinic - it is a mission-led initiative
             committed to holistic healing. We are focused on bringing real value
@@ -51,17 +49,16 @@ const AboutTwo = () => {
 
         {/* Image Section */}
         <div className="w-full">
-  <Image
-    src="/about1.JPG"
-    alt="About i-Revive Hijama Cupping"
-    width={600}
-    height={400}
-    className="w-full h-auto rounded-lg shadow-md"
-    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 600px"
-    priority
-  />
-</div>
-
+          <Image
+            src="/about1.JPG"
+            alt="About i-Revive Hijama Cupping"
+            width={600}
+            height={400}
+            className="w-full h-auto rounded-lg shadow-md"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 600px"
+            priority
+          />
+        </div>
       </div>
     </section>
   );
