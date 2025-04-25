@@ -51,15 +51,17 @@ const AboutTwo = () => {
 
         {/* Image Section */}
         <div className="w-full">
-          <Image
-            src="/about1.JPG"
-            alt="About i-Revive Hijama Cupping"
-            width={600}
-            height={400}
-            className="w-full h-auto rounded-lg shadow-md"
-            priority
-          />
-        </div>
+  <Image
+    src="/about1.JPG"
+    alt="About i-Revive Hijama Cupping"
+    width={600}
+    height={400}
+    className="w-full h-auto rounded-lg shadow-md"
+    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 600px"
+    priority
+  />
+</div>
+
       </div>
     </section>
   );

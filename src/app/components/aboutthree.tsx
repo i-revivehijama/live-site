@@ -54,7 +54,8 @@ export default function AboutThree() {
                 layout="fill"
                 objectFit="cover"
                 className="object-cover"
-                priority={member.id === 1}
+                loading={member.id !== 1 ? "lazy" : undefined}  // Lazy-load for all but the first image
+                priority={member.id === 1}  // Priority load for the first image
               />
               {/* Overlay for better text contrast */}
               <div className="absolute inset-0 bg-black bg-opacity-20"></div>
