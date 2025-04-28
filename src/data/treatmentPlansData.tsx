@@ -34,7 +34,7 @@ export const treatmentPlansData = [
         </div>
 
         {/* Description */}
-        <p className="mt-4 text-sm sm:text-base md:text-lg text-black leading-relaxed dark:text-white px-4 sm:px-6 md:px-16 text-justify sm:text-justify mx-auto max-w-4xl">
+        <p className="mt-4 text-sm sm:text-base md:text-lg text-black leading-relaxed dark:text-white px-4 sm:px-6 md:px-16 text-justify sm:text-justify mx-auto">
           The Sunnah Basic is a starter plan that covers the basic Sunnah
           Cupping sites which help in general body maintenance and applicable to
           diseases/chronic issues. <br className="hidden sm:block" />
@@ -43,58 +43,57 @@ export const treatmentPlansData = [
         </p>
 
         {/* Image + Content Section */}
-        <div className="container mx-auto max-w-6xl px-4 flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-20">
-          {/* Left - Image */}
-          <div className="w-full lg:w-1/2 flex justify-center">
+        {/* Full Section: Image + Benefits + Duration + Requirement */}
+
+        <div className="container mx-auto max-w-3xl px-4 py-16 flex flex-col items-center gap-12">
+          {/* Left Side - Image */}
+          <div className="w-full flex justify-center">
             <Image
-              alt="paana"
+              alt="Paana Image"
               src="/paana.jpg"
               width={500}
               height={500}
-              className="w-full max-w-sm h-auto rounded-2xl"
+              className="w-full h-auto rounded-2xl object-cover"
             />
           </div>
 
-          {/* Right - Text Content */}
-          <div className="w-full lg:w-1/2 ">
-            {/* Benefits */}
-            <div className="mt-8">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
+          {/* Right Side - Text Content */}
+          <div className="w-full flex flex-col gap-10">
+            {/* Benefits Section */}
+            <div>
+              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
                 Benefits
-                <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-
-              <div className="flex items-center justify-center min-h-screen">
-                <ul className="mt-3 space-y-2 text-gray-700 dark:text-white text-sm sm:text-base">
-                  <li>• Back and neck pains</li>
-                  <li>• Stiff muscles</li>
-                  <li>• Sore joints</li>
-                  <li>• Encourage blood flow</li>
-                  <li>• Reduces pain and inflammation</li>
-                  <li>• Migraines & Head Aches</li>
-                  <li>• Fatigue</li>
-                </ul>
-              </div>
+              <div className="w-16 h-1 bg-green-500 mb-6"></div>
+              <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 text-base space-y-2">
+                <li>Back and neck pains</li>
+                <li>Stiff muscles</li>
+                <li>Sore joints</li>
+                <li>Encourage blood flow</li>
+                <li>Reduces pain and inflammation</li>
+                <li>Migraines & Headaches</li>
+                <li>Fatigue</li>
+              </ul>
             </div>
 
-            {/* Duration */}
-            <div className="mt-8">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
+            {/* Duration Section */}
+            <div>
+              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
                 Duration
-                <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-              <p className="mt-3 text-gray-700 text-sm dark:text-white sm:text-base flex justify-center">
+              <div className="w-16 h-1 bg-green-500 mb-6"></div>
+              <p className="text-gray-700 dark:text-gray-300 text-base">
                 Each session goes for approximately 45–60 mins
               </p>
             </div>
 
-            {/* Requirement */}
-            <div className="mt-8 mb-8 ">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
+            {/* Requirement Section */}
+            <div>
+              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
                 Requirement
-                <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-              <p className="mt-3 text-gray-700 text-sm dark:text-white sm:text-base flex justify-center">
+              <div className="w-16 h-1 bg-green-500 mb-6"></div>
+              <p className="text-gray-700 dark:text-gray-300 text-base">
                 1 Session
               </p>
             </div>
@@ -102,28 +101,27 @@ export const treatmentPlansData = [
         </div>
 
         {/* Call to Action + Quote */}
-        <div className="relative z-10 bg-white px-4 sm:px-6 md:px-12 lg:px-16 py-10 sm:py-12 lg:py-24 w-full flex flex-col items-center space-y-10">
-  {/* Call for Appointments */}
-  <div className="flex justify-center">
-    <Link href="tel:800-9944-335">
-      <button className="flex items-center space-x-2 border dark:text-black border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
-        <span className="text-xl">📞</span>
-        <span>Call for Appointments</span>
-      </button>
-    </Link>
-  </div>
+        <div className="relative z-10 bg-white px-4 sm:px-6 md:px-12 lg:px-16 mb-10 sm:mb-12 lg:mb-24 w-full flex flex-col items-center space-y-10">
+          {/* Call for Appointments */}
+          <div className="flex justify-center">
+            <Link href="tel:800-9944-335">
+              <button className="flex items-center space-x-2 border dark:text-black border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
+                <span className="text-xl">📞</span>
+                <span>Call for Appointments</span>
+              </button>
+            </Link>
+          </div>
 
-  {/* Quote */}
-  <div className="flex flex-col items-center space-y-6 dark:text-black px-2">
-    <div className="border border-green-500 p-4 sm:p-6 rounded-lg relative text-center text-sm sm:text-lg italic font-semibold text-gray-800 bg-white max-w-full sm:max-w-2xl">
-      <p className="text-base sm:text-lg lg:text-2xl">
-        Hijama Cupping – The only therapy which affects both{" "}
-        <strong>Body & Soul.</strong>
-      </p>
-    </div>
-  </div>
-</div>
-
+          {/* Quote */}
+          <div className="flex flex-col items-center space-y-6 dark:text-black px-2">
+            <div className="border border-green-500 p-4 sm:p-6 rounded-lg relative text-center text-sm sm:text-lg italic font-semibold text-gray-800 bg-white max-w-full sm:max-w-2xl">
+              <p className="text-base sm:text-lg lg:text-2xl">
+                Hijama Cupping – The only therapy which affects both{" "}
+                <strong>Body & Soul.</strong>
+              </p>
+            </div>
+          </div>
+        </div>
 
         {/* Other Plans Section */}
         <div className="relative z-10 bg-gray-100 py-6 sm:py-10 lg:py-12">
@@ -139,18 +137,18 @@ export const treatmentPlansData = [
   },
   {
     id: 2,
-      title: "Sunnah Plus",
-      image: "/treat2.jpeg",
-      slug: "sunnah-plus",
-      content: (
+    title: "Sunnah Plus",
+    image: "/treat2.jpeg",
+    slug: "sunnah-plus",
+    content: (
       <section className="relative">
         {/* Overlay */}
         <div className="absolute w-full h-full"></div>
-  
+
         {/* Content */}
         <div className="relative z-10 flex flex-col justify-center h-full px-4 sm:px-6 md:px-16 text-black">
           <div className="py-4"></div>
-  
+
           {/* Back Link */}
           <Link
             href="/treatment-plans"
@@ -158,110 +156,106 @@ export const treatmentPlansData = [
           >
             ← Back to All Plans
           </Link>
-  
+
           {/* Heading */}
-          <h1 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-bold text-black dark:text-white font-montserrat">
-            Sunnah Plus 
+          <h1 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-bold text-black dark:text-white">
+            Sunnah Plus
           </h1>
-  
+
           {/* Underline Effect */}
           <div className="w-24 h-0.5 bg-green-400 mt-2"></div>
         </div>
-  
+
         {/* Description */}
-        <p className="mt-4 text-sm sm:text-base md:text-lg text-black leading-relaxed dark:text-white px-4 sm:px-6 md:px-16 text-justify sm:text-justify mx-auto max-w-4xl font-lora">
-          The Sunnah Plus is a more extensive plan that covering 9 (10 with 2nd Kahil) points including the basic Sunnah points, along with a deep tissue stroke and gliding cupping.
+        <p className="mt-4 text-sm sm:text-base md:text-lg text-black leading-relaxed dark:text-white px-4 sm:px-6 md:px-16 text-justify sm:text-justify mx-auto">
+          The Sunnah Plus is a more extensive plan covering 9 (10 with 2nd
+          Kahil) points including the basic Sunnah points, along with a deep
+          tissue stroke and gliding cupping.
         </p>
-  
+
         {/* Image + Content Section */}
-        <div className="container mx-auto max-w-6xl px-4 flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-20">
-          {/* Left - Image */}
-          <div className="w-full lg:w-1/2 flex justify-center">
+        <div className="container mx-auto max-w-3xl px-4 py-16 flex flex-col items-center gap-12">
+          {/* Left Side - Image */}
+          <div className="w-full flex justify-center">
             <Image
-                alt="paana"
-                src="/treat2.jpeg"
-                width={500}
-                height={500}
-                className="w-full max-w-sm h-auto rounded-2xl"
-              />
+              alt="Paana Image"
+              src="/treat2.jpeg"
+              width={500}
+              height={500}
+              className="w-full h-auto rounded-2xl object-cover"
+            />
           </div>
-  
-          {/* Right - Text Content */}
-          <div className="w-full lg:w-1/2 ">
-            {/* Benefits */}
-            <div className="mt-8">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
+
+          {/* Right Side - Text Content */}
+          <div className="w-full flex flex-col gap-10">
+            {/* Benefits Section */}
+            <div>
+              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
                 Benefits
-                <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-  
-              <div className="flex items-center justify-center min-h-screen">
-                <ul className="mt-3 space-y-2 text-gray-700 text-sm dark:text-white sm:text-base font-lora">
-                  <li>• Back and neck pains</li>
-                  <li>• Stiff muscles & Sore joints</li>
-                  <li>• Reduces pain and inflammation</li>
-                  <li>• Migraines, Head Aches & Fatigue</li>
-                  <li>• Rheumatic diseases such as arthritis andfibromyalgia.</li>
-                  <li>• Fertility and gynecological disorders.</li>
-                  <li>• Skin problems such as eczema and acne.</li>
-  
-                  <li>
-                    • Sedate the nervous system (which makes it anexcellent
-                    treatment for high blood pressure).
-                  </li>
-                  <li>• Menstrual cramps,PMS and other OBGYN issues</li>
-                </ul>
-              </div>
+              <div className="w-16 h-1 bg-green-500 mb-6"></div>
+              <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 text-base space-y-2">
+                <li>Back and neck pains</li>
+                <li>Stiff muscles & Sore joints</li>
+                <li>Reduces pain and inflammation</li>
+                <li>Migraines, Head Aches & Fatigue</li>
+                <li>Rheumatic diseases such as arthritis and fibromyalgia</li>
+                <li>Fertility and gynecological disorders</li>
+                <li>Skin problems such as eczema and acne</li>
+                <li>
+                  Sedates the nervous system (helps with high blood pressure)
+                </li>
+                <li>Menstrual cramps, PMS, and other OBGYN issues</li>
+              </ul>
             </div>
-  
-            {/* Duration */}
-            <div className="mt-8">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
+
+            {/* Duration Section */}
+            <div>
+              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
                 Duration
-                <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-              <p className="mt-3 text-gray-700 text-sm sm:text-base dark:text-white flex justify-center">
-                Each session goes for approximately 75-90 mins
+              <div className="w-16 h-1 bg-green-500 mb-6"></div>
+              <p className="text-gray-700 dark:text-gray-300 text-base">
+                Each session goes for approximately 75–90 mins
               </p>
             </div>
-  
-            {/* Requirement */}
-            <div className="mt-8 mb-8 ">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
+
+            {/* Requirement Section */}
+            <div>
+              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
                 Requirement
-                <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-              <p className="mt-3 text-gray-700 text-sm dark:text-white sm:text-base flex justify-center">
+              <div className="w-16 h-1 bg-green-500 mb-6"></div>
+              <p className="text-gray-700 dark:text-gray-300 text-base">
                 1 Session
               </p>
             </div>
           </div>
         </div>
-  
+
         {/* Call to Action + Quote */}
-        <div className="relative z-10 bg-white px-4 sm:px-6 md:px-12 lg:px-16 py-10 sm:py-12 lg:py-24 w-full flex flex-col items-center space-y-10">
-  {/* Call for Appointments */}
-  <div className="flex justify-center">
-    <Link href="tel:800-9944-335">
-      <button className="flex items-center space-x-2 border dark:text-black border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
-        <span className="text-xl">📞</span>
-        <span>Call for Appointments</span>
-      </button>
-    </Link>
-  </div>
-  
-  {/* Quote */}
-  <div className="flex flex-col items-center space-y-6 dark:text-black px-2">
-    <div className="border border-green-500 p-4 sm:p-6 rounded-lg relative text-center text-sm sm:text-lg italic font-semibold text-gray-800 bg-white max-w-full sm:max-w-2xl">
-      <p className="text-base sm:text-lg lg:text-2xl">
-        Hijama Cupping – The only therapy which affects both{" "}
-        <strong>Body & Soul.</strong>
-      </p>
-    </div>
-  </div>
-  </div>
-  
-  
+        <div className="relative z-10 bg-white px-4 sm:px-6 md:px-12 lg:px-16 mb-10 sm:mb-12 lg:mb-24 w-full flex flex-col items-center space-y-10">
+          {/* Call for Appointments */}
+          <div className="flex justify-center">
+            <Link href="tel:800-9944-335">
+              <button className="flex items-center space-x-2 border dark:text-black border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
+                <span className="text-xl">📞</span>
+                <span>Call for Appointments</span>
+              </button>
+            </Link>
+          </div>
+
+          {/* Quote */}
+          <div className="flex flex-col items-center space-y-6 dark:text-black px-2">
+            <div className="border border-green-500 p-4 sm:p-6 rounded-lg relative text-center text-sm sm:text-lg italic font-semibold text-gray-800 bg-white max-w-full sm:max-w-2xl">
+              <p className="text-base sm:text-lg lg:text-2xl">
+                Hijama Cupping – The only therapy which affects both{" "}
+                <strong>Body & Soul.</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+
         {/* Other Plans Section */}
         <div className="relative z-10 bg-gray-100 py-6 sm:py-10 lg:py-12">
           <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-16">
@@ -276,18 +270,18 @@ export const treatmentPlansData = [
   },
   {
     id: 3,
-      title: "Vital Organ Cleanse",
-      image: "/treat3.jpeg",
-      slug: "vital-organ-cleanse",
-      content: (
+    title: "Vital Organ Cleanse",
+    image: "/treat3.jpeg",
+    slug: "vital-organ-cleanse",
+    content: (
       <section className="relative">
         {/* Overlay */}
         <div className="absolute w-full h-full"></div>
-  
+
         {/* Content */}
         <div className="relative z-10 flex flex-col justify-center h-full px-4 sm:px-6 md:px-16 text-black">
           <div className="py-4"></div>
-  
+
           {/* Back Link */}
           <Link
             href="/treatment-plans"
@@ -295,113 +289,109 @@ export const treatmentPlansData = [
           >
             ← Back to All Plans
           </Link>
-  
+
           {/* Heading */}
           <h1 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-bold text-black dark:text-white">
             Vital Organ Cleanse
           </h1>
-  
+
           {/* Underline Effect */}
           <div className="w-24 h-0.5 bg-green-400 mt-2"></div>
         </div>
-  
+
         {/* Description */}
-        <p className="mt-4 text-sm sm:text-base md:text-lg text-black leading-relaxed dark:text-white px-4 sm:px-6 md:px-16 text-justify sm:text-justify mx-auto max-w-4xl font-lora">
+        <p className="mt-4 text-sm sm:text-base md:text-lg text-black leading-relaxed dark:text-white px-4 sm:px-6 md:px-16 text-justify sm:text-justify mx-auto">
           The vital organ cleanse is a body maintenance plan that targets all
-              vital bodily systems. It is an exhaustive cleanse targeting all
-              organs, addressing multiple conditions and body systems. The cleanse
-              also acts like a preventative maintenance for your body’s overall
-              wellbeing.
+          vital bodily systems. It is an exhaustive cleanse targeting all
+          organs, addressing multiple conditions and body systems. The cleanse
+          also acts like a preventative maintenance for your body’s overall
+          wellbeing.
         </p>
-  
+
         {/* Image + Content Section */}
-        <div className="container mx-auto max-w-6xl px-4 flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-20">
-          {/* Left - Image */}
-          <div className="w-full lg:w-1/2 flex justify-center">
+        <div className="container mx-auto max-w-3xl px-4 py-16 flex flex-col items-center gap-12">
+          {/* Left Side - Image */}
+          <div className="w-full flex justify-center">
             <Image
-                alt="paana"
-                src="/treat2.jpeg"
-                width={500}
-                height={500}
-                className="w-full max-w-sm h-auto rounded-2xl"
-              />
+              alt="Vital Organ Cleanse Image"
+              src="/treat3.jpeg"
+              width={500}
+              height={500}
+              className="w-full h-auto rounded-2xl object-cover"
+            />
           </div>
-  
-          {/* Right - Text Content */}
-          <div className="w-full lg:w-1/2 ">
-            {/* Benefits */}
-            <div className="mt-8">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
+
+          {/* Right Side - Text Content */}
+          <div className="w-full flex flex-col gap-10">
+            {/* Benefits Section */}
+            <div>
+              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
                 Benefits
-                <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-  
-              <div className="flex items-center justify-center min-h-screen">
-                <ul className="mt-3 space-y-2 text-gray-700 text-sm dark:text-white sm:text-base font-lora">
-                  <li>
-                    • Vitalises bodily functions by reinvigorating organsthrough
-                    improved blood flow.
-                  </li>
-                  <li>• Clear blockages and stagnated circulation</li>
-                  <li>
-                    • Activate and clear the veins, arteries and capillaries
-                  </li>
-                  <li>• Realign/balance vital energy</li>
-                  <li>• Promote and improve circulation</li>
-                  <li>• Helps achieve homeostasis</li>
-                </ul>
-              </div>
+              <div className="w-16 h-1 bg-green-500 mb-6"></div>
+              <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 text-base space-y-2">
+                <li>
+                  Vitalises bodily functions by reinvigorating organs through
+                  improved blood flow
+                </li>
+                <li>Clears blockages and stagnated circulation</li>
+                <li>
+                  Activates and clears the veins, arteries, and capillaries
+                </li>
+                <li>Realigns/balances vital energy</li>
+                <li>Promotes and improves circulation</li>
+                <li>Helps achieve homeostasis</li>
+              </ul>
             </div>
-  
-            {/* Duration */}
-            <div className="mt-8">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
+
+            {/* Duration Section */}
+            <div>
+              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
                 Duration
-                <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-              <p className="mt-3 text-gray-700 text-sm sm:text-base flex dark:text-white justify-center">
-                Each session goes for approximately 60 -90 mins
+              <div className="w-16 h-1 bg-green-500 mb-6"></div>
+              <p className="text-gray-700 dark:text-gray-300 text-base">
+                Each session goes for approximately 60–90 mins
               </p>
             </div>
-  
-            {/* Requirement */}
-            <div className="mt-8 mb-8 ">
-              <h2 className="text-lg sm:text-xl font-bold dadark:text-white flex justify-center">
+
+            {/* Requirement Section */}
+            <div>
+              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
                 Requirement
-                <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-              <p className="mt-3 text-gray-700 text-sm sm:text-base dark:text-white flex justify-center">
-                First timers one Session every 4 to 6 weeks, requiring 3
-                sessions. Followed by quarterly sessions.
+              <div className="w-16 h-1 bg-green-500 mb-6"></div>
+              <p className="text-gray-700 dark:text-gray-300 text-base">
+                First-timers: One session every 4 to 6 weeks (total of 3
+                sessions). Followed by quarterly sessions.
               </p>
             </div>
           </div>
         </div>
-  
+
         {/* Call to Action + Quote */}
-        <div className="relative z-10 bg-white px-4 sm:px-6 md:px-12 lg:px-16 py-10 sm:py-12 lg:py-24 w-full flex flex-col items-center space-y-10">
-  {/* Call for Appointments */}
-  <div className="flex justify-center">
-    <Link href="tel:800-9944-335">
-      <button className="flex items-center space-x-2 border dark:text-black border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
-        <span className="text-xl">📞</span>
-        <span>Call for Appointments</span>
-      </button>
-    </Link>
-  </div>
-  
-  {/* Quote */}
-  <div className="flex flex-col items-center space-y-6 dark:text-black px-2">
-    <div className="border border-green-500 p-4 sm:p-6 rounded-lg relative text-center text-sm sm:text-lg italic font-semibold text-gray-800 bg-white max-w-full sm:max-w-2xl">
-      <p className="text-base sm:text-lg lg:text-2xl">
-        The most beneficial Hijama cupping is that applied while the
-        individual is healthy.
-      </p>
-    </div>
-  </div>
-  </div>
-  
-  
+        <div className="relative z-10 bg-white px-4 sm:px-6 md:px-12 lg:px-16 mb-10 sm:mb-12 lg:mb-24 w-full flex flex-col items-center space-y-10">
+          {/* Call for Appointments */}
+          <div className="flex justify-center">
+            <Link href="tel:800-9944-335">
+              <button className="flex items-center space-x-2 border dark:text-black border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
+                <span className="text-xl">📞</span>
+                <span>Call for Appointments</span>
+              </button>
+            </Link>
+          </div>
+
+          {/* Quote */}
+          <div className="flex flex-col items-center space-y-6 dark:text-black px-2">
+            <div className="border border-green-500 p-4 sm:p-6 rounded-lg relative text-center text-sm sm:text-lg italic font-semibold text-gray-800 bg-white max-w-full sm:max-w-2xl">
+              <p className="text-base sm:text-lg lg:text-2xl">
+                The most beneficial Hijama cupping is that applied while the
+                individual is healthy.
+              </p>
+            </div>
+          </div>
+        </div>
+
         {/* Other Plans Section */}
         <div className="relative z-10 bg-gray-100 py-6 sm:py-10 lg:py-12">
           <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-16">
@@ -416,18 +406,18 @@ export const treatmentPlansData = [
   },
   {
     id: 4,
-      title: "Head Cupping",
-      image: "/treat4.jpeg",
-      slug: "head-cupping",
-      content: (
+    title: "Head Cupping",
+    image: "/treat4.jpeg",
+    slug: "head-cupping",
+    content: (
       <section className="relative">
         {/* Overlay */}
         <div className="absolute w-full h-full"></div>
-  
+
         {/* Content */}
         <div className="relative z-10 flex flex-col justify-center h-full px-4 sm:px-6 md:px-16 text-black">
           <div className="py-4"></div>
-  
+
           {/* Back Link */}
           <Link
             href="/treatment-plans"
@@ -435,106 +425,103 @@ export const treatmentPlansData = [
           >
             ← Back to All Plans
           </Link>
-  
+
           {/* Heading */}
           <h1 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-bold text-black dark:text-white">
             Head Cupping
           </h1>
-  
+
           {/* Underline Effect */}
           <div className="w-24 h-0.5 bg-green-400 mt-2"></div>
         </div>
-  
+
         {/* Description */}
-        <p className="mt-4 text-sm sm:text-base md:text-lg text-black leading-relaxed dark:text-white px-4 sm:px-6 md:px-16 text-justify sm:text-justify mx-auto max-w-4xl font-lora">
-          Head cupping is a very beneficial and can treat an array of ailments
-              related to the head. Performing cupping therapy on the scalp, can
-              help open the follicles and promote blood circulation to help
-              maintain the hair. A 2010 study by the World Family Medicine Journal
-              found that patients treated for chronic headaches said the headaches
-              were less severe after cupping therapy. The points include top of
-              the head (Yafookh), back of the head (Qamaduwah) and two along
-              adjoining bottom line of the ears (Akhda’ain).
+        <p className="mt-4 text-sm sm:text-base md:text-lg text-black leading-relaxed dark:text-white px-4 sm:px-6 md:px-16 text-justify sm:text-justify mx-auto">
+          Head cupping is highly beneficial and can treat an array of ailments
+          related to the head. Performing cupping therapy on the scalp can help
+          open the follicles and promote blood circulation to help maintain the
+          hair. A 2010 study by the World Family Medicine Journal found that
+          patients treated for chronic headaches experienced reduced severity
+          after cupping. Key points include the top of the head (Yafookh), back
+          of the head (Qamaduwah), and two along the base of the ears
+          (Akhda’ain).
         </p>
-  
+
         {/* Image + Content Section */}
-        <div className="container mx-auto max-w-6xl px-4 flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-20">
-          {/* Left - Image */}
-          <div className="w-full lg:w-1/2 flex justify-center">
+        <div className="container mx-auto max-w-3xl px-4 py-16 flex flex-col items-center gap-12">
+          {/* Left Side - Image */}
+          <div className="w-full flex justify-center">
             <Image
-              alt="paana"
+              alt="Head Cupping Image"
               src="/treat4.jpeg"
               width={500}
               height={500}
-              className="w-full max-w-sm h-auto rounded-2xl"
+              className="w-full h-auto rounded-2xl object-cover"
             />
           </div>
-          {/* Right - Text Content */}
-          <div className="w-full lg:w-1/2 ">
-            {/* Benefits */}
-            <div className="mt-8">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
+
+          {/* Right Side - Text Content */}
+          <div className="w-full flex flex-col gap-10">
+            {/* Benefits Section */}
+            <div>
+              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
                 Benefits
-                <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-  
-              <div className="flex items-center justify-center min-h-screen">
-                <ul className="mt-3 space-y-2 text-gray-700 text-sm dark:text-white sm:text-base font-lora">
-                  <li>• Helps treat headaches, sinus issues and migraines</li>
-                  <li>• Treats metaphysical issues</li>
-                  <li>• Encourages hair growth</li>
-                </ul>
-              </div>
+              <div className="w-16 h-1 bg-green-500 mb-6"></div>
+              <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 text-base space-y-2">
+                <li>Helps treat headaches, sinus issues, and migraines</li>
+                <li>Treats metaphysical issues</li>
+                <li>Encourages hair growth</li>
+              </ul>
             </div>
-  
-            {/* Duration */}
-            <div className="mt-8">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
+
+            {/* Duration Section */}
+            <div>
+              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
                 Duration
-                <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-              <p className="mt-3 text-gray-700 dark:text-white text-sm sm:text-base flex justify-center">
+              <div className="w-16 h-1 bg-green-500 mb-6"></div>
+              <p className="text-gray-700 dark:text-gray-300 text-base">
                 Each session goes for approximately 60 mins
               </p>
             </div>
-  
-            {/* Requirement */}
-            <div className="mt-8 mb-8 ">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
+
+            {/* Requirement Section */}
+            <div>
+              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
                 Requirement
-                <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-              <p className="mt-3 text-gray-700 text-sm dark:text-white sm:text-base flex justify-center">
-                6-8 sessions depending upon issues
+              <div className="w-16 h-1 bg-green-500 mb-6"></div>
+              <p className="text-gray-700 dark:text-gray-300 text-base">
+                6–8 sessions depending on individual issues
               </p>
             </div>
           </div>
         </div>
-  
+
         {/* Call to Action + Quote */}
-        <div className="relative z-10 bg-white px-4 sm:px-6 md:px-12 lg:px-16 py-10 sm:py-12 lg:py-24 w-full flex flex-col items-center space-y-10">
-  {/* Call for Appointments */}
-  <div className="flex justify-center">
-    <Link href="tel:800-9944-335">
-      <button className="flex items-center space-x-2 border border-black dark:text-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
-        <span className="text-xl">📞</span>
-        <span>Call for Appointments</span>
-      </button>
-    </Link>
-  </div>
-  
-  {/* Quote */}
-  <div className="flex flex-col items-center space-y-6 dark:text-black px-2">
-    <div className="border border-green-500 p-4 sm:p-6 rounded-lg  relative text-center text-sm sm:text-lg italic font-semibold text-gray-800 bg-white max-w-full sm:max-w-2xl">
-      <p className="text-base sm:text-lg lg:text-2xl">
-        If you don’t pick a day for your body, then the body will surely
-                  pick some for you!
-      </p>
-    </div>
-  </div>
-  </div>
-  
-  
+        <div className="relative z-10 bg-white px-4 sm:px-6 md:px-12 lg:px-16 mb-10 sm:mb-12 lg:mb-24 w-full flex flex-col items-center space-y-10">
+          {/* Call for Appointments */}
+          <div className="flex justify-center">
+            <Link href="tel:800-9944-335">
+              <button className="flex items-center space-x-2 border border-black dark:text-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
+                <span className="text-xl">📞</span>
+                <span>Call for Appointments</span>
+              </button>
+            </Link>
+          </div>
+
+          {/* Quote */}
+          <div className="flex flex-col items-center space-y-6 dark:text-black px-2">
+            <div className="border border-green-500 p-4 sm:p-6 rounded-lg relative text-center text-sm sm:text-lg italic font-semibold text-gray-800 bg-white max-w-full sm:max-w-2xl">
+              <p className="text-base sm:text-lg lg:text-2xl">
+                If you don’t pick a day for your body, then the body will surely
+                pick some for you!
+              </p>
+            </div>
+          </div>
+        </div>
+
         {/* Other Plans Section */}
         <div className="relative z-10 bg-gray-100 py-6 sm:py-10 lg:py-12">
           <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-16">
@@ -549,18 +536,18 @@ export const treatmentPlansData = [
   },
   {
     id: 5,
-      title: "Lymphatic Cleanse",
-      image: "/treat5.jpeg",
-      slug: "lymphatic-cleanse",
-      content: (
+    title: "Lymphatic Cleanse",
+    image: "/treat5.jpeg",
+    slug: "lymphatic-cleanse",
+    content: (
       <section className="relative">
         {/* Overlay */}
         <div className="absolute w-full h-full"></div>
-  
+
         {/* Content */}
         <div className="relative z-10 flex flex-col justify-center h-full px-4 sm:px-6 md:px-16 text-black">
           <div className="py-4"></div>
-  
+
           {/* Back Link */}
           <Link
             href="/treatment-plans"
@@ -568,124 +555,119 @@ export const treatmentPlansData = [
           >
             ← Back to All Plans
           </Link>
-  
+
           {/* Heading */}
           <h1 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-bold text-black dark:text-white">
             Lymphatic Cleanse
           </h1>
-  
+
           {/* Underline Effect */}
           <div className="w-24 h-0.5 bg-green-400 mt-2"></div>
         </div>
-  
+
         {/* Description */}
-        <p className="mt-4 text-sm sm:text-base md:text-lg text-black leading-relaxed dark:text-white px-4 sm:px-6 md:px-16 text-justify sm:text-justify mx-auto max-w-4xl font-lora">
+        <p className="mt-4 text-sm sm:text-base md:text-lg text-black leading-relaxed dark:text-white px-4 sm:px-6 md:px-16 text-justify sm:text-justify mx-auto">
           The lymphatic system is our body’s ‘sewerage system’. It is
           responsible for collecting and removing wastes, toxins, dead cells
-          etc from the tissues, acting as a systematic garbage collection
+          etc. from the tissues, acting as a systematic garbage collection
           service. When this waste is not collected adequately or effectively,
-          it congregates as a localized congestion. <br />
+          it congregates as a localized congestion.
           <br />
-          This is where Cupping Therapy can assist; in the removal of these
-          blockages and stagnant fluids and having the lymph channels clear to
-          allow the lymphatic system to operate freely once again.
+          <br />
+          This is where Cupping Therapy can assist—in the removal of these
+          blockages and stagnant fluids, and in clearing lymph channels to allow
+          the lymphatic system to operate freely once again.
         </p>
-  
+
         {/* Image + Content Section */}
-        <div className="container mx-auto max-w-6xl px-4 flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-20">
-          {/* Left - Image */}
-          <div className="w-full lg:w-1/2 flex justify-center">
+        <div className="container mx-auto max-w-3xl px-4 py-16 flex flex-col items-center gap-12">
+          {/* Image */}
+          <div className="w-full flex justify-center">
             <Image
-              alt="paana"
+              alt="Lymphatic Cleanse Image"
               src="/treat5.jpeg"
               width={500}
               height={500}
-              className="w-full max-w-sm h-auto rounded-2xl"
+              className="w-full h-auto rounded-2xl object-cover"
             />
           </div>
-          {/* Right - Text Content */}
-          <div className="w-full lg:w-1/2 ">
+
+          {/* Text Content */}
+          <div className="w-full flex flex-col gap-10">
             {/* Benefits */}
-            <div className="mt-8">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
+            <div>
+              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
                 Benefits
-                <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-  
-              <div className="flex items-center justify-center min-h-screen">
-                <ul className="mt-3 space-y-2 text-gray-700 text-sm dark:text-white sm:text-base font-lora">
-                  <li>
-                    • Stimulate the lymphatic system and release local toxins
-                  </li>
-                  <li>• Clear blockages and stagnated circulation</li>
-                  <li>
-                    • Activate and clear the veins, arteries and capillaries
-                  </li>
-                  <li>
-                    • Helps treat blood disorders and neurological disorders
-                  </li>
-                  <li>
-                    • Reduces anxiety & depression by sedating central nervous
-                    system
-                  </li>
-                  <li>
-                    • Boosts metabolism and immune system. Facilitates weight loss
-                  </li>
-                </ul>
-              </div>
+              <div className="w-16 h-1 bg-green-500 mb-6"></div>
+              <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 text-base space-y-2">
+                <li>
+                  Stimulates the lymphatic system and releases local toxins
+                </li>
+                <li>Clears blockages and stagnated circulation</li>
+                <li>
+                  Activates and clears the veins, arteries, and capillaries
+                </li>
+                <li>Helps treat blood and neurological disorders</li>
+                <li>
+                  Reduces anxiety and depression by sedating the central nervous
+                  system
+                </li>
+                <li>
+                  Boosts metabolism and immune system; facilitates weight loss
+                </li>
+              </ul>
             </div>
-  
+
             {/* Duration */}
-            <div className="mt-8">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
+            <div>
+              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
                 Duration
-                <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-              <p className="mt-3 text-gray-700 text-sm sm:text-base dark:text-white flex justify-center">
-                Each session goes for approximately 90-120 mins
+              <div className="w-16 h-1 bg-green-500 mb-6"></div>
+              <p className="text-gray-700 dark:text-gray-300 text-base">
+                Each session goes for approximately 90–120 mins
               </p>
             </div>
-  
+
             {/* Requirement */}
-            <div className="mt-8 mb-8 ">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
+            <div>
+              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
                 Requirement
-                <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-              <p className="mt-3 text-gray-700 text-sm sm:text-base dark:text-white flex justify-center">
-                3 Sessions - 2 LD (lymphatic drainage)+ 1 HLD (LD followed by
-                Hijama cupping on nodal sites), weekly once for first timers;
-                may take more sessions to show up quantifiable/noticeable
-                results.
+              <div className="w-16 h-1 bg-green-500 mb-6"></div>
+              <p className="text-gray-700 dark:text-gray-300 text-base">
+                3 sessions — 2 LD (lymphatic drainage) + 1 HLD (LD followed by
+                Hijama cupping on nodal sites), weekly once for first-timers;
+                more sessions may be needed for noticeable results.
               </p>
             </div>
           </div>
         </div>
-  
+
         {/* Call to Action + Quote */}
-        <div className="relative z-10 bg-white px-4 sm:px-6 md:px-12 lg:px-16 py-10 sm:py-12 lg:py-24 w-full flex flex-col items-center space-y-10">
-  {/* Call for Appointments */}
-  <div className="flex justify-center">
-    <Link href="tel:800-9944-335">
-      <button className="flex items-center space-x-2 border dark:text-black border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
-        <span className="text-xl">📞</span>
-        <span>Call for Appointments</span>
-      </button>
-    </Link>
-  </div>
-  
-  {/* Quote */}
-  <div className="flex flex-col items-center space-y-6 dark:text-black px-2">
-    <div className="border border-green-500 p-4 sm:p-6 rounded-lg relative text-center text-sm sm:text-lg italic font-semibold text-gray-800 bg-white max-w-full sm:max-w-2xl">
-      <p className="text-base sm:text-lg lg:text-2xl">
-        Hijama Cupping: A sure fire remedy to all your body pains and
-        migraines. Say goodbye to stressful living.
-      </p>
-    </div>
-  </div>
-  </div>
-  
-  
+        <div className="relative z-10 bg-white px-4 sm:px-6 md:px-12 lg:px-16 mb-10 sm:mb-12 lg:mb-24 w-full flex flex-col items-center space-y-10">
+          {/* Call for Appointments */}
+          <div className="flex justify-center">
+            <Link href="tel:800-9944-335">
+              <button className="flex items-center space-x-2 border border-black dark:text-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
+                <span className="text-xl">📞</span>
+                <span>Call for Appointments</span>
+              </button>
+            </Link>
+          </div>
+
+          {/* Quote */}
+          <div className="flex flex-col items-center space-y-6 dark:text-black px-2">
+            <div className="border border-green-500 p-4 sm:p-6 rounded-lg relative text-center text-sm sm:text-lg italic font-semibold text-gray-800 bg-white max-w-full sm:max-w-2xl">
+              <p className="text-base sm:text-lg lg:text-2xl">
+                Hijama Cupping: A sure-fire remedy to all your body pains and
+                migraines. Say goodbye to stressful living.
+              </p>
+            </div>
+          </div>
+        </div>
+
         {/* Other Plans Section */}
         <div className="relative z-10 bg-gray-100 py-6 sm:py-10 lg:py-12">
           <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-16">
@@ -701,17 +683,17 @@ export const treatmentPlansData = [
   {
     id: 6,
     title: "Infertility Cupping",
-    image: "/treat6.jpeg",
+    image: "/paana.jpg",
     slug: "infertility-cupping",
     content: (
       <section className="relative">
         {/* Overlay */}
         <div className="absolute w-full h-full"></div>
-  
+
         {/* Content */}
         <div className="relative z-10 flex flex-col justify-center h-full px-4 sm:px-6 md:px-16 text-black">
           <div className="py-4"></div>
-  
+
           {/* Back Link */}
           <Link
             href="/treatment-plans"
@@ -719,124 +701,122 @@ export const treatmentPlansData = [
           >
             ← Back to All Plans
           </Link>
-  
+
           {/* Heading */}
           <h1 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-bold text-black dark:text-white">
             Infertility Cupping
           </h1>
-  
+
           {/* Underline Effect */}
           <div className="w-24 h-0.5 bg-green-400 mt-2"></div>
         </div>
-  
+
         {/* Description */}
-        <p className="mt-4 text-sm sm:text-base md:text-lg text-black leading-relaxed dark:text-white px-4 sm:px-6 md:px-16 text-justify sm:text-justify mx-auto max-w-4xl font-lora">
-          Cupping helps body’s internal Ph / chemical / hormonal balances,
-          ridding toxins, clearing blockages and improve blood circulation. It
-          facilitates a healthy flow of blood to the reproductive organs
-          giving them all the nutrients, oxygen, vitamins and minerals they
-          need to produce healthy sperm and ovum, and also building a healthy
-          endometrium to nourish & sustain a pregnancy.
+        <p className="mt-4 text-sm sm:text-base md:text-lg text-black leading-relaxed dark:text-white px-4 sm:px-6 md:px-16 text-justify sm:text-justify mx-auto">
+          Infertility Cupping is a therapeutic treatment that helps balance the
+          body&apos;s internal pH, chemical, and hormonal levels. It works by
+          clearing blockages and improving blood circulation, which is crucial
+          for reproductive health. Cupping promotes a healthy flow of blood to
+          the reproductive organs, providing essential nutrients, oxygen,
+          vitamins, and minerals to help produce healthy sperm and ova. It also
+          aids in building a healthy endometrium to nourish and sustain a
+          pregnancy. The benefits of Infertility Cupping include inducing
+          ovulation, removing blockages and inflammation in the Fallopian tubes,
+          and addressing issues like endometriosis, where the lining of the
+          uterus forms outside of it. It is also effective in balancing
+          hormones, particularly in cases of Ovarian Syndrome (PCOS), and can
+          help reposition a misaligned uterus. By increasing circulation to the
+          ovaries and testes, it enhances fertility, and may even increase
+          libido, as well as the quality and quantity of sperm. Each session of
+          Infertility Cupping lasts approximately 60 to 90 minutes, and it is
+          recommended to undergo a fertility-focused wet cupping treatment.
+          While it is highly recommended, undergoing an iRP Lite session (which
+          involves a lymphatic cleanse with wet cupping and a full body cleanse)
+          can also be beneficial, though it is not mandatory.
         </p>
-  
+
         {/* Image + Content Section */}
-        <div className="container mx-auto max-w-6xl px-4 flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-20">
-          {/* Left - Image */}
-          <div className="w-full lg:w-1/2 flex justify-center">
+        {/* Full Section: Image + Benefits + Duration + Requirement */}
+
+        <div className="container mx-auto max-w-3xl px-4 py-16 flex flex-col items-center gap-12">
+          {/* Left Side - Image */}
+          <div className="w-full flex justify-center">
             <Image
-              alt="paana"
+              alt="Paana Image"
               src="/treat6.jpeg"
               width={500}
               height={500}
-              className="w-full max-w-sm h-auto rounded-2xl"
+              className="w-full h-auto rounded-2xl object-cover"
             />
           </div>
-          {/* Right - Text Content */}
-          <div className="w-full lg:w-1/2 ">
-            {/* Benefits */}
-            <div className="mt-8">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
+
+          {/* Right Side - Text Content */}
+          <div className="w-full flex flex-col gap-10">
+            {/* Benefits Section */}
+            <div>
+              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
                 Benefits
-                <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-  
-              <div className="flex items-center justify-center min-h-screen">
-                <ul className="mt-3 space-y-2 text-gray-700 text-sm dark:text-white sm:text-base font-lora">
-                  <li>
-                    • Induce ovulation. Removes blockages and inflammation in the
-                    Fallopian tube
-                  </li>
-                  <li>
-                    • Addresses endometriosis or problems where the lining of the
-                    uterus forms outside of it
-                  </li>
-                  <li>• Balances hormones in Ovarian Syndrome (PCOS)</li>
-                  <li>• Helps in promoting hormonal balance</li>
-                  <li>
-                    • It helps to reposition a misaligned uterus, which itself
-                    helps to increase circulation of blood, lymph, nervous system.
-                  </li>
-                  <li>• Brings rich, oxygenated blood to ovaries & testes.</li>
-                  <li>
-                    • Can increase libido. Can increase the quality and quantity
-                    of sperm
-                  </li>
-                </ul>
-              </div>
+              <div className="w-16 h-1 bg-green-500 mb-6"></div>
+              <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 text-base space-y-2">
+                <li>Induces ovulation and removes blockages and inflammation in the Fallopian tubes.</li>
+                <li>Addresses endometriosis or issues where the uterine lining forms outside the uterus.</li>
+                <li>Balances hormones, especially in Ovarian Syndrome (PCOS).</li>
+                <li>Helps in promoting overall hormonal balance.</li>
+                <li>Repositions a misaligned uterus, increasing blood, lymph, and nervous system circulation.n</li>
+                <li>Brings rich, oxygenated blood to ovaries and testes.</li>
+                <li>Can increase libido and improve the quality and quantity of sperm.</li>
+              </ul>
             </div>
-  
-            {/* Duration */}
-            <div className="mt-8">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
+
+            {/* Duration Section */}
+            <div>
+              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
                 Duration
-                <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-              <p className="mt-3 text-gray-700 text-sm sm:text-base dark:text-white flex justify-center">
-                Each session goes for approximately 60-90 mins
+              <div className="w-16 h-1 bg-green-500 mb-6"></div>
+              <p className="text-gray-700 dark:text-gray-300 text-base">
+              Each session lasts approximately 60–90 minutes.
               </p>
             </div>
-  
-            {/* Requirement */}
-            <div className="mt-8 mb-8 ">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
+
+            {/* Requirement Section */}
+            <div>
+              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
                 Requirement
-                <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-              <p className="mt-3 text-gray-700 text-sm sm:text-base dark:text-white flex justify-center">
-                1. iRP Lite (Highly recommended but not mandatory): Lymphatic
-                  cleanse with wet cupping + 3 session full body & vital organ
-                  cleanse (upper body + Torso + lower body) <br />
-                  <br />
-                  2. Fertility focused wet cupping
+              <div className="w-16 h-1 bg-green-500 mb-6"></div>
+              <p className="text-gray-700 dark:text-gray-300 text-base">
+              iRP Lite (Highly recommended but not mandatory): Lymphatic cleanse with wet cupping + 3 session full body & vital organ cleanse (upper body, torso, and lower body). <br />
+              Fertility-focused wet cupping.
               </p>
             </div>
           </div>
         </div>
-  
+
         {/* Call to Action + Quote */}
-        <div className="relative z-10 bg-white px-4 sm:px-6 md:px-12 lg:px-16 py-10 sm:py-12 lg:py-24 w-full flex flex-col items-center space-y-10">
-  {/* Call for Appointments */}
-  <div className="flex justify-center">
-    <Link href="tel:800-9944-335">
-      <button className="flex items-center space-x-2 border dark:text-black border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
-        <span className="text-xl">📞</span>
-        <span>Call for Appointments</span>
-      </button>
-    </Link>
-  </div>
-  
-  {/* Quote */}
-  <div className="flex flex-col items-center space-y-6 dark:text-black px-2">
-    <div className="border border-green-500 p-4 sm:p-6 rounded-lg relative text-center text-sm sm:text-lg italic font-semibold text-gray-800 bg-white max-w-full sm:max-w-2xl">
-      <p className="text-base sm:text-lg lg:text-2xl">
-        Hijama Cupping: A sure fire remedy to all your body pains and
-                  migraines. Say goodbye to stressful living.
-      </p>
-    </div>
-  </div>
-  </div>
-  
-  
+        <div className="relative z-10 bg-white px-4 sm:px-6 md:px-12 lg:px-16 mb-10 sm:mb-12 lg:mb-24 w-full flex flex-col items-center space-y-10">
+          {/* Call for Appointments */}
+          <div className="flex justify-center">
+            <Link href="tel:800-9944-335">
+              <button className="flex items-center space-x-2 border dark:text-black border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
+                <span className="text-xl">📞</span>
+                <span>Call for Appointments</span>
+              </button>
+            </Link>
+          </div>
+
+          {/* Quote */}
+          <div className="flex flex-col items-center space-y-6 dark:text-black px-2">
+            <div className="border border-green-500 p-4 sm:p-6 rounded-lg relative text-center text-sm sm:text-lg italic font-semibold text-gray-800 bg-white max-w-full sm:max-w-2xl">
+              <p className="text-base sm:text-lg lg:text-2xl">
+                Hijama Cupping – The only therapy which affects both{" "}
+                <strong>Body & Soul.</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+
         {/* Other Plans Section */}
         <div className="relative z-10 bg-gray-100 py-6 sm:py-10 lg:py-12">
           <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-16">
@@ -851,18 +831,18 @@ export const treatmentPlansData = [
   },
   {
     id: 7,
-      title: "i-Revive Plan",
-      image: "/treat7.jpeg",
-      slug: "i-revive-plan",
-      content: (
+    title: "i-Revive Plan",
+    image: "/paana.jpg",
+    slug: "i-revive-plan",
+    content: (
       <section className="relative">
         {/* Overlay */}
         <div className="absolute w-full h-full"></div>
-  
+
         {/* Content */}
         <div className="relative z-10 flex flex-col justify-center h-full px-4 sm:px-6 md:px-16 text-black">
           <div className="py-4"></div>
-  
+
           {/* Back Link */}
           <Link
             href="/treatment-plans"
@@ -870,115 +850,99 @@ export const treatmentPlansData = [
           >
             ← Back to All Plans
           </Link>
-  
+
           {/* Heading */}
           <h1 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-bold text-black dark:text-white">
-            i-Revive Plan
+          i-Revive Plan
           </h1>
-  
+
           {/* Underline Effect */}
           <div className="w-24 h-0.5 bg-green-400 mt-2"></div>
         </div>
-  
+
         {/* Description */}
-        <p className="mt-4 text-sm sm:text-base md:text-lg text-black leading-relaxed dark:text-white px-4 sm:px-6 md:px-16 text-justify sm:text-justify mx-auto max-w-4xl font-lora">
-          The i-Revive Plan is a master plan that resets the whole body
-              addressing almost all diseases & conditions, chronic issues, various
-              imbalances etc. It kickstarts the body back to optimum health using
-              a series of cupping sessions acting as a super charged boost to the
-              body in a short period of time before the body goes back to its
-              DIS-eased state. The plan consists of lymphatic drainage sessions,
-              sectional cleansing sessions. The 3 week plan comes with a 21 day
-              diet plan.
+        <p className="mt-4 text-sm sm:text-base md:text-lg text-black leading-relaxed dark:text-white px-4 sm:px-6 md:px-16 text-justify sm:text-justify mx-auto">
+        The i-Revive Plan is a comprehensive health reset that addresses a wide range of diseases, chronic conditions, and imbalances. The plan revitalizes the body using a series of cupping sessions, which act as a supercharged boost to your overall health. This approach aims to bring the body back to an optimal state of health in a short period of time before it returns to its diseased state. The plan includes lymphatic drainage sessions, sectional cleansing sessions, and a 21-day diet plan.
         </p>
-  
+
         {/* Image + Content Section */}
-        <div className="container mx-auto max-w-6xl px-4 flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-20">
-          {/* Left - Image */}
-          <div className="w-full lg:w-1/2 flex justify-center">
+        {/* Full Section: Image + Benefits + Duration + Requirement */}
+
+        <div className="container mx-auto max-w-3xl px-4 py-16 flex flex-col items-center gap-12">
+          {/* Left Side - Image */}
+          <div className="w-full flex justify-center">
             <Image
-              alt="paana"
-              src="/treat7.jpeg"
+              alt="Paana Image"
+              src="/paana.jpg"
               width={500}
               height={500}
-              className="w-full max-w-sm h-auto rounded-2xl"
+              className="w-full h-auto rounded-2xl object-cover"
             />
           </div>
-          {/* Right - Text Content */}
-          <div className="w-full lg:w-1/2 ">
-            {/* Benefits */}
-            <div className="mt-8">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
+
+          {/* Right Side - Text Content */}
+          <div className="w-full flex flex-col gap-10">
+            {/* Benefits Section */}
+            <div>
+              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
                 Benefits
-                <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-  
-              <div className="flex items-center justify-center min-h-screen">
-                <ul className="mt-3 space-y-2 text-gray-700 text-sm sm:text-base font-lora dark:text-white">
-                  <li>
-                    • Revives your body as a whole and it’s ability to healitself
-                  </li>
-                  <li>
-                    • Addresses almost all diseases, allergies, conditionsand
-                    chronic issues.
-                  </li>
-                  <li>• Aids the body in achieving homeostasis</li>
-                  <li>• Keeps skin healthy by increasing skin blood flow</li>
-                </ul>
-              </div>
+              <div className="w-16 h-1 bg-green-500 mb-6"></div>
+              <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 text-base space-y-2">
+                <li>Revives the body as a whole and enhances its ability to heal itself.</li>
+                <li>Addresses almost all diseases, allergies, chronic conditions, and health issues.</li>
+                <li>Aids in achieving homeostasis (balance within the body).</li>
+                <li>Improves skin health by increasing blood flow to the skin.</li>
+              </ul>
             </div>
-  
-            {/* Duration */}
-            <div className="mt-8">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
+
+            {/* Duration Section */}
+            <div>
+              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
                 Duration
-                <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-              <p className="mt-3 text-gray-700 text-sm sm:text-base dark:text-white flex justify-center">
-                3 Lymphatic cleanse session 3 Sessions - 2 LD (lymphatic
-                  drainage)+ 1 HLD (LD followed by Hijama cupping on nodal sites)
-                  + 3 session full body & vital organ cleanse (Upper body + Torso
-                  + Lower body)
+              <div className="w-16 h-1 bg-green-500 mb-6"></div>
+              <p className="text-gray-700 dark:text-gray-300 text-base">
+              3 lymphatic cleanse sessions: 2 Lymphatic Drainage (LD) sessions and 1 Hijama cupping session on nodal sites. <br />3 full body and vital organ cleanse sessions (upper body, torso, and lower body).
               </p>
             </div>
-  
-            {/* Requirement */}
-            <div className="mt-8 mb-8 ">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
+
+            {/* Requirement Section */}
+            <div>
+              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
                 Requirement
-                <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-              <p className="mt-3 text-gray-700 text-sm dark:text-white sm:text-base flex justify-center">
-                3-4 weeks plan; 6 sessions
+              <div className="w-16 h-1 bg-green-500 mb-6"></div>
+              <p className="text-gray-700 dark:text-gray-300 text-base">
+              3-4 weeks plan with 6 sessions in total.
               </p>
             </div>
           </div>
         </div>
-  
+
         {/* Call to Action + Quote */}
-        <div className="relative z-10 bg-white px-4 sm:px-6 md:px-12 lg:px-16 py-10 sm:py-12 lg:py-24 w-full flex flex-col items-center space-y-10">
-  {/* Call for Appointments */}
-  <div className="flex justify-center">
-    <Link href="tel:800-9944-335">
-      <button className="flex items-center space-x-2 border dark:text-black border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
-        <span className="text-xl">📞</span>
-        <span>Call for Appointments</span>
-      </button>
-    </Link>
-  </div>
-  
-  {/* Quote */}
-  <div className="flex flex-col items-center space-y-6 dark:text-black px-2">
-    <div className="border border-green-500 p-4 sm:p-6 rounded-lg relative text-center text-sm sm:text-lg italic font-semibold text-gray-800 bg-white max-w-full sm:max-w-2xl">
-      <p className="text-base sm:text-lg lg:text-2xl">
-        Hijama Cupping: A sure fire remedy to all your body pains and
-                  migraines. Say goodbye to stressful living.
-      </p>
-    </div>
-  </div>
-  </div>
-  
-  
+        <div className="relative z-10 bg-white px-4 sm:px-6 md:px-12 lg:px-16 mb-10 sm:mb-12 lg:mb-24 w-full flex flex-col items-center space-y-10">
+          {/* Call for Appointments */}
+          <div className="flex justify-center">
+            <Link href="tel:800-9944-335">
+              <button className="flex items-center space-x-2 border dark:text-black border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
+                <span className="text-xl">📞</span>
+                <span>Call for Appointments</span>
+              </button>
+            </Link>
+          </div>
+
+          {/* Quote */}
+          <div className="flex flex-col items-center space-y-6 dark:text-black px-2">
+            <div className="border border-green-500 p-4 sm:p-6 rounded-lg relative text-center text-sm sm:text-lg italic font-semibold text-gray-800 bg-white max-w-full sm:max-w-2xl">
+              <p className="text-base sm:text-lg lg:text-2xl">
+                Hijama Cupping – The only therapy which affects both{" "}
+                <strong>Body & Soul.</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+
         {/* Other Plans Section */}
         <div className="relative z-10 bg-gray-100 py-6 sm:py-10 lg:py-12">
           <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-16">
@@ -993,18 +957,18 @@ export const treatmentPlansData = [
   },
   {
     id: 8,
-      title: "Custom Plan",
-      image: "/paana.jpg",
-      slug: "custom-plan",
-      content: (
+    title: "Custom Plan",
+    image: "/paana.jpg",
+    slug: "custom-plan",
+    content: (
       <section className="relative">
         {/* Overlay */}
         <div className="absolute w-full h-full"></div>
-  
+
         {/* Content */}
         <div className="relative z-10 flex flex-col justify-center h-full px-4 sm:px-6 md:px-16 text-black">
           <div className="py-4"></div>
-  
+
           {/* Back Link */}
           <Link
             href="/treatment-plans"
@@ -1012,107 +976,98 @@ export const treatmentPlansData = [
           >
             ← Back to All Plans
           </Link>
-  
+
           {/* Heading */}
           <h1 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-bold text-black dark:text-white">
             Custom Plan
           </h1>
-  
+
           {/* Underline Effect */}
           <div className="w-24 h-0.5 bg-green-400 mt-2"></div>
         </div>
-  
+
         {/* Description */}
-        <p className="mt-4 text-sm sm:text-base md:text-lg text-black leading-relaxed dark:text-white px-4 sm:px-6 md:px-16 text-justify sm:text-justify mx-auto max-w-4xl font-lora">
-          The custom plan targets client specific issues and requirements the
-          varying from chronic issues related follow up sessions, pains,
-          athletic performance enhancement, injury recoveries, Metaphysical
-          issues focused sessions. Personal areas of pain are concentrated
-          upon.
+        <p className="mt-4 text-sm sm:text-base md:text-lg text-black leading-relaxed dark:text-white px-4 sm:px-6 md:px-16 text-justify sm:text-justify mx-auto">
+        The Custom Plan is tailored to meet specific client needs and addresses a variety of issues, including chronic conditions, pain management, athletic performance enhancement, injury recovery, and metaphysical concerns. The focus is on treating personal areas of pain, with sessions customized to each client&apos;s unique requirements.
         </p>
-  
+
         {/* Image + Content Section */}
-        <div className="container mx-auto max-w-6xl px-4 flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-20">
-          {/* Left - Image */}
-          <div className="w-full lg:w-1/2 flex justify-center">
+        {/* Full Section: Image + Benefits + Duration + Requirement */}
+
+        <div className="container mx-auto max-w-3xl px-4 py-16 flex flex-col items-center gap-12">
+          {/* Left Side - Image */}
+          <div className="w-full flex justify-center">
             <Image
-              alt="paana"
-              src="/treat7.jpeg"
+              alt="Paana Image"
+              src="/paana.jpg"
               width={500}
               height={500}
-              className="w-full max-w-sm h-auto rounded-2xl"
+              className="w-full h-auto rounded-2xl object-cover"
             />
           </div>
-          {/* Right - Text Content */}
-          <div className="w-full lg:w-1/2 ">
-            {/* Benefits */}
-            <div className="mt-8">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
+
+          {/* Right Side - Text Content */}
+          <div className="w-full flex flex-col gap-10">
+            {/* Benefits Section */}
+            <div>
+              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
                 Benefits
-                <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-  
-              <div className="flex items-center justify-center min-h-screen">
-                <ul className="mt-3 space-y-2 text-gray-700 dark:text-white text-sm sm:text-base font-lora">
-                  <li>• Treats areas of muscular (and otherwise) painf</li>
-                  <li>• Treats metaphysical issues</li>
-                  <li>
-                    • Cupping therapy sessions are tailored to your personal
-                    issues and needs
-                  </li>
-                </ul>
-              </div>
+              <div className="w-16 h-1 bg-green-500 mb-6"></div>
+              <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 text-base space-y-2">
+                <li>Treats muscular and other forms of pain.</li>
+                <li>Addresses metaphysical issues.</li>
+                <li>Cupping therapy sessions are personalized to meet individual needs and health concerns</li>
+              </ul>
             </div>
-  
-            {/* Duration */}
-            <div className="mt-8">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
+
+            {/* Duration Section */}
+            <div>
+              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
                 Duration
-                <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-              <p className="mt-3 text-gray-700 text-sm dark:text-white sm:text-base flex justify-center">
-                Duration of each session varies with every client, approximately
-                45 to 60 minutes and above
+              <div className="w-16 h-1 bg-green-500 mb-6"></div>
+              <p className="text-gray-700 dark:text-gray-300 text-base">
+              The duration of each session varies depending on the client, typically lasting between 45 to 60 minutes or more.
               </p>
             </div>
-  
-            {/* Requirement */}
-            <div className="mt-8 mb-8 ">
-              <h2 className="text-lg sm:text-xl font-bold dark:text-white flex justify-center">
+
+            {/* Requirement Section */}
+            <div>
+              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
                 Requirement
-                <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-              <p className="mt-3 text-gray-700 text-sm sm:text-base dark:text-white flex justify-center">
-                Number of sessions vary with every client
+              <div className="w-16 h-1 bg-green-500 mb-6"></div>
+              <p className="text-gray-700 dark:text-gray-300 text-base">
+              The number of sessions varies for each client, depending on their specific needs.
               </p>
             </div>
           </div>
         </div>
-  
+
         {/* Call to Action + Quote */}
-        <div className="relative z-10 bg-white px-4 sm:px-6 md:px-12 lg:px-16 py-10 sm:py-12 lg:py-24 w-full flex flex-col items-center space-y-10">
-  {/* Call for Appointments */}
-  <div className="flex justify-center">
-    <Link href="tel:800-9944-335">
-      <button className="flex items-center space-x-2 border dark:text-black border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
-        <span className="text-xl">📞</span>
-        <span>Call for Appointments</span>
-      </button>
-    </Link>
-  </div>
-  
-  {/* Quote */}
-  <div className="flex flex-col items-center space-y-6 dark:text-black px-2">
-    <div className="border border-green-500 p-4 sm:p-6 rounded-lg relative text-center text-sm sm:text-lg italic font-semibold text-gray-800 bg-white max-w-full sm:max-w-2xl">
-      <p className="text-base sm:text-lg lg:text-2xl">
-        Hijama Cupping – The only therapy which affects both Body &
-        Soul.
-      </p>
-    </div>
-  </div>
-  </div>
-  
-  
+        <div className="relative z-10 bg-white px-4 sm:px-6 md:px-12 lg:px-16 mb-10 sm:mb-12 lg:mb-24 w-full flex flex-col items-center space-y-10">
+          {/* Call for Appointments */}
+          <div className="flex justify-center">
+            <Link href="tel:800-9944-335">
+              <button className="flex items-center space-x-2 border dark:text-black border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
+                <span className="text-xl">📞</span>
+                <span>Call for Appointments</span>
+              </button>
+            </Link>
+          </div>
+
+          {/* Quote */}
+          <div className="flex flex-col items-center space-y-6 dark:text-black px-2">
+            <div className="border border-green-500 p-4 sm:p-6 rounded-lg relative text-center text-sm sm:text-lg italic font-semibold text-gray-800 bg-white max-w-full sm:max-w-2xl">
+              <p className="text-base sm:text-lg lg:text-2xl">
+                Hijama Cupping – The only therapy which affects both{" "}
+                <strong>Body & Soul.</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+
         {/* Other Plans Section */}
         <div className="relative z-10 bg-gray-100 py-6 sm:py-10 lg:py-12">
           <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-16">
@@ -1128,7 +1083,7 @@ export const treatmentPlansData = [
   {
     id: 9,
     title: "Sports Plus",
-    image: "/SportPlan.jpg",
+    image: "/paana.jpg",
     slug: "why-choose-a-female-hijama-specialist-in-hyderabad",
     content: (
       <section className="relative">
@@ -1136,121 +1091,114 @@ export const treatmentPlansData = [
         <div className="absolute w-full h-full"></div>
 
         {/* Content */}
-        <div className="relative z-10 flex flex-col justify-center h-full px-6 md:px-16 text-black">
+        <div className="relative z-10 flex flex-col justify-center h-full px-4 sm:px-6 md:px-16 text-black">
+          <div className="py-4"></div>
+
           {/* Back Link */}
           <Link
             href="/treatment-plans"
-            className="flex items-center text-sm md:text-base text-black dark:text-white"
+            className="flex items-center text-sm sm:text-base text-black dark:text-white"
           >
             ← Back to All Plans
           </Link>
 
           {/* Heading */}
-          <h1 className="mt-4 text-4xl md:text-5xl font-bold text-black dark:text-white">
+          <h1 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-bold text-black dark:text-white">
             Sports Plus
           </h1>
 
           {/* Underline Effect */}
           <div className="w-24 h-0.5 bg-green-400 mt-2"></div>
+        </div>
 
-          {/* Description */}
-          <p className="mt-4 text-sm md:text-lg text-white/80 leading-relaxed font-lora dark:text-white">
-            The Sports Plus plan is the go-to treatment for every athlete and
-            gym-goer. Athletes generally choose to have cupping therapy done
-            before participating in their sport, as well as after. Most have a
-            goal of addressing specific aches and pains within their body, as
-            well as increase mobility. <br />
-            <br />
-            The plan is designed specially to improve circulation, relax muscles
-            and ease out cramps – all adding up to quicker recovery – just in
-            time for your next match.
-          </p>
-          <div className="container mx-auto max-w-6xl">
+        {/* Description */}
+        <p className="mt-4 text-sm sm:text-base md:text-lg text-black leading-relaxed dark:text-white px-4 sm:px-6 md:px-16 text-justify sm:text-justify mx-auto">
+        The Sports Plus plan is a must for athletes and gym-goers who want to maximize their performance and recovery. Cupping therapy is popular among athletes before and after their activities to alleviate specific aches and pains, enhance mobility, and improve overall circulation. This plan is designed to relax muscles, ease cramps, and speed up recovery, ensuring you&apos;re ready for your next match.
+        </p>
+
+        {/* Image + Content Section */}
+        {/* Full Section: Image + Benefits + Duration + Requirement */}
+
+        <div className="container mx-auto max-w-3xl px-4 py-16 flex flex-col items-center gap-12">
+          {/* Left Side - Image */}
+          <div className="w-full flex justify-center">
             <Image
-              alt="paana"
-              src="/treat9.jpeg"
+              alt="Paana Image"
+              src="/treat9.JPEG"
               width={500}
               height={500}
-              className="w-full h-full rounded-y-2xl"
+              className="w-full h-auto rounded-2xl object-cover"
             />
           </div>
-        </div>
-        <div className="relative z-10 bg-white px-6 md:px-12 lg:px-16 grid grid-cols-1 lg:grid-cols-2 py-12 lg:py-24">
-          {/* Left Section (Text Content) */}
-          <div>
-            {/* Benefits */}
-            <div className="mb-8">
-              <h2 className="text-xl font-bold dark:text-black">
+
+          {/* Right Side - Text Content */}
+          <div className="w-full flex flex-col gap-10">
+            {/* Benefits Section */}
+            <div>
+              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
                 Benefits
-                <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-              <ul className="mt-3 space-y-2 text-gray-700 font-lora">
-                <li>
-                  • Helps decrease limb recovery time after strenuous workouts
-                </li>
-                <li>
-                  • Stimulates chemical breakdown of toxins within the body,
-                  leading to tissue repair
-                </li>
-                <li>• Improves blood circulation and energizes the body</li>
-                <li>• Increases mobility and flexibility</li>
-                <li>
-                  • Treats conditions such as plantar fasciitis, hamstring
-                  strains, sore muscles and back pain
-                </li>
+              <div className="w-16 h-1 bg-green-500 mb-6"></div>
+              <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 text-base space-y-2">
+                <li>Helps decrease limb recovery time after strenuous workouts.</li>
+                <li>Stimulates the breakdown of toxins in the body, leading to tissue repair.</li>
+                <li>Improves blood circulation and energizes the body.</li>
+                <li>Increases mobility and flexibility.</li>
+                <li>Treats conditions like plantar fasciitis, hamstring strains, sore muscles, and back pain.</li>
               </ul>
             </div>
 
-            {/* Duration */}
-            <div className="mb-8">
-              <h2 className="text-xl font-bold dark:text-black">
+            {/* Duration Section */}
+            <div>
+              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
                 Duration
-                <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-              <p className="mt-3 text-gray-700">
-                Each session may take approximately 60-90 mins
+              <div className="w-16 h-1 bg-green-500 mb-6"></div>
+              <p className="text-gray-700 dark:text-gray-300 text-base">
+              Each session typically lasts 60-90 minutes.
               </p>
             </div>
 
-            {/* Requirement */}
+            {/* Requirement Section */}
             <div>
-              <h2 className="text-xl font-bold dark:text-black">
+              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
                 Requirement
-                <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
               </h2>
-              <p className="mt-3 text-gray-700">
-                Number of sessions depend on type of injury or reason for
-                cupping
+              <div className="w-16 h-1 bg-green-500 mb-6"></div>
+              <p className="text-gray-700 dark:text-gray-300 text-base">
+              The number of sessions varies based on the type of injury or the reason for cupping therapy.
               </p>
             </div>
           </div>
+        </div>
 
-          {/* Right Section (Call Button & Quote) */}
-          <div className="flex flex-col items-center space-y-6">
-            {/* Call for Appointments Button */}
+        {/* Call to Action + Quote */}
+        <div className="relative z-10 bg-white px-4 sm:px-6 md:px-12 lg:px-16 mb-10 sm:mb-12 lg:mb-24 w-full flex flex-col items-center space-y-10">
+          {/* Call for Appointments */}
+          <div className="flex justify-center">
             <Link href="tel:800-9944-335">
-              <button className="flex items-center space-x-2 dark:text-black border border-black px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition">
+              <button className="flex items-center space-x-2 border dark:text-black border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
                 <span className="text-xl">📞</span>
                 <span>Call for Appointments</span>
               </button>
             </Link>
+          </div>
 
-            {/* Quote Box */}
-            <div className="border border-green-500 p-6 rounded-lg relative text-center text-lg italic font-semibold text-gray-800 bg-white max-w-2xl">
-              {/* Top Quote Decoration */}
-
-              <p className="text-lg lg:text-3xl">
-                For sure one needs to spare time for his body, if not for
-                wellness then unfortunately it would be for illness
+          {/* Quote */}
+          <div className="flex flex-col items-center space-y-6 dark:text-black px-2">
+            <div className="border border-green-500 p-4 sm:p-6 rounded-lg relative text-center text-sm sm:text-lg italic font-semibold text-gray-800 bg-white max-w-full sm:max-w-2xl">
+              <p className="text-base sm:text-lg lg:text-2xl">
+                Hijama Cupping – The only therapy which affects both{" "}
+                <strong>Body & Soul.</strong>
               </p>
-              {/* Bottom Quote Decoration */}
             </div>
           </div>
         </div>
-        <div className="relative z-10 bg-gray-100 py-6 lg:py-12">
-          <div className="container mx-auto px-6 md:px-12 lg:px-16">
-            {/* Section Title */}
-            <h2 className="text-2xl lg:text-4xl font-bold text-gray-900">
+
+        {/* Other Plans Section */}
+        <div className="relative z-10 bg-gray-100 py-6 sm:py-10 lg:py-12">
+          <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-16">
+            <h2 className="text-xl sm:text-2xl lg:text-4xl font-bold text-gray-900">
               Our Other Plans
               <div className="w-16 h-0.5 bg-green-500 mt-1"></div>
             </h2>
