@@ -20,11 +20,12 @@ export default {
       },
       fontFamily: {
         playfair: ["Playfair Display", "serif"],
-        montserrat: ["Montserrat", "sans-serif"], // Add Montserrat
-        lora: ["Lora", "serif"], // Add Lora
+        montserrat: ["Montserrat", "sans-serif"],
+        lora: ["Lora", "serif"],
+        quicksand: ["Quicksand", "sans-serif"], // ✅ Added Quicksand here
       },
       boxShadow: {
-        "custom-shadow": "0 0 45px rgba(0, 0, 0, .2)", // Adjust values as needed
+        "custom-shadow": "0 0 45px rgba(0, 0, 0, .2)",
       },
     },
   },
