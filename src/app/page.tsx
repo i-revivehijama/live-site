@@ -29,6 +29,7 @@ export default function Home() {
       <AboutThree />
       <Testimonial />
       <OurBlog limit={3} />
+      
       <Footer />
     </div>
   );

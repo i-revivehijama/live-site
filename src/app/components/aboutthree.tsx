@@ -40,31 +40,30 @@ export default function AboutThree() {
       <h2 className="text-3xl font-bold text-center mb-10 text-primary dark:text-primary">
         Meet Our Team
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
         {teamMembers.map((member) => (
           <div
             key={member.id}
             className="relative group overflow-hidden rounded-lg shadow-lg bg-white"
           >
             {/* Image Container */}
-            <div className="relative w-full h-72 sm:h-80 md:h-96">
+            <div className="relative w-full aspect-[3/4]">
               <Image
                 src={member.image}
                 alt={`${member.name}, ${member.qualification}`}
-                layout="fill"
-                objectFit="cover"
-                className="object-cover"
-                loading={member.id !== 1 ? "lazy" : undefined}  // Lazy-load for all but the first image
-                priority={member.id === 1}  // Priority load for the first image
+                fill
+                className="object-cover rounded-lg"
+                loading={member.id !== 1 ? "lazy" : undefined}
+                priority={member.id === 1}
               />
-              {/* Overlay for better text contrast */}
-              <div className="absolute inset-0 bg-black bg-opacity-20"></div>
             </div>
 
             {/* Name & Qualification */}
             <div className="p-4 text-center z-10 relative group-hover:opacity-0 transition-opacity duration-300">
-              <h3 className="text-xl font-semibold text-black">{member.name}</h3>
-              <p className="text-gray-800">{member.qualification}</p>
+              <h3 className="text-xl text-black font-medium text-white-shadow">
+                {member.name}
+              </h3>
+              <p className="text-primary font-semibold">{member.qualification}</p>
             </div>
 
             {/* Hover Overlay */}

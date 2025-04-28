@@ -9,8 +9,8 @@ const AboutTwo = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         {/* Content Section */}
         <div>
-          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold font-montserrat">
-            About <span className="text-primary">Us</span>
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold font-montserrat text-primary">
+            ABOUT US
           </h2>
           <h4 className="text-2xl md:text-3xl lg:text-3xl font-bold font-montserrat">
             i-Revive – Restoring Health, Transforming Lives
