@@ -194,7 +194,7 @@ export const treatmentPlansData = [
                 Benefits
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
-              <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 text-base space-y-2">
+              <ul className="list-disc list-inside text-gray-700  text-base space-y-2">
                 <li>Back and neck pains</li>
                 <li>Stiff muscles & Sore joints</li>
                 <li>Reduces pain and inflammation</li>
@@ -215,7 +215,7 @@ export const treatmentPlansData = [
                 Duration
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
-              <p className="text-gray-700 dark:text-gray-300 text-base">
+              <p className="text-gray-700  text-base">
                 Each session goes for approximately 75–90 mins
               </p>
             </div>
@@ -226,7 +226,7 @@ export const treatmentPlansData = [
                 Requirement
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
-              <p className="text-gray-700 dark:text-gray-300 text-base">
+              <p className="text-gray-700  text-base">
                 1 Session
               </p>
             </div>
@@ -238,7 +238,7 @@ export const treatmentPlansData = [
           {/* Call for Appointments */}
           <div className="flex justify-center">
             <Link href="tel:800-9944-335">
-              <button className="flex items-center space-x-2 border dark:text-black border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
+              <button className="flex items-center space-x-2 border  border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
                 <span className="text-xl">📞</span>
                 <span>Call for Appointments</span>
               </button>
@@ -246,7 +246,7 @@ export const treatmentPlansData = [
           </div>
 
           {/* Quote */}
-          <div className="flex flex-col items-center space-y-6 dark:text-black px-2">
+          <div className="flex flex-col items-center space-y-6  px-2">
             <div className="border border-green-500 p-4 sm:p-6 rounded-lg relative text-center text-sm sm:text-lg italic font-semibold text-gray-800 bg-white max-w-full sm:max-w-2xl">
               <p className="text-base sm:text-lg lg:text-2xl">
                 Hijama Cupping – The only therapy which affects both{" "}
@@ -329,7 +329,7 @@ export const treatmentPlansData = [
                 Benefits
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
-              <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 text-base space-y-2">
+              <ul className="list-disc list-inside text-gray-700  text-base space-y-2">
                 <li>
                   Vitalises bodily functions by reinvigorating organs through
                   improved blood flow
@@ -350,7 +350,7 @@ export const treatmentPlansData = [
                 Duration
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
-              <p className="text-gray-700 dark:text-gray-300 text-base">
+              <p className="text-gray-700  text-base">
                 Each session goes for approximately 60–90 mins
               </p>
             </div>
@@ -361,7 +361,7 @@ export const treatmentPlansData = [
                 Requirement
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
-              <p className="text-gray-700 dark:text-gray-300 text-base">
+              <p className="text-gray-700  text-base">
                 First-timers: One session every 4 to 6 weeks (total of 3
                 sessions). Followed by quarterly sessions.
               </p>
@@ -374,7 +374,7 @@ export const treatmentPlansData = [
           {/* Call for Appointments */}
           <div className="flex justify-center">
             <Link href="tel:800-9944-335">
-              <button className="flex items-center space-x-2 border dark:text-black border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
+              <button className="flex items-center space-x-2 border  border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
                 <span className="text-xl">📞</span>
                 <span>Call for Appointments</span>
               </button>
@@ -382,7 +382,7 @@ export const treatmentPlansData = [
           </div>
 
           {/* Quote */}
-          <div className="flex flex-col items-center space-y-6 dark:text-black px-2">
+          <div className="flex flex-col items-center space-y-6  px-2">
             <div className="border border-green-500 p-4 sm:p-6 rounded-lg relative text-center text-sm sm:text-lg italic font-semibold text-gray-800 bg-white max-w-full sm:max-w-2xl">
               <p className="text-base sm:text-lg lg:text-2xl">
                 The most beneficial Hijama cupping is that applied while the
@@ -468,7 +468,7 @@ export const treatmentPlansData = [
                 Benefits
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
-              <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 text-base space-y-2">
+              <ul className="list-disc list-inside text-gray-700  text-base space-y-2">
                 <li>Helps treat headaches, sinus issues, and migraines</li>
                 <li>Treats metaphysical issues</li>
                 <li>Encourages hair growth</li>
@@ -481,7 +481,7 @@ export const treatmentPlansData = [
                 Duration
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
-              <p className="text-gray-700 dark:text-gray-300 text-base">
+              <p className="text-gray-700  text-base">
                 Each session goes for approximately 60 mins
               </p>
             </div>
@@ -492,7 +492,7 @@ export const treatmentPlansData = [
                 Requirement
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
-              <p className="text-gray-700 dark:text-gray-300 text-base">
+              <p className="text-gray-700  text-base">
                 6–8 sessions depending on individual issues
               </p>
             </div>
@@ -504,7 +504,7 @@ export const treatmentPlansData = [
           {/* Call for Appointments */}
           <div className="flex justify-center">
             <Link href="tel:800-9944-335">
-              <button className="flex items-center space-x-2 border border-black dark:text-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
+              <button className="flex items-center space-x-2 border border-black  px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
                 <span className="text-xl">📞</span>
                 <span>Call for Appointments</span>
               </button>
@@ -512,7 +512,7 @@ export const treatmentPlansData = [
           </div>
 
           {/* Quote */}
-          <div className="flex flex-col items-center space-y-6 dark:text-black px-2">
+          <div className="flex flex-col items-center space-y-6  px-2">
             <div className="border border-green-500 p-4 sm:p-6 rounded-lg relative text-center text-sm sm:text-lg italic font-semibold text-gray-800 bg-white max-w-full sm:max-w-2xl">
               <p className="text-base sm:text-lg lg:text-2xl">
                 If you don’t pick a day for your body, then the body will surely
@@ -600,7 +600,7 @@ export const treatmentPlansData = [
                 Benefits
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
-              <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 text-base space-y-2">
+              <ul className="list-disc list-inside text-gray-700  text-base space-y-2">
                 <li>
                   Stimulates the lymphatic system and releases local toxins
                 </li>
@@ -625,7 +625,7 @@ export const treatmentPlansData = [
                 Duration
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
-              <p className="text-gray-700 dark:text-gray-300 text-base">
+              <p className="text-gray-700  text-base">
                 Each session goes for approximately 90–120 mins
               </p>
             </div>
@@ -636,7 +636,7 @@ export const treatmentPlansData = [
                 Requirement
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
-              <p className="text-gray-700 dark:text-gray-300 text-base">
+              <p className="text-gray-700  text-base">
                 3 sessions — 2 LD (lymphatic drainage) + 1 HLD (LD followed by
                 Hijama cupping on nodal sites), weekly once for first-timers;
                 more sessions may be needed for noticeable results.
@@ -650,7 +650,7 @@ export const treatmentPlansData = [
           {/* Call for Appointments */}
           <div className="flex justify-center">
             <Link href="tel:800-9944-335">
-              <button className="flex items-center space-x-2 border border-black dark:text-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
+              <button className="flex items-center space-x-2 border border-black  px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
                 <span className="text-xl">📞</span>
                 <span>Call for Appointments</span>
               </button>
@@ -658,7 +658,7 @@ export const treatmentPlansData = [
           </div>
 
           {/* Quote */}
-          <div className="flex flex-col items-center space-y-6 dark:text-black px-2">
+          <div className="flex flex-col items-center space-y-6  px-2">
             <div className="border border-green-500 p-4 sm:p-6 rounded-lg relative text-center text-sm sm:text-lg italic font-semibold text-gray-800 bg-white max-w-full sm:max-w-2xl">
               <p className="text-base sm:text-lg lg:text-2xl">
                 Hijama Cupping: A sure-fire remedy to all your body pains and
@@ -758,7 +758,7 @@ export const treatmentPlansData = [
                 Benefits
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
-              <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 text-base space-y-2">
+              <ul className="list-disc list-inside text-gray-700  text-base space-y-2">
                 <li>Induces ovulation and removes blockages and inflammation in the Fallopian tubes.</li>
                 <li>Addresses endometriosis or issues where the uterine lining forms outside the uterus.</li>
                 <li>Balances hormones, especially in Ovarian Syndrome (PCOS).</li>
@@ -775,7 +775,7 @@ export const treatmentPlansData = [
                 Duration
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
-              <p className="text-gray-700 dark:text-gray-300 text-base">
+              <p className="text-gray-700  text-base">
               Each session lasts approximately 60–90 minutes.
               </p>
             </div>
@@ -786,7 +786,7 @@ export const treatmentPlansData = [
                 Requirement
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
-              <p className="text-gray-700 dark:text-gray-300 text-base">
+              <p className="text-gray-700  text-base">
               iRP Lite (Highly recommended but not mandatory): Lymphatic cleanse with wet cupping + 3 session full body & vital organ cleanse (upper body, torso, and lower body). <br />
               Fertility-focused wet cupping.
               </p>
@@ -799,7 +799,7 @@ export const treatmentPlansData = [
           {/* Call for Appointments */}
           <div className="flex justify-center">
             <Link href="tel:800-9944-335">
-              <button className="flex items-center space-x-2 border dark:text-black border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
+              <button className="flex items-center space-x-2 border  border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
                 <span className="text-xl">📞</span>
                 <span>Call for Appointments</span>
               </button>
@@ -807,7 +807,7 @@ export const treatmentPlansData = [
           </div>
 
           {/* Quote */}
-          <div className="flex flex-col items-center space-y-6 dark:text-black px-2">
+          <div className="flex flex-col items-center space-y-6  px-2">
             <div className="border border-green-500 p-4 sm:p-6 rounded-lg relative text-center text-sm sm:text-lg italic font-semibold text-gray-800 bg-white max-w-full sm:max-w-2xl">
               <p className="text-base sm:text-lg lg:text-2xl">
                 Hijama Cupping – The only therapy which affects both{" "}
@@ -888,7 +888,7 @@ export const treatmentPlansData = [
                 Benefits
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
-              <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 text-base space-y-2">
+              <ul className="list-disc list-inside text-gray-700  text-base space-y-2">
                 <li>Revives the body as a whole and enhances its ability to heal itself.</li>
                 <li>Addresses almost all diseases, allergies, chronic conditions, and health issues.</li>
                 <li>Aids in achieving homeostasis (balance within the body).</li>
@@ -902,7 +902,7 @@ export const treatmentPlansData = [
                 Duration
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
-              <p className="text-gray-700 dark:text-gray-300 text-base">
+              <p className="text-gray-700  text-base">
               3 lymphatic cleanse sessions: 2 Lymphatic Drainage (LD) sessions and 1 Hijama cupping session on nodal sites. <br />3 full body and vital organ cleanse sessions (upper body, torso, and lower body).
               </p>
             </div>
@@ -913,7 +913,7 @@ export const treatmentPlansData = [
                 Requirement
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
-              <p className="text-gray-700 dark:text-gray-300 text-base">
+              <p className="text-gray-700  text-base">
               3-4 weeks plan with 6 sessions in total.
               </p>
             </div>
@@ -925,7 +925,7 @@ export const treatmentPlansData = [
           {/* Call for Appointments */}
           <div className="flex justify-center">
             <Link href="tel:800-9944-335">
-              <button className="flex items-center space-x-2 border dark:text-black border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
+              <button className="flex items-center space-x-2 border  border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
                 <span className="text-xl">📞</span>
                 <span>Call for Appointments</span>
               </button>
@@ -933,7 +933,7 @@ export const treatmentPlansData = [
           </div>
 
           {/* Quote */}
-          <div className="flex flex-col items-center space-y-6 dark:text-black px-2">
+          <div className="flex flex-col items-center space-y-6  px-2">
             <div className="border border-green-500 p-4 sm:p-6 rounded-lg relative text-center text-sm sm:text-lg italic font-semibold text-gray-800 bg-white max-w-full sm:max-w-2xl">
               <p className="text-base sm:text-lg lg:text-2xl">
                 Hijama Cupping – The only therapy which affects both{" "}
@@ -1014,7 +1014,7 @@ export const treatmentPlansData = [
                 Benefits
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
-              <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 text-base space-y-2">
+              <ul className="list-disc list-inside text-gray-700  text-base space-y-2">
                 <li>Treats muscular and other forms of pain.</li>
                 <li>Addresses metaphysical issues.</li>
                 <li>Cupping therapy sessions are personalized to meet individual needs and health concerns</li>
@@ -1027,7 +1027,7 @@ export const treatmentPlansData = [
                 Duration
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
-              <p className="text-gray-700 dark:text-gray-300 text-base">
+              <p className="text-gray-700  text-base">
               The duration of each session varies depending on the client, typically lasting between 45 to 60 minutes or more.
               </p>
             </div>
@@ -1038,7 +1038,7 @@ export const treatmentPlansData = [
                 Requirement
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
-              <p className="text-gray-700 dark:text-gray-300 text-base">
+              <p className="text-gray-700  text-base">
               The number of sessions varies for each client, depending on their specific needs.
               </p>
             </div>
@@ -1050,7 +1050,7 @@ export const treatmentPlansData = [
           {/* Call for Appointments */}
           <div className="flex justify-center">
             <Link href="tel:800-9944-335">
-              <button className="flex items-center space-x-2 border dark:text-black border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
+              <button className="flex items-center space-x-2 border  border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
                 <span className="text-xl">📞</span>
                 <span>Call for Appointments</span>
               </button>
@@ -1058,7 +1058,7 @@ export const treatmentPlansData = [
           </div>
 
           {/* Quote */}
-          <div className="flex flex-col items-center space-y-6 dark:text-black px-2">
+          <div className="flex flex-col items-center space-y-6  px-2">
             <div className="border border-green-500 p-4 sm:p-6 rounded-lg relative text-center text-sm sm:text-lg italic font-semibold text-gray-800 bg-white max-w-full sm:max-w-2xl">
               <p className="text-base sm:text-lg lg:text-2xl">
                 Hijama Cupping – The only therapy which affects both{" "}
@@ -1139,7 +1139,7 @@ export const treatmentPlansData = [
                 Benefits
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
-              <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 text-base space-y-2">
+              <ul className="list-disc list-inside text-gray-700  text-base space-y-2">
                 <li>Helps decrease limb recovery time after strenuous workouts.</li>
                 <li>Stimulates the breakdown of toxins in the body, leading to tissue repair.</li>
                 <li>Improves blood circulation and energizes the body.</li>
@@ -1154,7 +1154,7 @@ export const treatmentPlansData = [
                 Duration
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
-              <p className="text-gray-700 dark:text-gray-300 text-base">
+              <p className="text-gray-700  text-base">
               Each session typically lasts 60-90 minutes.
               </p>
             </div>
@@ -1165,7 +1165,7 @@ export const treatmentPlansData = [
                 Requirement
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
-              <p className="text-gray-700 dark:text-gray-300 text-base">
+              <p className="text-gray-700  text-base">
               The number of sessions varies based on the type of injury or the reason for cupping therapy.
               </p>
             </div>
@@ -1177,7 +1177,7 @@ export const treatmentPlansData = [
           {/* Call for Appointments */}
           <div className="flex justify-center">
             <Link href="tel:800-9944-335">
-              <button className="flex items-center space-x-2 border dark:text-black border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
+              <button className="flex items-center space-x-2 border  border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
                 <span className="text-xl">📞</span>
                 <span>Call for Appointments</span>
               </button>
@@ -1185,7 +1185,7 @@ export const treatmentPlansData = [
           </div>
 
           {/* Quote */}
-          <div className="flex flex-col items-center space-y-6 dark:text-black px-2">
+          <div className="flex flex-col items-center space-y-6  px-2">
             <div className="border border-green-500 p-4 sm:p-6 rounded-lg relative text-center text-sm sm:text-lg italic font-semibold text-gray-800 bg-white max-w-full sm:max-w-2xl">
               <p className="text-base sm:text-lg lg:text-2xl">
                 Hijama Cupping – The only therapy which affects both{" "}
