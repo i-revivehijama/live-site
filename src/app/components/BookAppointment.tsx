@@ -2,7 +2,12 @@ import React from "react";
 
 const BookAppointment = () => {
   return (
-    <div className="relative h-screen w-full overflow-hidden my-14">
+    <>
+    <h2 className="text-4xl font-bold text-center py-6 text-primary">
+        Book Appointment
+      </h2>
+    <div className="relative h-screen w-full overflow-hidden my-4">
+      
       {/* Background Layer */}
       <div className="absolute inset-0 bg-gray-200 opacity-50" />
 
@@ -21,9 +26,10 @@ const BookAppointment = () => {
               }}
             allowFullScreen
           ></iframe>
-        </div>
+        </div> 
       </div>
     </div>
+    </>
   );
 };
 

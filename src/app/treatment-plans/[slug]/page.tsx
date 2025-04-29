@@ -36,18 +36,17 @@ export default function BlogPost() {
           <div className="flex space-x-4">
             {treatmentPlansData.map((plan, index) => (
               <div key={index} className="flex-none w-48 sm:w-72">
-                <div className="w-full aspect-square bg-gray-200 rounded-lg shadow-lg">
-                  <Image
-                    src={plan.image}
-                    alt={plan.title}
-                    width={500}
-                    height={500}
-                    className="w-full aspect-square object-cover rounded-lg"
-                  />
-                </div>
-
                 <Link href={`/treatment-plans/${plan.slug}`}>
-                  <p className="mt-2 font-semibold text-gray-800 lg:text-2xl dark:text-white">
+                  <div className="w-full aspect-square bg-gray-200 rounded-lg shadow-lg">
+                    <Image
+                      src={plan.image}
+                      alt={plan.title}
+                      width={500}
+                      height={500}
+                      className="w-full aspect-square object-cover rounded-lg"
+                    />
+                  </div>
+                  <p className="mt-2 font-semibold text-gray-800 lg:text-2xl">
                     {plan.title}
                   </p>
                 </Link>

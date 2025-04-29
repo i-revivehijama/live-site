@@ -683,7 +683,7 @@ export const treatmentPlansData = [
   {
     id: 6,
     title: "Infertility Cupping",
-    image: "/paana.jpg",
+    image: "/treat3.jpeg",
     slug: "infertility-cupping",
     content: (
       <section className="relative">
@@ -958,7 +958,7 @@ export const treatmentPlansData = [
   {
     id: 8,
     title: "Custom Plan",
-    image: "/paana.jpg",
+    image: "/treat5.jpeg",
     slug: "custom-plan",
     content: (
       <section className="relative">
@@ -1083,7 +1083,7 @@ export const treatmentPlansData = [
   {
     id: 9,
     title: "Sports Plus",
-    image: "/paana.jpg",
+    image: "/treat6.jpeg",
     slug: "why-choose-a-female-hijama-specialist-in-hyderabad",
     content: (
       <section className="relative">
