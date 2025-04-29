@@ -16,11 +16,11 @@ const WhatWeDo: React.FC<WhatWeDoProps> = ({ limit }) => {
   return (
     <section className="text-center py-6 lg:py-16 px-6 md:px-20 bg-white">
       <div className="flex justify-center items-center text-green-700 text-sm font-semibold tracking-wide">
-        <span className="w-16 h-0.5 bg-blue-400 mr-4"></span>
+       
         <span className="text-primary text-3xl sm:text-4xl md:text-5xl font-bold">
           TREATMENT PLANS
         </span>
-        <span className="w-16 h-0.5 bg-blue-400 ml-4"></span>
+       
       </div>
 
       <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">

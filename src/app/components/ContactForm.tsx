@@ -49,9 +49,11 @@ const ContactForm = () => {
   };
 
   return (
+    
     <div className="relative w-full py-10 px-2 lg:px-10">
       {/* Fixed wrapper to prevent Image hydration issues */}
       <div className="absolute inset-0 -z-10">
+        
         <Image
           src="/img144.jpg"
           alt="Background"
@@ -75,6 +77,9 @@ const ContactForm = () => {
             transition={{ duration: 1 }}
             className="md:w-1/2"
           >
+            <h2 className="text-4xl font-bold text-center mb-10 text-primary">
+        CONTACT US
+      </h2>
             <h2 className="text-xl font-semibold font-Montserrat text-primary mb-4">
               SOLUTIONS TO YOUR PAIN
             </h2>

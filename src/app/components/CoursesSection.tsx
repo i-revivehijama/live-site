@@ -36,6 +36,9 @@ const courses = [
 export default function CoursesSection() {
   return (
     <div className="container mx-auto p-6 bg-white dark:bg-white">
+      <h2 className="text-3xl font-bold text-center mb-10 text-primary dark:text-primary">
+        COURSES
+      </h2>
       <div className="grid lg:grid-cols-3 gap-6">
         {courses.map((course, index) => (
           <div

@@ -19,13 +19,13 @@ export const treatmentPlansData = [
           {/* Back Link */}
           <Link
             href="/treatment-plans"
-            className="flex items-center text-sm sm:text-base text-black dark:text-white"
+            className="flex items-center text-sm sm:text-base text-black "
           >
             ← Back to All Plans
           </Link>
 
           {/* Heading */}
-          <h1 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-bold text-black dark:text-white">
+          <h1 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-bold text-black ">
             Sunnah Basic
           </h1>
 
@@ -34,7 +34,7 @@ export const treatmentPlansData = [
         </div>
 
         {/* Description */}
-        <p className="mt-4 text-sm sm:text-base md:text-lg text-black leading-relaxed dark:text-white px-4 sm:px-6 md:px-16 text-justify sm:text-justify mx-auto">
+        <p className="mt-4 text-sm sm:text-base md:text-lg text-black leading-relaxed px-4 sm:px-6 md:px-16 text-justify sm:text-justify mx-auto">
           The Sunnah Basic is a starter plan that covers the basic Sunnah
           Cupping sites which help in general body maintenance and applicable to
           diseases/chronic issues. <br className="hidden sm:block" />
@@ -61,11 +61,11 @@ export const treatmentPlansData = [
           <div className="w-full flex flex-col gap-10">
             {/* Benefits Section */}
             <div>
-              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
+              <h2 className="text-2xl font-bold text-gray-800  mb-4">
                 Benefits
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
-              <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 text-base space-y-2">
+              <ul className="list-disc list-inside text-gray-700  text-base space-y-2">
                 <li>Back and neck pains</li>
                 <li>Stiff muscles</li>
                 <li>Sore joints</li>
@@ -78,22 +78,22 @@ export const treatmentPlansData = [
 
             {/* Duration Section */}
             <div>
-              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
+              <h2 className="text-2xl font-bold text-gray-800  mb-4">
                 Duration
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
-              <p className="text-gray-700 dark:text-gray-300 text-base">
+              <p className="text-gray-700  text-base">
                 Each session goes for approximately 45–60 mins
               </p>
             </div>
 
             {/* Requirement Section */}
             <div>
-              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
+              <h2 className="text-2xl font-bold text-gray-800  mb-4">
                 Requirement
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
-              <p className="text-gray-700 dark:text-gray-300 text-base">
+              <p className="text-gray-700  text-base">
                 1 Session
               </p>
             </div>
@@ -105,7 +105,7 @@ export const treatmentPlansData = [
           {/* Call for Appointments */}
           <div className="flex justify-center">
             <Link href="tel:800-9944-335">
-              <button className="flex items-center space-x-2 border dark:text-black border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
+              <button className="flex items-center space-x-2 border  border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
                 <span className="text-xl">📞</span>
                 <span>Call for Appointments</span>
               </button>
@@ -113,7 +113,7 @@ export const treatmentPlansData = [
           </div>
 
           {/* Quote */}
-          <div className="flex flex-col items-center space-y-6 dark:text-black px-2">
+          <div className="flex flex-col items-center space-y-6  px-2">
             <div className="border border-green-500 p-4 sm:p-6 rounded-lg relative text-center text-sm sm:text-lg italic font-semibold text-gray-800 bg-white max-w-full sm:max-w-2xl">
               <p className="text-base sm:text-lg lg:text-2xl">
                 Hijama Cupping – The only therapy which affects both{" "}
@@ -152,13 +152,13 @@ export const treatmentPlansData = [
           {/* Back Link */}
           <Link
             href="/treatment-plans"
-            className="flex items-center text-sm sm:text-base text-black dark:text-white"
+            className="flex items-center text-sm sm:text-base text-black "
           >
             ← Back to All Plans
           </Link>
 
           {/* Heading */}
-          <h1 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-bold text-black dark:text-white">
+          <h1 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-bold text-black ">
             Sunnah Plus
           </h1>
 
@@ -167,7 +167,7 @@ export const treatmentPlansData = [
         </div>
 
         {/* Description */}
-        <p className="mt-4 text-sm sm:text-base md:text-lg text-black leading-relaxed dark:text-white px-4 sm:px-6 md:px-16 text-justify sm:text-justify mx-auto">
+        <p className="mt-4 text-sm sm:text-base md:text-lg text-black leading-relaxed  px-4 sm:px-6 md:px-16 text-justify sm:text-justify mx-auto">
           The Sunnah Plus is a more extensive plan covering 9 (10 with 2nd
           Kahil) points including the basic Sunnah points, along with a deep
           tissue stroke and gliding cupping.
@@ -190,7 +190,7 @@ export const treatmentPlansData = [
           <div className="w-full flex flex-col gap-10">
             {/* Benefits Section */}
             <div>
-              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
+              <h2 className="text-2xl font-bold text-gray-800  mb-4">
                 Benefits
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
@@ -211,7 +211,7 @@ export const treatmentPlansData = [
 
             {/* Duration Section */}
             <div>
-              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
+              <h2 className="text-2xl font-bold text-gray-800  mb-4">
                 Duration
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
@@ -222,7 +222,7 @@ export const treatmentPlansData = [
 
             {/* Requirement Section */}
             <div>
-              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
+              <h2 className="text-2xl font-bold text-gray-800  mb-4">
                 Requirement
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
@@ -285,13 +285,13 @@ export const treatmentPlansData = [
           {/* Back Link */}
           <Link
             href="/treatment-plans"
-            className="flex items-center text-sm sm:text-base text-black dark:text-white"
+            className="flex items-center text-sm sm:text-base text-black "
           >
             ← Back to All Plans
           </Link>
 
           {/* Heading */}
-          <h1 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-bold text-black dark:text-white">
+          <h1 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-bold text-black ">
             Vital Organ Cleanse
           </h1>
 
@@ -300,7 +300,7 @@ export const treatmentPlansData = [
         </div>
 
         {/* Description */}
-        <p className="mt-4 text-sm sm:text-base md:text-lg text-black leading-relaxed dark:text-white px-4 sm:px-6 md:px-16 text-justify sm:text-justify mx-auto">
+        <p className="mt-4 text-sm sm:text-base md:text-lg text-black leading-relaxed  px-4 sm:px-6 md:px-16 text-justify sm:text-justify mx-auto">
           The vital organ cleanse is a body maintenance plan that targets all
           vital bodily systems. It is an exhaustive cleanse targeting all
           organs, addressing multiple conditions and body systems. The cleanse
@@ -325,7 +325,7 @@ export const treatmentPlansData = [
           <div className="w-full flex flex-col gap-10">
             {/* Benefits Section */}
             <div>
-              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
+              <h2 className="text-2xl font-bold text-gray-800  mb-4">
                 Benefits
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
@@ -346,7 +346,7 @@ export const treatmentPlansData = [
 
             {/* Duration Section */}
             <div>
-              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
+              <h2 className="text-2xl font-bold text-gray-800  mb-4">
                 Duration
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
@@ -357,7 +357,7 @@ export const treatmentPlansData = [
 
             {/* Requirement Section */}
             <div>
-              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
+              <h2 className="text-2xl font-bold text-gray-800  mb-4">
                 Requirement
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
@@ -421,13 +421,13 @@ export const treatmentPlansData = [
           {/* Back Link */}
           <Link
             href="/treatment-plans"
-            className="flex items-center text-sm sm:text-base text-black dark:text-white"
+            className="flex items-center text-sm sm:text-base text-black "
           >
             ← Back to All Plans
           </Link>
 
           {/* Heading */}
-          <h1 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-bold text-black dark:text-white">
+          <h1 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-bold text-black ">
             Head Cupping
           </h1>
 
@@ -436,7 +436,7 @@ export const treatmentPlansData = [
         </div>
 
         {/* Description */}
-        <p className="mt-4 text-sm sm:text-base md:text-lg text-black leading-relaxed dark:text-white px-4 sm:px-6 md:px-16 text-justify sm:text-justify mx-auto">
+        <p className="mt-4 text-sm sm:text-base md:text-lg text-black leading-relaxed  px-4 sm:px-6 md:px-16 text-justify sm:text-justify mx-auto">
           Head cupping is highly beneficial and can treat an array of ailments
           related to the head. Performing cupping therapy on the scalp can help
           open the follicles and promote blood circulation to help maintain the
@@ -464,7 +464,7 @@ export const treatmentPlansData = [
           <div className="w-full flex flex-col gap-10">
             {/* Benefits Section */}
             <div>
-              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
+              <h2 className="text-2xl font-bold text-gray-800  mb-4">
                 Benefits
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
@@ -477,7 +477,7 @@ export const treatmentPlansData = [
 
             {/* Duration Section */}
             <div>
-              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
+              <h2 className="text-2xl font-bold text-gray-800  mb-4">
                 Duration
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
@@ -488,7 +488,7 @@ export const treatmentPlansData = [
 
             {/* Requirement Section */}
             <div>
-              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
+              <h2 className="text-2xl font-bold text-gray-800  mb-4">
                 Requirement
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
@@ -551,13 +551,13 @@ export const treatmentPlansData = [
           {/* Back Link */}
           <Link
             href="/treatment-plans"
-            className="flex items-center text-sm sm:text-base text-black dark:text-white"
+            className="flex items-center text-sm sm:text-base text-black "
           >
             ← Back to All Plans
           </Link>
 
           {/* Heading */}
-          <h1 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-bold text-black dark:text-white">
+          <h1 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-bold text-black ">
             Lymphatic Cleanse
           </h1>
 
@@ -566,7 +566,7 @@ export const treatmentPlansData = [
         </div>
 
         {/* Description */}
-        <p className="mt-4 text-sm sm:text-base md:text-lg text-black leading-relaxed dark:text-white px-4 sm:px-6 md:px-16 text-justify sm:text-justify mx-auto">
+        <p className="mt-4 text-sm sm:text-base md:text-lg text-black leading-relaxed  px-4 sm:px-6 md:px-16 text-justify sm:text-justify mx-auto">
           The lymphatic system is our body’s ‘sewerage system’. It is
           responsible for collecting and removing wastes, toxins, dead cells
           etc. from the tissues, acting as a systematic garbage collection
@@ -596,7 +596,7 @@ export const treatmentPlansData = [
           <div className="w-full flex flex-col gap-10">
             {/* Benefits */}
             <div>
-              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
+              <h2 className="text-2xl font-bold text-gray-800  mb-4">
                 Benefits
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
@@ -621,7 +621,7 @@ export const treatmentPlansData = [
 
             {/* Duration */}
             <div>
-              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
+              <h2 className="text-2xl font-bold text-gray-800  mb-4">
                 Duration
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
@@ -632,7 +632,7 @@ export const treatmentPlansData = [
 
             {/* Requirement */}
             <div>
-              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
+              <h2 className="text-2xl font-bold text-gray-800  mb-4">
                 Requirement
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
@@ -697,13 +697,13 @@ export const treatmentPlansData = [
           {/* Back Link */}
           <Link
             href="/treatment-plans"
-            className="flex items-center text-sm sm:text-base text-black dark:text-white"
+            className="flex items-center text-sm sm:text-base text-black "
           >
             ← Back to All Plans
           </Link>
 
           {/* Heading */}
-          <h1 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-bold text-black dark:text-white">
+          <h1 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-bold text-black ">
             Infertility Cupping
           </h1>
 
@@ -712,7 +712,7 @@ export const treatmentPlansData = [
         </div>
 
         {/* Description */}
-        <p className="mt-4 text-sm sm:text-base md:text-lg text-black leading-relaxed dark:text-white px-4 sm:px-6 md:px-16 text-justify sm:text-justify mx-auto">
+        <p className="mt-4 text-sm sm:text-base md:text-lg text-black leading-relaxed  px-4 sm:px-6 md:px-16 text-justify sm:text-justify mx-auto">
           Infertility Cupping is a therapeutic treatment that helps balance the
           body&apos;s internal pH, chemical, and hormonal levels. It works by
           clearing blockages and improving blood circulation, which is crucial
@@ -754,7 +754,7 @@ export const treatmentPlansData = [
           <div className="w-full flex flex-col gap-10">
             {/* Benefits Section */}
             <div>
-              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
+              <h2 className="text-2xl font-bold text-gray-800  mb-4">
                 Benefits
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
@@ -771,7 +771,7 @@ export const treatmentPlansData = [
 
             {/* Duration Section */}
             <div>
-              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
+              <h2 className="text-2xl font-bold text-gray-800  mb-4">
                 Duration
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
@@ -782,7 +782,7 @@ export const treatmentPlansData = [
 
             {/* Requirement Section */}
             <div>
-              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
+              <h2 className="text-2xl font-bold text-gray-800  mb-4">
                 Requirement
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
@@ -846,13 +846,13 @@ export const treatmentPlansData = [
           {/* Back Link */}
           <Link
             href="/treatment-plans"
-            className="flex items-center text-sm sm:text-base text-black dark:text-white"
+            className="flex items-center text-sm sm:text-base text-black "
           >
             ← Back to All Plans
           </Link>
 
           {/* Heading */}
-          <h1 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-bold text-black dark:text-white">
+          <h1 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-bold text-black ">
           i-Revive Plan
           </h1>
 
@@ -861,7 +861,7 @@ export const treatmentPlansData = [
         </div>
 
         {/* Description */}
-        <p className="mt-4 text-sm sm:text-base md:text-lg text-black leading-relaxed dark:text-white px-4 sm:px-6 md:px-16 text-justify sm:text-justify mx-auto">
+        <p className="mt-4 text-sm sm:text-base md:text-lg text-black leading-relaxed  px-4 sm:px-6 md:px-16 text-justify sm:text-justify mx-auto">
         The i-Revive Plan is a comprehensive health reset that addresses a wide range of diseases, chronic conditions, and imbalances. The plan revitalizes the body using a series of cupping sessions, which act as a supercharged boost to your overall health. This approach aims to bring the body back to an optimal state of health in a short period of time before it returns to its diseased state. The plan includes lymphatic drainage sessions, sectional cleansing sessions, and a 21-day diet plan.
         </p>
 
@@ -884,7 +884,7 @@ export const treatmentPlansData = [
           <div className="w-full flex flex-col gap-10">
             {/* Benefits Section */}
             <div>
-              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
+              <h2 className="text-2xl font-bold text-gray-800  mb-4">
                 Benefits
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
@@ -898,7 +898,7 @@ export const treatmentPlansData = [
 
             {/* Duration Section */}
             <div>
-              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
+              <h2 className="text-2xl font-bold text-gray-800  mb-4">
                 Duration
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
@@ -909,7 +909,7 @@ export const treatmentPlansData = [
 
             {/* Requirement Section */}
             <div>
-              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
+              <h2 className="text-2xl font-bold text-gray-800  mb-4">
                 Requirement
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
@@ -972,13 +972,13 @@ export const treatmentPlansData = [
           {/* Back Link */}
           <Link
             href="/treatment-plans"
-            className="flex items-center text-sm sm:text-base text-black dark:text-white"
+            className="flex items-center text-sm sm:text-base text-black "
           >
             ← Back to All Plans
           </Link>
 
           {/* Heading */}
-          <h1 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-bold text-black dark:text-white">
+          <h1 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-bold text-black ">
             Custom Plan
           </h1>
 
@@ -987,7 +987,7 @@ export const treatmentPlansData = [
         </div>
 
         {/* Description */}
-        <p className="mt-4 text-sm sm:text-base md:text-lg text-black leading-relaxed dark:text-white px-4 sm:px-6 md:px-16 text-justify sm:text-justify mx-auto">
+        <p className="mt-4 text-sm sm:text-base md:text-lg text-black leading-relaxed  px-4 sm:px-6 md:px-16 text-justify sm:text-justify mx-auto">
         The Custom Plan is tailored to meet specific client needs and addresses a variety of issues, including chronic conditions, pain management, athletic performance enhancement, injury recovery, and metaphysical concerns. The focus is on treating personal areas of pain, with sessions customized to each client&apos;s unique requirements.
         </p>
 
@@ -1010,7 +1010,7 @@ export const treatmentPlansData = [
           <div className="w-full flex flex-col gap-10">
             {/* Benefits Section */}
             <div>
-              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
+              <h2 className="text-2xl font-bold text-gray-800  mb-4">
                 Benefits
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
@@ -1023,7 +1023,7 @@ export const treatmentPlansData = [
 
             {/* Duration Section */}
             <div>
-              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
+              <h2 className="text-2xl font-bold text-gray-800  mb-4">
                 Duration
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
@@ -1034,7 +1034,7 @@ export const treatmentPlansData = [
 
             {/* Requirement Section */}
             <div>
-              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
+              <h2 className="text-2xl font-bold text-gray-800  mb-4">
                 Requirement
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
@@ -1097,13 +1097,13 @@ export const treatmentPlansData = [
           {/* Back Link */}
           <Link
             href="/treatment-plans"
-            className="flex items-center text-sm sm:text-base text-black dark:text-white"
+            className="flex items-center text-sm sm:text-base text-black "
           >
             ← Back to All Plans
           </Link>
 
           {/* Heading */}
-          <h1 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-bold text-black dark:text-white">
+          <h1 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-bold text-black ">
             Sports Plus
           </h1>
 
@@ -1112,7 +1112,7 @@ export const treatmentPlansData = [
         </div>
 
         {/* Description */}
-        <p className="mt-4 text-sm sm:text-base md:text-lg text-black leading-relaxed dark:text-white px-4 sm:px-6 md:px-16 text-justify sm:text-justify mx-auto">
+        <p className="mt-4 text-sm sm:text-base md:text-lg text-black leading-relaxed  px-4 sm:px-6 md:px-16 text-justify sm:text-justify mx-auto">
         The Sports Plus plan is a must for athletes and gym-goers who want to maximize their performance and recovery. Cupping therapy is popular among athletes before and after their activities to alleviate specific aches and pains, enhance mobility, and improve overall circulation. This plan is designed to relax muscles, ease cramps, and speed up recovery, ensuring you&apos;re ready for your next match.
         </p>
 
@@ -1135,7 +1135,7 @@ export const treatmentPlansData = [
           <div className="w-full flex flex-col gap-10">
             {/* Benefits Section */}
             <div>
-              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
+              <h2 className="text-2xl font-bold text-gray-800  mb-4">
                 Benefits
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
@@ -1150,7 +1150,7 @@ export const treatmentPlansData = [
 
             {/* Duration Section */}
             <div>
-              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
+              <h2 className="text-2xl font-bold text-gray-800  mb-4">
                 Duration
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
@@ -1161,7 +1161,7 @@ export const treatmentPlansData = [
 
             {/* Requirement Section */}
             <div>
-              <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
+              <h2 className="text-2xl font-bold text-gray-800  mb-4">
                 Requirement
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
