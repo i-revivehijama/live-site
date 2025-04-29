@@ -11,7 +11,7 @@ const Faq = () => {
  
   return (
     <section className="container mx-auto px-6 md:px-12 py-12 bg-white dark:bg-white">
-      <h2 className="text-4xl sm:text-5xl md:text-5xl font-bold text-gray-900 mb-6">
+      <h2 className="text-4xl sm:text-5xl md:text-5xl font-bold text-primary mb-6">
         FAQs
       </h2>
       <div className="border-t border-primary w-16 mb-8"></div>

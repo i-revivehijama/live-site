@@ -1177,7 +1177,7 @@ export const treatmentPlansData = [
           {/* Call for Appointments */}
           <div className="flex justify-center">
             <Link href="tel:800-9944-335">
-              <button className="flex items-center space-x-2 border  border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
+              <button className="flex items-center space-x-2 border border-black px-5 sm:px-6 py-3 rounded-lg shadow-sm hover:bg-gray-100 transition text-sm sm:text-base">
                 <span className="text-xl">📞</span>
                 <span>Call for Appointments</span>
               </button>
