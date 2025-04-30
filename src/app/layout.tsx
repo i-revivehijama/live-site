@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Head from "next/head";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -26,11 +25,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Head>
+      <head>
         <meta name="color-scheme" content="light only" />
         <meta name="p:domain_verify" content="b3119bbb53b18a0ee80a802cb5281dc9" />
 
-        {/* Meta tags for SEO and social media */}
+        {/* SEO Meta */}
         <meta
           name="description"
           content="Get the best Hijama Cupping Therapy in Hyderabad at i-Revive Body & Soul. Our experienced certified practitioners are here to help. Schedule your appointment now! Visit www.i-revive.com."
@@ -59,6 +58,21 @@ export default function RootLayout({
         <meta property="og:url" content="https://www.i-revive.com" />
         <meta property="og:site_name" content="i-Revive Body & Soul" />
         <meta property="og:type" content="website" />
+
+        {/* Twitter Meta Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Best Hijama Cupping Therapy Clinic in Hyderabad | i-Revive Body & Soul"
+        />
+        <meta
+          name="twitter:description"
+          content="Get the best Hijama Cupping Therapy in Hyderabad at i-Revive Body & Soul. Our experienced certified practitioners are here to help. Schedule your appointment now! Visit www.i-revive.com."
+        />
+        <meta
+          name="twitter:image"
+          content="https://static.wixstatic.com/media/2feea3_0130cffcbcc14dfdb55ad5538c7a2ad0~mv2.jpg/v1/fit/w_2500,h_1330,al_c/2feea3_0130cffcbcc14dfdb55ad5538c7a2ad0~mv2.jpg"
+        />
 
         {/* Structured Data */}
         <script
@@ -99,23 +113,7 @@ export default function RootLayout({
             }),
           }}
         />
-
-        {/* Twitter Meta Tags */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Best Hijama Cupping Therapy Clinic in Hyderabad | i-Revive Body & Soul"
-        />
-        <meta
-          name="twitter:description"
-          content="Get the best Hijama Cupping Therapy in Hyderabad at i-Revive Body & Soul. Our experienced certified practitioners are here to help. Schedule your appointment now! Visit www.i-revive.com."
-        />
-        <meta
-          name="twitter:image"
-          content="https://static.wixstatic.com/media/2feea3_0130cffcbcc14dfdb55ad5538c7a2ad0~mv2.jpg/v1/fit/w_2500,h_1330,al_c/2feea3_0130cffcbcc14dfdb55ad5538c7a2ad0~mv2.jpg"
-        />
-      </Head>
-
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
       </body>

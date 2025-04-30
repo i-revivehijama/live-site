@@ -10,16 +10,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Best Hijama Centre for Ladies in Hyderabad | Female Cupping Experts",
+  title: "Hijama for Women in Hyderabad | Female Health & Wellness Therapy",
   description:
-    "i-Revive offers certified Hijama therapy exclusively for women in Hyderabad. Experience safe, private cupping sessions with female practitioners at our trusted center.",
+    "Experience expert Hijama therapy for women at i-Revive in Hyderabad. Safe, confidential sessions designed for female wellness, hormonal harmony, and natural pain relief.",
   keywords:
-    "Hijama for ladies Hyderabad, Best women’s cupping therapy Hyderabad, Female Hijama specialists Mehdipatnam, Ladies-only Hijama centre Hyderabad, Safe Hijama treatment for women, Certified female Hijama practitioner Hyderabad, Hijama for hormonal balance in women, Women’s wellness Hijama clinic, Hijama for PCOS and female health, Private Hijama sessions for ladies Hyderabad",
+    "Hijama for women Hyderabad, Female cupping therapy Hyderabad, Hijama for hormonal imbalance in women, Women’s wellness Hijama treatment, Hijama therapy for PCOS Hyderabad, Female pain relief cupping Hyderabad, Certified Hijama for ladies in Hyderabad, Hijama for menstrual health, Women’s detox therapy Hyderabad, Female-focused Hijama center Hyderabad",
   openGraph: {
-    title: "Best Hijama Centre for Ladies in Hyderabad | Female Cupping Experts",
+    title: "Hijama for Women in Hyderabad | Female Health & Wellness Therapy",
     description:
-      "i-Revive offers certified Hijama therapy exclusively for women in Hyderabad. Experience safe, private cupping sessions with female practitioners at our trusted center.",
-    url: "https://www.i-revive.com/about-us",
+      "Experience expert Hijama therapy for women at i-Revive in Hyderabad. Safe, confidential sessions designed for female wellness, hormonal harmony, and natural pain relief",
+    url: "https://www.i-revive.com/hijama-for-women-hyderabad",
     images: [
       {
         url: "https://static.wixstatic.com/media/2feea3_0130cffcbcc14dfdb55ad5538c7a2ad0~mv2.jpg/v1/fit/w_2500,h_1330,al_c/2feea3_0130cffcbcc14dfdb55ad5538c7a2ad0~mv2.jpg",
@@ -74,10 +74,10 @@ export default function AboutLayout({
           name="description"
           content="i-Revive offers certified Hijama therapy exclusively for women in Hyderabad. Experience safe, private cupping sessions with female practitioners at our trusted center."
         />
-        <meta
-          name="keywords"
-          content="Hijama for ladies Hyderabad, Best women’s cupping therapy Hyderabad, Female Hijama specialists Mehdipatnam, Ladies-only Hijama centre Hyderabad, Safe Hijama treatment for women, Certified female Hijama practitioner Hyderabad, Hijama for hormonal balance in women, Women’s wellness Hijama clinic, Hijama for PCOS and female health, Private Hijama sessions for ladies Hyderabad"
-        />
+       <meta
+  name="keywords"
+  content="Hijama for women Hyderabad, Female cupping therapy Hyderabad, Hijama for hormonal imbalance in women, Women’s wellness Hijama treatment, Hijama therapy for PCOS Hyderabad, Female pain relief cupping Hyderabad, Certified Hijama for ladies in Hyderabad, Hijama for menstrual health, Women’s detox therapy Hyderabad, Female-focused Hijama center Hyderabad"
+/>
         <link rel="canonical" href="https://www.i-revive.com/best-hijama-centre-for-ladies-hyderabad" />
         <meta
           name="google-site-verification"
@@ -86,11 +86,12 @@ export default function AboutLayout({
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Best Hijama Cupping Therapy Centre Mehdipatnam, Hyderabad"
+          content="Hijama for Women in Hyderabad | Female Health & Wellness Therapy"
         />
         <meta
           name="twitter:description"
-          content="Best Hijama centre in Hyderabad at i-Revive, Mehdipatnam. We offer expert Hijama cupping therapy for both men and women, delivered by skilled professionals. Enjoy effective and affordable Islamic cupping treatments tailored to your needs. Experience the healing benefits of Hijama."
+          content="Experience expert Hijama therapy for women at i-Revive in Hyderabad. Safe, confidential sessions designed for female wellness, hormonal harmony, and natural pain relief.
+"
         />
         <meta
           name="twitter:image"
@@ -98,11 +99,11 @@ export default function AboutLayout({
         />
         <meta
           property="og:title"
-          content="Best Hijama Centre for Ladies in Hyderabad | Female Cupping Experts"
+          content="Hijama for Women in Hyderabad | Female Health & Wellness Therapy"
         />
         <meta
           property="og:description"
-          content="i-Revive offers certified Hijama therapy exclusively for women in Hyderabad. Experience safe, private cupping sessions with female practitioners at our trusted center."
+          content="Experience expert Hijama therapy for women at i-Revive in Hyderabad. Safe, confidential sessions designed for female wellness, hormonal harmony, and natural pain relief."
         />
         <meta
           property="og:image"
