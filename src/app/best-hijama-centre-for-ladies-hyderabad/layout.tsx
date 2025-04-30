@@ -56,7 +56,7 @@ const websiteSchema = {
     "@type": "SearchAction",
     "target": {
       "@type": "EntryPoint",
-      "urlTemplate": "https://www.i-revive.com/search?q={search_term}",
+     
     },
     "query-input": "required name=search_term",
   },
@@ -78,7 +78,7 @@ export default function AboutLayout({
           name="keywords"
           content="Hijama for ladies Hyderabad, Best women’s cupping therapy Hyderabad, Female Hijama specialists Mehdipatnam, Ladies-only Hijama centre Hyderabad, Safe Hijama treatment for women, Certified female Hijama practitioner Hyderabad, Hijama for hormonal balance in women, Women’s wellness Hijama clinic, Hijama for PCOS and female health, Private Hijama sessions for ladies Hyderabad"
         />
-        <link rel="canonical" href="https://www.i-revive.com/about-us" />
+        <link rel="canonical" href="https://www.i-revive.com/best-hijama-centre-for-ladies-hyderabad" />
         <meta
           name="google-site-verification"
           content="n9X_WPEBHM7-OhknawUN0VyEknPS3wDy3R9oyYQU1Ek"
@@ -110,7 +110,7 @@ export default function AboutLayout({
         />
         <meta property="og:image:width" content="2500" />
         <meta property="og:image:height" content="1330" />
-        <meta property="og:url" content="https://www.i-revive.com/about-us" />
+        <meta property="og:url" content="https://www.i-revive.com/best-hijama-centre-for-ladies-hyderabad" />
         <meta property="og:site_name" content="i-Revive Body & Soul" />
         <meta property="og:type" content="website" />
         <script
