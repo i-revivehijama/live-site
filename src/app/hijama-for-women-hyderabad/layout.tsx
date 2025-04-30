@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Best Hijama Center for Women in Hyderabad | i-revive.com",
+  title: "Hijama for Women in Hyderabad | Female Health & Wellness Therapy",
   description:
-    "Looking for the best Hijama center for women in Hyderabad? i-revive.com offers top-rated Hijama services for ladies, with convenient locations near you. Experience expert care and personalized treatments at our leading Hijama centers in Hyderabad",
+    "Experience expert Hijama therapy for women at i-Revive in Hyderabad. Safe, confidential sessions designed for female wellness, hormonal harmony, and natural pain relief.",
 };
 
 export default function RootLayout({
@@ -30,10 +30,20 @@ export default function RootLayout({
         {/* Meta tags for SEO and social media */}
         <meta
           name="description"
-          content="Looking for the best Hijama center for women in Hyderabad? i-revive.com offers top-rated Hijama services for ladies, with convenient locations near you. Experience expert care and personalized treatments at our leading Hijama centers in Hyderabad"
+          content="Experience expert Hijama therapy for women at i-Revive in Hyderabad. Safe, confidential sessions designed for female wellness, hormonal harmony, and natural pain relief."
         />
-        <link rel="canonical" href="https://www.i-revive.com/hijama-for-women-hyderabad" />
-        <meta property="og:title" content="Best Hijama Center for Women in Hyderabad | i-revive.com" />
+        <meta
+          name="keywords"
+          content="Hijama for women Hyderabad, Female cupping therapy Hyderabad, Hijama for hormonal imbalance in women, Women’s wellness Hijama treatment, Hijama therapy for PCOS Hyderabad, Female pain relief cupping Hyderabad, Certified Hijama for ladies in Hyderabad, Hijama for menstrual health, Women’s detox therapy Hyderabad, Female-focused Hijama center Hyderabad"
+        />
+        <link
+          rel="canonical"
+          href="https://www.i-revive.com/hijama-for-women-hyderabad"
+        />
+        <meta
+          property="og:title"
+          content="Best Hijama Center for Women in Hyderabad | i-revive.com"
+        />
         <meta
           property="og:description"
           content="Looking for the best Hijama center for women in Hyderabad? i-revive.com offers top-rated Hijama services for ladies, with convenient locations near you. Experience expert care and personalized treatments at our leading Hijama centers in Hyderabad"
@@ -44,16 +54,19 @@ export default function RootLayout({
         />
         <meta property="og:image:width" content="2500" />
         <meta property="og:image:height" content="1330" />
-        <meta property="og:url" content="https://www.i-revive.com/hijama-for-women-hyderabad" />
+        <meta
+          property="og:url"
+          content="https://www.i-revive.com/hijama-for-women-hyderabad"
+        />
         <meta property="og:site_name" content="i-Revive Body & Soul" />
         <meta property="og:type" content="website" />
 
-        {/* Keywords for SEO */}
-        <meta name="keywords" content="Top cupping therapy Hyderabad" />
-        <meta name="keyword" content="Affordable cupping therapy Hyderabad" />
-        
+       
         {/* Google Site Verification */}
-        <meta name="google-site-verification" content="n9X_WPEBHM7-OhknawUN0VyEknPS3wDy3R9oyYQU1Ek" />
+        <meta
+          name="google-site-verification"
+          content="n9X_WPEBHM7-OhknawUN0VyEknPS3wDy3R9oyYQU1Ek"
+        />
 
         {/* Structured data in JSON-LD */}
         <script type="application/ld+json">
@@ -91,7 +104,10 @@ export default function RootLayout({
 
         {/* Twitter meta tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Best Hijama Center for Women in Hyderabad | i-revive.com" />
+        <meta
+          name="twitter:title"
+          content="Best Hijama Center for Women in Hyderabad | i-revive.com"
+        />
         <meta
           name="twitter:description"
           content="Looking for the best Hijama center for women in Hyderabad? i-revive.com offers top-rated Hijama services for ladies, with convenient locations near you. Experience expert care and personalized treatments at our leading Hijama centers in Hyderabad"
@@ -102,7 +118,9 @@ export default function RootLayout({
         />
       </Head>
 
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
         {children}
       </body>
     </html>

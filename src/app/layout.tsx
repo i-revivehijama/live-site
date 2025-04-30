@@ -14,7 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Best Hijama Cupping Therapy Clinic in Hyderabad | i-Revive Body & Soul",
+  title:
+    "Best Hijama Cupping Therapy Clinic in Hyderabad | i-Revive Body & Soul",
   description:
     "Get the best Hijama Cupping Therapy in Hyderabad at i-Revive Body & Soul. Our experienced certified practitioners are here to help. Schedule your appointment now! Visit www.i-revive.com.",
 };
@@ -27,16 +28,26 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-      <meta name="color-scheme" content="light only" />
+        <meta name="color-scheme" content="light only" />
 
-      <meta name="p:domain_verify" content="b3119bbb53b18a0ee80a802cb5281dc9"/>
+        <meta
+          name="p:domain_verify"
+          content="b3119bbb53b18a0ee80a802cb5281dc9"
+        />
         {/* Meta tags for SEO and social media */}
         <meta
           name="description"
           content="Get the best Hijama Cupping Therapy in Hyderabad at i-Revive Body & Soul. Our experienced certified practitioners are here to help. Schedule your appointment now! Visit www.i-revive.com."
         />
+        <meta
+          name="keywords"
+          content="Best Hijama Cupping Therapy Centre in Hyderabad, Best Hijama Centre in Hyderabad for Ladies, Ladies Hijama Center in Hyderabad, Best Hijama Specialist in Hyderabad, Certified Hijama Practitioner Hyderabad, Affordable Hijama Therapy in Hyderabad, Top Hijama Specialists in Hyderabad, Hijama Therapy for Women Hyderabad, Pain Relief Hijama Centers Hyderabad, Best Hijama Center for Men and Women in Hyderabad"
+        />
         <link rel="canonical" href="https://www.i-revive.com" />
-        <meta property="og:title" content="Best Hijama Cupping Therapy Clinic in Hyderabad | i-Revive Body & Soul" />
+        <meta
+          property="og:title"
+          content="Best Hijama Cupping Therapy Clinic in Hyderabad | i-Revive Body & Soul"
+        />
         <meta
           property="og:description"
           content="Get the best Hijama Cupping Therapy in Hyderabad at i-Revive Body & Soul. Our experienced certified practitioners are here to help. Schedule your appointment now! Visit www.i-revive.com."
@@ -50,7 +61,7 @@ export default function RootLayout({
         <meta property="og:url" content="https://www.i-revive.com" />
         <meta property="og:site_name" content="i-Revive Body & Soul" />
         <meta property="og:type" content="website" />
-        
+
         {/* Structured data in JSON-LD */}
         <script type="application/ld+json">
           {`{
@@ -87,7 +98,10 @@ export default function RootLayout({
 
         {/* Twitter meta tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Best Hijama Cupping Therapy Clinic in Hyderabad | i-Revive Body & Soul" />
+        <meta
+          name="twitter:title"
+          content="Best Hijama Cupping Therapy Clinic in Hyderabad | i-Revive Body & Soul"
+        />
         <meta
           name="twitter:description"
           content="Get the best Hijama Cupping Therapy in Hyderabad at i-Revive Body & Soul. Our experienced certified practitioners are here to help. Schedule your appointment now! Visit www.i-revive.com."
@@ -98,7 +112,9 @@ export default function RootLayout({
         />
       </Head>
 
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
         {children}
       </body>
     </html>

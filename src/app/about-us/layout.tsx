@@ -32,8 +32,15 @@ export default function RootLayout({
           name="description"
           content="Best Hijama centre in Hyderabad at i-Revive, Mehdipatnam. We offer expert Hijama cupping therapy for both men and women, delivered by skilled professionals. Enjoy effective and affordable Islamic cupping treatments tailored to your needs. Experience the healing benefits of Hijama."
         />
+        <meta
+          name="keywords"
+          content="Best Hijama Cupping Therapy Centre in Hyderabad, Best Hijama Centre in Hyderabad for Ladies, Ladies Hijama Center in Hyderabad, Best Hijama Specialist in Hyderabad, Certified Hijama Practitioner Hyderabad, Affordable Hijama Therapy in Hyderabad, Top Hijama Specialists in Hyderabad, Hijama Therapy for Women Hyderabad, Pain Relief Hijama Centers Hyderabad, Best Hijama Center for Men and Women in Hyderabad, Hijama Cupping Therapy Hyderabad, Best Hijama Centre Mehdipatnam, Certified Hijama Specialist Hyderabad, Hijama Treatment for Pain Relief Hyderabad, Female Hijama Therapist Hyderabad, Hijama for Hormonal Imbalance Hyderabad, Hijama Cupping for Stress Relief Hyderabad, Affordable Hijama Therapy Hyderabad, Hijama for Chronic Conditions Hyderabad, i-Revive Hijama Centre Hyderabad"
+        />
         <link rel="canonical" href="https://www.i-revive.com/about-us" />
-        <meta property="og:title" content="Best Hijama Cupping Therapy Centre Mehdipatnam, Hyderabad" />
+        <meta
+          property="og:title"
+          content="Best Hijama Cupping Therapy Centre Mehdipatnam, Hyderabad"
+        />
         <meta
           property="og:description"
           content="Best Hijama centre in Hyderabad at i-Revive, Mehdipatnam. We offer expert Hijama cupping therapy for both men and women, delivered by skilled professionals. Enjoy effective and affordable Islamic cupping treatments tailored to your needs. Experience the healing benefits of Hijama."
@@ -51,9 +58,12 @@ export default function RootLayout({
         {/* Keywords for SEO */}
         <meta name="keywords" content="Top cupping therapy Hyderabad" />
         <meta name="keyword" content="Affordable cupping therapy Hyderabad" />
-        
+
         {/* Google Site Verification */}
-        <meta name="google-site-verification" content="n9X_WPEBHM7-OhknawUN0VyEknPS3wDy3R9oyYQU1Ek" />
+        <meta
+          name="google-site-verification"
+          content="n9X_WPEBHM7-OhknawUN0VyEknPS3wDy3R9oyYQU1Ek"
+        />
 
         {/* Structured data in JSON-LD */}
         <script type="application/ld+json">
@@ -91,7 +101,10 @@ export default function RootLayout({
 
         {/* Twitter meta tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Best Hijama Cupping Therapy Centre Mehdipatnam, Hyderabad" />
+        <meta
+          name="twitter:title"
+          content="Best Hijama Cupping Therapy Centre Mehdipatnam, Hyderabad"
+        />
         <meta
           name="twitter:description"
           content="Best Hijama centre in Hyderabad at i-Revive, Mehdipatnam. We offer expert Hijama cupping therapy for both men and women, delivered by skilled professionals. Enjoy effective and affordable Islamic cupping treatments tailored to your needs. Experience the healing benefits of Hijama."
@@ -102,7 +115,9 @@ export default function RootLayout({
         />
       </Head>
 
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
         {children}
       </body>
     </html>
