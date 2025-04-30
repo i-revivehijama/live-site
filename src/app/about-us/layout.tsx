@@ -23,7 +23,7 @@ export const metadata = {
     url: "https://www.i-revive.com/about-us",
     images: [
       {
-        url: "https://static.wixstatic.com/media/2feea3_0130cffcbcc14dfdb55ad5538c7a2ad0~mv2.jpg/v1/fit/w_2500,h_1330,al_c/2feea3_0130cffcbcc14dfdb55ad5538c7a2ad0~mv2.jpg",
+        url: "https://www.i-revive.com/i-revive-og-img.jpg",
         width: 2500,
         height: 1330,
         alt: "i-Revive Body & Soul",
@@ -39,7 +39,7 @@ const schemaData = {
   "name": "i-Revive Body & Soul",
   "url": "https://www.i-revive.com",
   "image":
-    "https://static.wixstatic.com/media/2feea3_3fb6eab04f94496cb6c5f7b583c74925~mv2.png",
+    "https://www.i-revive.com/i-revive-og-img.jpg",
   "address": {
     "@type": "PostalAddress",
     "addressCountry": "IN",
@@ -95,7 +95,7 @@ export default function RootLayout({
         />
         <meta
           name="twitter:image"
-          content="https://static.wixstatic.com/media/2feea3_0130cffcbcc14dfdb55ad5538c7a2ad0~mv2.jpg/v1/fit/w_2500,h_1330,al_c/2feea3_0130cffcbcc14dfdb55ad5538c7a2ad0~mv2.jpg"
+          content="https://www.i-revive.com/i-revive-og-img.jpg"
         />
         <meta
           property="og:title"
@@ -107,7 +107,7 @@ export default function RootLayout({
         />
         <meta
           property="og:image"
-          content="https://static.wixstatic.com/media/2feea3_0130cffcbcc14dfdb55ad5538c7a2ad0~mv2.jpg/v1/fit/w_2500,h_1330,al_c/2feea3_0130cffcbcc14dfdb55ad5538c7a2ad0~mv2.jpg"
+          content="https://www.i-revive.com/i-revive-og-img.jpg"
         />
         <meta property="og:image:width" content="2500" />
         <meta property="og:image:height" content="1330" />
