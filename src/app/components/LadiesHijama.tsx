@@ -30,9 +30,17 @@ const LadiesHijama = () => {
           transition={{ duration: 0.6, delay: 0.5 }}
           className="text-2xl sm:text-xl text-gray-700 leading-relaxed"
         >
-          Looking for the best Hijama centre for ladies in Hyderabad? At
-          i-Revive, we provide professional cupping therapy designed exclusively
-          for women, ensuring a safe, relaxing, and rejuvenating experience. Our
+          Looking for the best Hijama centre for ladies in Hyderabad? At{" "}
+          <a
+            href="https://www.i-revive.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-inherit"
+          >
+            i-Revive
+          </a>
+          , we provide professional cupping therapy designed exclusively for
+          women, ensuring a safe, relaxing, and rejuvenating experience. Our
           expert practitioners follow Islamic Hijama principles and use sterile,
           high-quality equipment to promote natural healing and detoxification.
         </motion.p>
@@ -56,12 +64,19 @@ const LadiesHijama = () => {
               Trusted by women for a comfortable and private experience.
             </li>
             <li>
-              ✅ <span className="font-semibold font-Playfair Display">Expert Practitioners –</span>{" "}
+              ✅{" "}
+              <span className="font-semibold font-Playfair Display">
+                Expert Practitioners –
+              </span>{" "}
               Certified professionals ensuring safe and effective therapy.
             </li>
             <li>
-              ✅ <span className="font-semibold font-Playfair Display">Holistic Healing –</span> Helps
-              with migraines, joint pain, stress relief, and overall well-being.
+              ✅{" "}
+              <span className="font-semibold font-Playfair Display">
+                Holistic Healing –
+              </span>{" "}
+              Helps with migraines, joint pain, stress relief, and overall
+              well-being.
             </li>
             <li>
               ✅{" "}
@@ -100,25 +115,25 @@ const LadiesHijama = () => {
           </p>
         </motion.div>
         <div className="mt-10 flex flex-col md:flex-row gap-6 justify-center">
-                <div className="w-full aspect-square max-h-[750px] p-4 lg:p-14">
-                            <Image
-                              alt="hi"
-                              src="/b3.jpg"
-                              width={600}
-                              height={600}
-                              className="w-full h-full max-h-[750px] object-cover"
-                            />
-                          </div>
-                <div className="w-full aspect-square max-h-[750px] p-4 lg:p-14">
-                            <Image
-                              alt="hi"
-                              src="/b16.jpg"
-                              width={600}
-                              height={600}
-                              className="w-full h-full max-h-[750px] object-cover"
-                            />
-                          </div>
-              </div>
+          <div className="w-full aspect-square max-h-[750px] p-4 lg:p-14">
+            <Image
+              alt="hi"
+              src="/b3.jpg"
+              width={600}
+              height={600}
+              className="w-full h-full max-h-[750px] object-cover"
+            />
+          </div>
+          <div className="w-full aspect-square max-h-[750px] p-4 lg:p-14">
+            <Image
+              alt="hi"
+              src="/b16.jpg"
+              width={600}
+              height={600}
+              className="w-full h-full max-h-[750px] object-cover"
+            />
+          </div>
+        </div>
       </motion.div>
     </section>
   );

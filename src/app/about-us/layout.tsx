@@ -1,6 +1,4 @@
-import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import Head from "next/head";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -12,20 +10,67 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Best Hijama Cupping Therapy Centre Mehdipatnam, Hyderabad",
   description:
     "Best Hijama centre in Hyderabad at i-Revive, Mehdipatnam. We offer expert Hijama cupping therapy for both men and women, delivered by skilled professionals. Enjoy effective and affordable Islamic cupping treatments tailored to your needs. Experience the healing benefits of Hijama.",
+  keywords:
+    "Hijama Cupping Therapy Hyderabad, Best Hijama Centre Mehdipatnam, Certified Hijama Specialist Hyderabad, Hijama Treatment for Pain Relief Hyderabad, Female Hijama Therapist Hyderabad, Hijama for Hormonal Imbalance Hyderabad, Hijama Cupping for Stress Relief Hyderabad, Affordable Hijama Therapy Hyderabad, Hijama for Chronic Conditions Hyderabad, i-Revive Hijama Centre Hyderabad",
+  openGraph: {
+    title: "Best Hijama Cupping Therapy Centre Mehdipatnam, Hyderabad",
+    description:
+      "Best Hijama centre in Hyderabad at i-Revive, Mehdipatnam. We offer expert Hijama cupping therapy for both men and women, delivered by skilled professionals. Enjoy effective and affordable Islamic cupping treatments tailored to your needs. Experience the healing benefits of Hijama.",
+    url: "https://www.i-revive.com/about-us",
+    images: [
+      {
+        url: "https://static.wixstatic.com/media/2feea3_0130cffcbcc14dfdb55ad5538c7a2ad0~mv2.jpg/v1/fit/w_2500,h_1330,al_c/2feea3_0130cffcbcc14dfdb55ad5538c7a2ad0~mv2.jpg",
+        width: 2500,
+        height: 1330,
+        alt: "i-Revive Body & Soul",
+      },
+    ],
+    type: "website",
+  },
+};
+
+const schemaData = {
+  "@context": "https://schema.org/",
+  "@type": "LocalBusiness",
+  "name": "i-Revive Body & Soul",
+  "url": "https://www.i-revive.com",
+  "image":
+    "https://static.wixstatic.com/media/2feea3_3fb6eab04f94496cb6c5f7b583c74925~mv2.png",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "IN",
+    "addressLocality": "Hyderabad",
+    "addressRegion": "TG",
+  },
+  "telephone": "+918009944335",
+};
+
+const websiteSchema = {
+  "@context": "https://schema.org/",
+  "@type": "WebSite",
+  "url": "https://www.i-revive.com/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://www.i-revive.com/search?q={search_term}",
+    },
+    "query-input": "required name=search_term",
+  },
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
-      <Head>
+      <head>
         <meta
           name="description"
           content="Best Hijama centre in Hyderabad at i-Revive, Mehdipatnam. We offer expert Hijama cupping therapy for both men and women, delivered by skilled professionals. Enjoy effective and affordable Islamic cupping treatments tailored to your needs. Experience the healing benefits of Hijama."
@@ -66,41 +111,21 @@ export default function RootLayout({
         />
         <meta property="og:image:width" content="2500" />
         <meta property="og:image:height" content="1330" />
-        <meta property="og:url" content="https://www.i-revive.com/about-us" />
+        <meta
+          property="og:url"
+          content="https://www.i-revive.com/about-us"
+        />
         <meta property="og:site_name" content="i-Revive Body & Soul" />
         <meta property="og:type" content="website" />
-        <script type="application/ld+json">
-          {`{
-            "@context": "https://schema.org/",
-            "@type": "WebSite",
-            "url": "https://www.i-revive.com/",
-            "potentialAction": {
-              "@type": "SearchAction",
-              "target": {
-                "@type": "EntryPoint",
-                "urlTemplate": "https://www.i-revive.com/search?q={search_term}"
-              },
-              "query-input": "required name=search_term"
-            }
-          }`}
-        </script>
-        <script type="application/ld+json">
-          {`{
-            "@context": "https://schema.org/",
-            "@type": "LocalBusiness",
-            "name": "i-Revive Body & Soul",
-            "url": "https://www.i-revive.com",
-            "image": "https://static.wixstatic.com/media/2feea3_3fb6eab04f94496cb6c5f7b583c74925~mv2.png",
-            "address": {
-              "@type": "PostalAddress",
-              "addressCountry": "IN",
-              "addressLocality": "Hyderabad",
-              "addressRegion": "TG"
-            },
-            "telephone": "+918009944335"
-          }`}
-        </script>
-      </Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+        />
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
       </body>
