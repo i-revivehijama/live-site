@@ -63,14 +63,33 @@ At i-Revive, we believe in real results and have helped many clients experience 
 
           {/* Desktop view: Full text */}
           <p className="hidden md:block mt-6 text-lg sm:text-xl md:text-2xl text-justify text-gray-600 font-lora">
-            At i-Revive Hijama Center in Hyderabad, we offer professional Hijama (cupping therapy) for both women and men, designed to restore health, balance, and overall well-being. Whether you’re struggling with back pain, neck stiffness, migraines, fatigue, or chronic conditions like diabetes, hormonal imbalances, or high blood pressure, our certified Hijama specialists are here to support your healing journey.
+            At i-Revive Hijama Center in Hyderabad, we offer professional Hijama
+            (cupping therapy) for both women and men, designed to restore
+            health, balance, and overall well-being. Whether you’re struggling
+            with back pain, neck stiffness, migraines, fatigue, or chronic
+            conditions like diabetes, hormonal imbalances, or high blood
+            pressure, our certified Hijama specialists are here to support your
+            healing journey.
             <br />
             <br />
-            We also provide Hijama for female by experienced female therapists, ensuring complete privacy, comfort, and personal care in a safe environment. Our therapy works by removing toxins, improving blood circulation, and stimulating the body’s natural ability to heal itself—gently and effectively.
+            We also provide Hijama for female by experienced female therapists,
+            ensuring complete privacy, comfort, and personal care in a safe
+            environment. Our therapy works by removing toxins, improving blood
+            circulation, and stimulating the body’s natural ability to heal
+            itself—gently and effectively.
             <br />
             <br />
-            At i-Revive, we believe in real results and have helped many clients experience relief and transformation through regular sessions. If you&apos;re looking for the best Hijama center in <a href="https://www.wikidata.org/wiki/Q1361" target="_blank" className="text-inherit no-underline">
-            Hyderabad</a> or a ladies-only Hijama center near you, we’re here for you.
+            At i-Revive, we believe in real results and have helped many clients
+            experience relief and transformation through regular sessions. If
+            you&apos;re looking for the best Hijama center in{" "}
+            <a
+              href="https://www.wikidata.org/wiki/Q1361"
+              target="_blank"
+              className="text-inherit no-underline"
+            >
+              Hyderabad
+            </a>{" "}
+            or a ladies-only Hijama center near you, we’re here for you.
           </p>
 
           {/* Optional button area */}

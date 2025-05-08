@@ -51,25 +51,25 @@ const BestHijamaCentreForLadiesHyderabad = () => {
         </p>
       </div>
       <div className="mt-10 flex flex-col md:flex-row gap-2 md:gap-6 justify-center">
-                      <div className="w-full aspect-square max-h-[750px] p-2 lg:p-14">
-                                  <Image
-                                    alt="hi"
-                                    src="/irevive11.jpg"
-                                    width={600}
-                                    height={600}
-                                    className="w-full h-full max-h-[750px] object-cover"
-                                  />
-                                </div>
-                      <div className="w-full aspect-square max-h-[750px] p-2 lg:p-14">
-                                  <Image
-                                    alt="hi"
-                                    src="/b16.jpg"
-                                    width={600}
-                                    height={600}
-                                    className="w-full h-full max-h-[750px] object-cover"
-                                  />
-                                </div>
-                    </div>
+        <div className="w-full aspect-square max-h-[750px] p-2 lg:p-14">
+          <Image
+            alt="hi"
+            src="/irevive11.jpg"
+            width={600}
+            height={600}
+            className="w-full h-full max-h-[750px] object-cover"
+          />
+        </div>
+        <div className="w-full aspect-square max-h-[750px] p-2 lg:p-14">
+          <Image
+            alt="hi"
+            src="/b16.jpg"
+            width={600}
+            height={600}
+            className="w-full h-full max-h-[750px] object-cover"
+          />
+        </div>
+      </div>
     </section>
   );
 };

@@ -3,7 +3,6 @@ import React from "react";
 import { MdPhone } from "react-icons/md";
 import { FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 
-
 const MobileStickyBar: React.FC = () => {
   return (
     <nav
@@ -19,7 +18,7 @@ const MobileStickyBar: React.FC = () => {
           aria-label="Call us at 800-9944-335"
           title="Call us"
         >
-          <MdPhone  className="text-3xl mb-1" aria-hidden="true" />
+          <MdPhone className="text-3xl mb-1" aria-hidden="true" />
           <span className="text-xs">Call</span>
         </a>
 

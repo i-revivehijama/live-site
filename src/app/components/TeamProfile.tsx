@@ -30,8 +30,12 @@ export default function TeamProfile({
 
         {/* Content on the right */}
         <div className="w-full lg:w-1/2">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-2 font-montserrat">{name}</h1>
-          <p className="text-2xl md:text-3xl lg:text-3xl text-green-600 mb-4 font-lora">{qualification}</p>
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-2 font-montserrat">
+            {name}
+          </h1>
+          <p className="text-2xl md:text-3xl lg:text-3xl text-green-600 mb-4 font-lora">
+            {qualification}
+          </p>
           {/* Display description in paragraph form */}
           <p className="text-lg sm:text-xl md:text-2xl text-gray-700 leading-relaxed text-justify font-lora">
             <strong>{name}</strong>, {description}

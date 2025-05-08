@@ -8,7 +8,7 @@ const Faq = () => {
   const toggleFAQ = (index: number) => {
     setOpenIndex(openIndex === index ? null : index);
   };
- 
+
   return (
     <section className="container mx-auto px-6 md:px-4 py-4 bg-white dark:bg-white">
       <h2 className="text-4xl sm:text-5xl md:text-5xl font-bold text-primary mb-6">
@@ -26,7 +26,9 @@ const Faq = () => {
                 <span className="text-primary font-bold mr-3 md:mr-4">
                   {String(index + 1).padStart(2, "0")}
                 </span>
-                <span className="text-xl md:text-xl lg:text-2xl sm:text-sm">{faq.question}</span>
+                <span className="text-xl md:text-xl lg:text-2xl sm:text-sm">
+                  {faq.question}
+                </span>
               </span>
               <span className="text-primary text-lg md:text-xl">
                 {openIndex === index ? "−" : "+"}

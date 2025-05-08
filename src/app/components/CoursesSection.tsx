@@ -46,7 +46,9 @@ export default function CoursesSection() {
             className="bg-white dark:bg-white border rounded-lg shadow-md p-6 text-center relative "
           >
             <div className="absolute top-0 left-0 w-full h-3 bg-primary rounded-t-lg"></div>
-            <h2 className="text-xl font-semibold mt-3 text-black font-montserrat">{course.level}</h2>
+            <h2 className="text-xl font-semibold mt-3 text-black font-montserrat">
+              {course.level}
+            </h2>
 
             {/* Title with Link */}
             <h3 className="text-lg font-bold font-montserrat">
@@ -59,7 +61,12 @@ export default function CoursesSection() {
             </h3>
 
             <div className="flex justify-center my-4">
-              <Image src={course.image} alt="Cup Image" width={80} height={80} />
+              <Image
+                src={course.image}
+                alt="Cup Image"
+                width={80}
+                height={80}
+              />
             </div>
 
             <p className="font-medium text-black">What You Will Learn :-</p>
@@ -85,4 +92,3 @@ export default function CoursesSection() {
     </div>
   );
 }
-

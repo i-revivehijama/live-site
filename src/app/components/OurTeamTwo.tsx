@@ -45,8 +45,8 @@ const OurTeamTwo = () => {
             </div>
           </div>
 
- {/* Team Member 3 */}
- <div className="flex flex-col items-center">
+          {/* Team Member 3 */}
+          <div className="flex flex-col items-center">
             <Image
               alt="Dr. Fareeda Nikhat"
               src="/drfareeda.jpg" // Update with the actual image path
@@ -101,8 +101,6 @@ const OurTeamTwo = () => {
             </div>
           </div>
 
-         
-
           {/* Team Member 4 */}
           <div className="flex flex-col items-center">
             <Image
@@ -126,8 +124,6 @@ const OurTeamTwo = () => {
               </p>
             </div>
           </div>
-
-        
         </div>
       </div>
     </div>

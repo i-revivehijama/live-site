@@ -63,7 +63,9 @@ export default function AboutThree() {
               <h3 className="text-xl text-black font-medium text-white-shadow">
                 {member.name}
               </h3>
-              <p className="text-primary font-semibold">{member.qualification}</p>
+              <p className="text-primary font-semibold">
+                {member.qualification}
+              </p>
             </div>
 
             {/* Hover Overlay */}

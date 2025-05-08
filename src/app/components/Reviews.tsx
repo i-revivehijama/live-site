@@ -1,5 +1,5 @@
 import Image from "next/image";
- import { IoIosStar } from "react-icons/io";
+import { IoIosStar } from "react-icons/io";
 import { RiDoubleQuotesR } from "react-icons/ri";
 
 const reviews = [
@@ -183,7 +183,10 @@ export default function Reviews() {
               {Array(5)
                 .fill(0)
                 .map((_, i) => (
-                  <IoIosStar key={i} className="md:w-12 md:h-12 text-yellow-400 fill-current" />
+                  <IoIosStar
+                    key={i}
+                    className="md:w-12 md:h-12 text-yellow-400 fill-current"
+                  />
                 ))}
             </div>
           </div>

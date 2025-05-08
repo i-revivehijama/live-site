@@ -7,7 +7,7 @@ import { FaArrowUpLong } from "react-icons/fa6";
 const debounce = <T extends (...args: unknown[]) => void>(
   func: T,
   delay: number
-): (...args: Parameters<T>) => void => {
+): ((...args: Parameters<T>) => void) => {
   let timeoutId: NodeJS.Timeout;
 
   return (...args: Parameters<T>) => {
@@ -44,7 +44,11 @@ const BackToTop = () => {
     <button
       onClick={scrollToTop}
       className={`fixed bottom-4 right-4 p-4 bg-primary hover:bg-primary/80 z-50 text-white rounded-full shadow-lg transform transition-all
-        lg:${isVisible ? "opacity-100 scale-100" : "opacity-0 scale-75 pointer-events-none"}
+        lg:${
+          isVisible
+            ? "opacity-100 scale-100"
+            : "opacity-0 scale-75 pointer-events-none"
+        }
         hidden lg:block
       `}
       aria-label="Back to Top"

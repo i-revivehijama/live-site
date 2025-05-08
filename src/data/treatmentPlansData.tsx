@@ -93,9 +93,7 @@ export const treatmentPlansData = [
                 Requirement
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
-              <p className="text-gray-700  text-base">
-                1 Session
-              </p>
+              <p className="text-gray-700  text-base">1 Session</p>
             </div>
           </div>
         </div>
@@ -226,9 +224,7 @@ export const treatmentPlansData = [
                 Requirement
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
-              <p className="text-gray-700  text-base">
-                1 Session
-              </p>
+              <p className="text-gray-700  text-base">1 Session</p>
             </div>
           </div>
         </div>
@@ -759,13 +755,27 @@ export const treatmentPlansData = [
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
               <ul className="list-disc list-inside text-gray-700  text-base space-y-2">
-                <li>Induces ovulation and removes blockages and inflammation in the Fallopian tubes.</li>
-                <li>Addresses endometriosis or issues where the uterine lining forms outside the uterus.</li>
-                <li>Balances hormones, especially in Ovarian Syndrome (PCOS).</li>
+                <li>
+                  Induces ovulation and removes blockages and inflammation in
+                  the Fallopian tubes.
+                </li>
+                <li>
+                  Addresses endometriosis or issues where the uterine lining
+                  forms outside the uterus.
+                </li>
+                <li>
+                  Balances hormones, especially in Ovarian Syndrome (PCOS).
+                </li>
                 <li>Helps in promoting overall hormonal balance.</li>
-                <li>Repositions a misaligned uterus, increasing blood, lymph, and nervous system circulation.n</li>
+                <li>
+                  Repositions a misaligned uterus, increasing blood, lymph, and
+                  nervous system circulation.n
+                </li>
                 <li>Brings rich, oxygenated blood to ovaries and testes.</li>
-                <li>Can increase libido and improve the quality and quantity of sperm.</li>
+                <li>
+                  Can increase libido and improve the quality and quantity of
+                  sperm.
+                </li>
               </ul>
             </div>
 
@@ -776,7 +786,7 @@ export const treatmentPlansData = [
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
               <p className="text-gray-700  text-base">
-              Each session lasts approximately 60–90 minutes.
+                Each session lasts approximately 60–90 minutes.
               </p>
             </div>
 
@@ -787,8 +797,10 @@ export const treatmentPlansData = [
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
               <p className="text-gray-700  text-base">
-              iRP Lite (Highly recommended but not mandatory): Lymphatic cleanse with wet cupping + 3 session full body & vital organ cleanse (upper body, torso, and lower body). <br />
-              Fertility-focused wet cupping.
+                iRP Lite (Highly recommended but not mandatory): Lymphatic
+                cleanse with wet cupping + 3 session full body & vital organ
+                cleanse (upper body, torso, and lower body). <br />
+                Fertility-focused wet cupping.
               </p>
             </div>
           </div>
@@ -853,7 +865,7 @@ export const treatmentPlansData = [
 
           {/* Heading */}
           <h1 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-bold text-black ">
-          i-Revive Plan
+            i-Revive Plan
           </h1>
 
           {/* Underline Effect */}
@@ -862,7 +874,14 @@ export const treatmentPlansData = [
 
         {/* Description */}
         <p className="mt-4 text-sm sm:text-base md:text-lg text-black leading-relaxed  px-4 sm:px-6 md:px-16 text-justify sm:text-justify mx-auto">
-        The i-Revive Plan is a comprehensive health reset that addresses a wide range of diseases, chronic conditions, and imbalances. The plan revitalizes the body using a series of cupping sessions, which act as a supercharged boost to your overall health. This approach aims to bring the body back to an optimal state of health in a short period of time before it returns to its diseased state. The plan includes lymphatic drainage sessions, sectional cleansing sessions, and a 21-day diet plan.
+          The i-Revive Plan is a comprehensive health reset that addresses a
+          wide range of diseases, chronic conditions, and imbalances. The plan
+          revitalizes the body using a series of cupping sessions, which act as
+          a supercharged boost to your overall health. This approach aims to
+          bring the body back to an optimal state of health in a short period of
+          time before it returns to its diseased state. The plan includes
+          lymphatic drainage sessions, sectional cleansing sessions, and a
+          21-day diet plan.
         </p>
 
         {/* Image + Content Section */}
@@ -889,10 +908,20 @@ export const treatmentPlansData = [
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
               <ul className="list-disc list-inside text-gray-700  text-base space-y-2">
-                <li>Revives the body as a whole and enhances its ability to heal itself.</li>
-                <li>Addresses almost all diseases, allergies, chronic conditions, and health issues.</li>
-                <li>Aids in achieving homeostasis (balance within the body).</li>
-                <li>Improves skin health by increasing blood flow to the skin.</li>
+                <li>
+                  Revives the body as a whole and enhances its ability to heal
+                  itself.
+                </li>
+                <li>
+                  Addresses almost all diseases, allergies, chronic conditions,
+                  and health issues.
+                </li>
+                <li>
+                  Aids in achieving homeostasis (balance within the body).
+                </li>
+                <li>
+                  Improves skin health by increasing blood flow to the skin.
+                </li>
               </ul>
             </div>
 
@@ -903,7 +932,10 @@ export const treatmentPlansData = [
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
               <p className="text-gray-700  text-base">
-              3 lymphatic cleanse sessions: 2 Lymphatic Drainage (LD) sessions and 1 Hijama cupping session on nodal sites. <br />3 full body and vital organ cleanse sessions (upper body, torso, and lower body).
+                3 lymphatic cleanse sessions: 2 Lymphatic Drainage (LD) sessions
+                and 1 Hijama cupping session on nodal sites. <br />3 full body
+                and vital organ cleanse sessions (upper body, torso, and lower
+                body).
               </p>
             </div>
 
@@ -914,7 +946,7 @@ export const treatmentPlansData = [
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
               <p className="text-gray-700  text-base">
-              3-4 weeks plan with 6 sessions in total.
+                3-4 weeks plan with 6 sessions in total.
               </p>
             </div>
           </div>
@@ -988,7 +1020,12 @@ export const treatmentPlansData = [
 
         {/* Description */}
         <p className="mt-4 text-sm sm:text-base md:text-lg text-black leading-relaxed  px-4 sm:px-6 md:px-16 text-justify sm:text-justify mx-auto">
-        The Custom Plan is tailored to meet specific client needs and addresses a variety of issues, including chronic conditions, pain management, athletic performance enhancement, injury recovery, and metaphysical concerns. The focus is on treating personal areas of pain, with sessions customized to each client&apos;s unique requirements.
+          The Custom Plan is tailored to meet specific client needs and
+          addresses a variety of issues, including chronic conditions, pain
+          management, athletic performance enhancement, injury recovery, and
+          metaphysical concerns. The focus is on treating personal areas of
+          pain, with sessions customized to each client&apos;s unique
+          requirements.
         </p>
 
         {/* Image + Content Section */}
@@ -1017,7 +1054,10 @@ export const treatmentPlansData = [
               <ul className="list-disc list-inside text-gray-700  text-base space-y-2">
                 <li>Treats muscular and other forms of pain.</li>
                 <li>Addresses metaphysical issues.</li>
-                <li>Cupping therapy sessions are personalized to meet individual needs and health concerns</li>
+                <li>
+                  Cupping therapy sessions are personalized to meet individual
+                  needs and health concerns
+                </li>
               </ul>
             </div>
 
@@ -1028,7 +1068,8 @@ export const treatmentPlansData = [
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
               <p className="text-gray-700  text-base">
-              The duration of each session varies depending on the client, typically lasting between 45 to 60 minutes or more.
+                The duration of each session varies depending on the client,
+                typically lasting between 45 to 60 minutes or more.
               </p>
             </div>
 
@@ -1039,7 +1080,8 @@ export const treatmentPlansData = [
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
               <p className="text-gray-700  text-base">
-              The number of sessions varies for each client, depending on their specific needs.
+                The number of sessions varies for each client, depending on
+                their specific needs.
               </p>
             </div>
           </div>
@@ -1113,7 +1155,12 @@ export const treatmentPlansData = [
 
         {/* Description */}
         <p className="mt-4 text-sm sm:text-base md:text-lg text-black leading-relaxed  px-4 sm:px-6 md:px-16 text-justify sm:text-justify mx-auto">
-        The Sports Plus plan is a must for athletes and gym-goers who want to maximize their performance and recovery. Cupping therapy is popular among athletes before and after their activities to alleviate specific aches and pains, enhance mobility, and improve overall circulation. This plan is designed to relax muscles, ease cramps, and speed up recovery, ensuring you&apos;re ready for your next match.
+          The Sports Plus plan is a must for athletes and gym-goers who want to
+          maximize their performance and recovery. Cupping therapy is popular
+          among athletes before and after their activities to alleviate specific
+          aches and pains, enhance mobility, and improve overall circulation.
+          This plan is designed to relax muscles, ease cramps, and speed up
+          recovery, ensuring you&apos;re ready for your next match.
         </p>
 
         {/* Image + Content Section */}
@@ -1140,11 +1187,19 @@ export const treatmentPlansData = [
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
               <ul className="list-disc list-inside text-gray-700  text-base space-y-2">
-                <li>Helps decrease limb recovery time after strenuous workouts.</li>
-                <li>Stimulates the breakdown of toxins in the body, leading to tissue repair.</li>
+                <li>
+                  Helps decrease limb recovery time after strenuous workouts.
+                </li>
+                <li>
+                  Stimulates the breakdown of toxins in the body, leading to
+                  tissue repair.
+                </li>
                 <li>Improves blood circulation and energizes the body.</li>
                 <li>Increases mobility and flexibility.</li>
-                <li>Treats conditions like plantar fasciitis, hamstring strains, sore muscles, and back pain.</li>
+                <li>
+                  Treats conditions like plantar fasciitis, hamstring strains,
+                  sore muscles, and back pain.
+                </li>
               </ul>
             </div>
 
@@ -1155,7 +1210,7 @@ export const treatmentPlansData = [
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
               <p className="text-gray-700  text-base">
-              Each session typically lasts 60-90 minutes.
+                Each session typically lasts 60-90 minutes.
               </p>
             </div>
 
@@ -1166,7 +1221,8 @@ export const treatmentPlansData = [
               </h2>
               <div className="w-16 h-1 bg-green-500 mb-6"></div>
               <p className="text-gray-700  text-base">
-              The number of sessions varies based on the type of injury or the reason for cupping therapy.
+                The number of sessions varies based on the type of injury or the
+                reason for cupping therapy.
               </p>
             </div>
           </div>

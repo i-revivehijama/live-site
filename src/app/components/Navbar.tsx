@@ -1,12 +1,8 @@
 "use client";
 
-
 import Link from "next/link";
 
 const Navbar = () => {
- 
-  
-
   return (
     <nav className="hidden xl:flex items-center space-x-6 text-gray-800">
       <Link href="/">HOME</Link>

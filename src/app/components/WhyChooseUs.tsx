@@ -1,7 +1,11 @@
 "use client";
 import { motion } from "framer-motion"; // Ensure motion is correctly imported
-import { FaUserMd, FaBriefcaseMedical, FaHeartbeat, FaUsers } from "react-icons/fa"; // Ensure icons are imported correctly
-
+import {
+  FaUserMd,
+  FaBriefcaseMedical,
+  FaHeartbeat,
+  FaUsers,
+} from "react-icons/fa"; // Ensure icons are imported correctly
 
 const WhyChooseUs = () => {
   return (
@@ -24,8 +28,7 @@ const WhyChooseUs = () => {
           Why Choose Us
         </h3>
         <h2 className="text-2xl md:text-3xl lg:text-3xl  text-gray-900 leading-snug mt-2 font-montserrat font-semibold">
-          Why Choose Us? Reclaim Your Health
-          and Vitality.
+          Why Choose Us? Reclaim Your Health and Vitality.
         </h2>
         <p className="mt-4 text-lg sm:text-xl md:text-2xl text-gray-600 max-w-5xl mx-auto text-justify leading-relaxed font-lora">
           Choose i-revive for expert care, a safe environment, and personalized

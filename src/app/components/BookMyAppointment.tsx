@@ -14,11 +14,11 @@ const BookMyAppointment = () => {
             className="w-full min-h-screen border-none overflow-hidden"
             src="https://meet-my-doctor.firebaseapp.com/#/app?eid=42459"
             style={{
-                overflow: "hidden",
-                border: "none",
-                height: "100vh",
-                width: "100%",
-              }}
+              overflow: "hidden",
+              border: "none",
+              height: "100vh",
+              width: "100%",
+            }}
             allowFullScreen
           ></iframe>
         </div>

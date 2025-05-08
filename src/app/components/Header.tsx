@@ -17,7 +17,11 @@ const Header = () => {
   }, []);
 
   return (
-    <header className={`bg-white shadow-md transition-all duration-300 ${isScrolled ? "py-3" : "py-4"}`}>
+    <header
+      className={`bg-white shadow-md transition-all duration-300 ${
+        isScrolled ? "py-3" : "py-4"
+      }`}
+    >
       <div className="container mx-auto flex justify-between items-center px-6 md:px-12">
         <Link href="/">
           <Image
@@ -46,7 +50,10 @@ const Header = () => {
       </div>
 
       {/* Mobile menu component */}
-      <MobileMenu isOpen={isMobileMenuOpen} onClose={() => setIsMobileMenuOpen(false)} />
+      <MobileMenu
+        isOpen={isMobileMenuOpen}
+        onClose={() => setIsMobileMenuOpen(false)}
+      />
     </header>
   );
 };

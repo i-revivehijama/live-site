@@ -49,11 +49,9 @@ const ContactForm = () => {
   };
 
   return (
-    
     <div className="relative w-full py-10 px-2 lg:px-10">
       {/* Fixed wrapper to prevent Image hydration issues */}
       <div className="absolute inset-0 -z-10">
-        
         <Image
           src="/img144.jpg"
           alt="Background"
@@ -78,8 +76,8 @@ const ContactForm = () => {
             className="md:w-1/2"
           >
             <h2 className="text-4xl font-bold text-center mb-10 text-primary">
-        CONTACT US
-      </h2>
+              CONTACT US
+            </h2>
             <h2 className="text-xl font-semibold font-Montserrat text-primary mb-4">
               SOLUTIONS TO YOUR PAIN
             </h2>
@@ -88,8 +86,8 @@ const ContactForm = () => {
               services.
             </h3>
             <p className="text-gray-700 mb-6 font-lora text-xl">
-              Our Hijama services offer natural pain relief, improved circulation,
-              and enhanced wellness.
+              Our Hijama services offer natural pain relief, improved
+              circulation, and enhanced wellness.
             </p>
             <div className="text-gray-700 mb-6 font-lora text-xl">
               <p className="flex items-start gap-2">
